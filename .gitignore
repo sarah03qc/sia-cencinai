@@ -1,0 +1,37 @@
+# Contexto local de Claude Code 
+CLAUDE.md
+
+# Datos sensibles / grandes
+experiments/data/source_documents/*.pdf
+experiments/data/benchmark_300.xlsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Resultados de experimentos 
+experiments/results/raw/*
+experiments/results/metrics/*
+!experiments/results/raw/.gitkeep
+!experiments/results/metrics/.gitkeep
+
+# Caché de modelos / HuggingFace
+*.gguf
+*.safetensors
+hf_cache/
+
+# Credenciales
+.env
+*.token
+huggingface_token.txt
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/

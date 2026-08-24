@@ -1,0 +1,25 @@
+# Extracción de texto de PDFs
+pypdf>=4.0
+
+# Embeddings (BGE-M3)
+sentence-transformers>=3.0
+
+# Vector store
+faiss-cpu>=1.8
+
+# Carga y ejecución de los LLMs
+transformers>=4.44
+bitsandbytes>=0.43
+accelerate>=0.33
+
+# Manejo del dataset (benchmark_300.xlsx)
+pandas>=2.2
+openpyxl>=3.1
+
+# Métricas de evaluación (preguntas abiertas)
+bert-score>=0.3.13
+rouge-score>=0.1.2
+nltk>=3.9
+
+# Utilidades numéricas usadas directamente en rag/
+numpy>=1.26
