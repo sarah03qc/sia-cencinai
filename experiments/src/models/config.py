@@ -16,6 +16,7 @@ class ModelConfig:
     quantization: str
     max_new_tokens: int
     do_sample: bool
+    skip_reasoning: bool
     notes: str
 
 
@@ -26,6 +27,7 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
         quantization="bitsandbytes (4-bit u 8-bit, por definir)",
         max_new_tokens=512,
         do_sample=False,
+        skip_reasoning=False,
         notes="Mejor desempeño en el mini-experimento de filtrado.",
     ),
     "llama3.3-70b": ModelConfig(
@@ -34,6 +36,7 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
         quantization="AWQ-INT4 (pre-cuantizado)",
         max_new_tokens=512,
         do_sample=False,
+        skip_reasoning=False,
         notes=(
             "Requiere aceptar la licencia de Meta en HuggingFace. "
             "NO usar el repo oficial de Meta sin cuantizar (140GB, no cabe en Kabré)."
@@ -41,15 +44,25 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
     ),
     "deepseek-r1-distill-llama-70b": ModelConfig(
         name="DeepSeek-R1-Distill-Llama-70B",
-        hf_repo="deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-        quantization="AWQ o bitsandbytes (por definir)",
-        max_new_tokens=800,
+        hf_repo="RedHatAI/DeepSeek-R1-Distill-Llama-70B-quantized.w4a16",
+        quantization="compressed-tensors w4a16 (pre-cuantizado, requiere `pip install compressed-tensors`)",
+        max_new_tokens=600,
         do_sample=False,
+        skip_reasoning=True,
         notes=(
-            "Tercer modelo del benchmark, PENDIENTE DE CONFIRMAR. "
-            "Es un modelo de razonamiento (<think>...</think>): necesita "
-            "max_new_tokens alto o la respuesta se corta antes de concluir. "
-            "Falta evaluar si instruirlo a responder directo sin mostrar el razonamiento."
+            "CONFIRMADO como tercer modelo del benchmark. Es un modelo de "
+            "razonamiento (<think>...</think>): se salta el razonamiento "
+            "inyectando el token de cierre '</think>' directo en el input "
+            "antes de generar (técnica validada por Caleb en su repo), en "
+            "vez de pedirlo por prompt en lenguaje natural (menos confiable). "
+            "max_new_tokens=600 es una estimación intermedia: más bajo que "
+            "los 800 originales porque skip_reasoning elimina el bloque de "
+            "pensamiento, pero más alto que los 300 que usó Caleb porque "
+            "nuestras preguntas abiertas piden más síntesis que las suyas. "
+            "PENDIENTE: verificar que el repo RedHatAI cargue bien con "
+            "transformers + compressed-tensors en Kabré; si falla, plan B es "
+            "bitsandbytes 4-bit sobre el repo original de DeepSeek, liberando "
+            "espacio suficiente en /work primero (~140GB necesarios)."
         ),
     ),
 }
