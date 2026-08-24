@@ -11,6 +11,8 @@ faiss-cpu>=1.8
 transformers>=4.44
 bitsandbytes>=0.43
 accelerate>=0.33
+autoawq          # cuantización AWQ, requerida para Llama 3.3 70B
+compressed-tensors  # cuantización w4a16, requerida para DeepSeek-R1-Distill-Llama-70B
 
 # Manejo del dataset (benchmark_300.xlsx)
 pandas>=2.2
