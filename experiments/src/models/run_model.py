@@ -1,10 +1,10 @@
 """Carga y generación para los 3 modelos del benchmark, usando la
 configuración de config.py.
 
-Cada modelo usa un mecanismo de cuantización distinto (bitsandbytes, AWQ,
-compressed-tensors), así que la carga se resuelve explícitamente por
-`model_key` en vez de parsear el campo `quantization` de config.py, que es
-descriptivo para humanos, no una API.
+Cada modelo puede usar un mecanismo de cuantización distinto (bitsandbytes,
+AWQ), así que la carga se resuelve explícitamente por `model_key` en vez de
+parsear el campo `quantization` de config.py, que es descriptivo para
+humanos, no una API.
 """
 
 import sys
@@ -73,29 +73,30 @@ def _load_llama3_3_70b(hf_repo: str):
     return model, tokenizer
 
 
-def _load_deepseek_r1_distill_llama_70b(hf_repo: str):
-    # compressed-tensors w4a16 pre-cuantizado: igual que AWQ, transformers
-    # detecta la cuantización automáticamente desde el checkpoint. Requiere
-    # `compressed-tensors` instalado (pip install compressed-tensors).
+def _load_deepseek_r1_distill_qwen_32b(hf_repo: str):
+    # Mismo mecanismo que Qwen2.5-32B: bitsandbytes, no AWQ ni
+    # compressed-tensors. Se bajó de la versión Llama-70B (AWQ/compressed-
+    # tensors) a esta de Qwen-32B por problemas de memoria en Kabré — ver
+    # notes en config.py.
     #
-    # max_memory limita explícitamente cuánta VRAM puede tomar la carga de
-    # pesos, dejando margen aparte para el KV-cache de generate(). Sin este
-    # límite, device_map="auto" llena la GPU casi por completo con los
-    # pesos (~43.9GB de 46GB medidos en el smoke test) y generate() se
-    # queda colgado sin margen para el KV-cache, en vez de fallar con un
-    # OOM explícito.
-    #
-    # attn_implementation="sdpa" se fija explícitamente (en vez de dejar
-    # que transformers elija el default) porque para un modelo de 70B casi
-    # al límite de VRAM, la implementación de atención puede ser la
-    # diferencia entre entrar o no en la memoria libre.
+    # max_memory y attn_implementation="sdpa" quedan comentados (no
+    # eliminados): se agregaron para el intento fallido con el modelo de
+    # 70B, casi al límite de los 46GB de VRAM. Con un modelo de la mitad
+    # del tamaño no deberían hacer falta, pero se dejan a mano por si el
+    # smoke test de 32B muestra el mismo problema.
+    quant_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_use_double_quant=True,
+    )
     tokenizer = AutoTokenizer.from_pretrained(hf_repo)
     model = AutoModelForCausalLM.from_pretrained(
         hf_repo,
         device_map="auto",
+        quantization_config=quant_config,
         torch_dtype=torch.float16,
-        max_memory={0: "40GiB"},
-        attn_implementation="sdpa",
+        # max_memory={0: "40GiB"},
+        # attn_implementation="sdpa",
     )
     return model, tokenizer
 
@@ -103,7 +104,7 @@ def _load_deepseek_r1_distill_llama_70b(hf_repo: str):
 _LOADERS = {
     "qwen2.5-32b": _load_qwen2_5_32b,
     "llama3.3-70b": _load_llama3_3_70b,
-    "deepseek-r1-distill-llama-70b": _load_deepseek_r1_distill_llama_70b,
+    "deepseek-r1-distill-qwen-32b": _load_deepseek_r1_distill_qwen_32b,
 }
 
 
@@ -170,7 +171,7 @@ def get_generate_fn(model_key: str):
 if __name__ == "__main__":
     # Smoke test manual: carga un modelo y prueba una generación corta.
     # Requiere GPU + acceso a Hugging Face (correr en Kabré, no acá).
-    #   python run_model.py deepseek-r1-distill-llama-70b
+    #   python run_model.py deepseek-r1-distill-qwen-32b
     if len(sys.argv) != 2 or sys.argv[1] not in MODEL_CONFIGS:
         print(f"Uso: python run_model.py <model_key>\nOpciones: {list(MODEL_CONFIGS)}")
         sys.exit(1)

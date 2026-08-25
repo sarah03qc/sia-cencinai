@@ -42,27 +42,29 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
             "NO usar el repo oficial de Meta sin cuantizar (140GB, no cabe en Kabré)."
         ),
     ),
-    "deepseek-r1-distill-llama-70b": ModelConfig(
-        name="DeepSeek-R1-Distill-Llama-70B",
-        hf_repo="RedHatAI/DeepSeek-R1-Distill-Llama-70B-quantized.w4a16",
-        quantization="compressed-tensors w4a16 (pre-cuantizado, requiere `pip install compressed-tensors`)",
-        max_new_tokens=300,  # TEMPORAL: bajado de 600 para el smoke test, ver nota abajo
+    "deepseek-r1-distill-qwen-32b": ModelConfig(
+        name="DeepSeek-R1-Distill-Qwen-32B",
+        hf_repo="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        quantization="bitsandbytes (4-bit u 8-bit, por definir)",
+        max_new_tokens=700,
         do_sample=False,
         skip_reasoning=True,
         notes=(
-            "CONFIRMADO como tercer modelo del benchmark. Es un modelo de "
-            "razonamiento (<think>...</think>): se salta el razonamiento "
-            "inyectando el token de cierre '</think>' directo en el input "
-            "antes de generar (técnica validada por Caleb en su repo), en "
-            "vez de pedirlo por prompt en lenguaje natural (menos confiable). "
-            "La carga con transformers + compressed-tensors SÍ funciona en "
-            "Kabré (confirmado: 43.9GB/46GB VRAM), pero generate() se colgó "
-            "en el primer smoke test sin margen para el KV-cache. "
-            "max_new_tokens bajado temporalmente a 300 (de 600) y "
-            "run_model.py ajustado con max_memory={0: \"40GiB\"} y "
-            "attn_implementation=\"sdpa\" para dejar margen real de VRAM. "
-            "PENDIENTE: confirmar que esto resuelve el cuelgue y subir "
-            "max_new_tokens de vuelta gradualmente (300 -> 600)."
+            "DECISIÓN FINAL como tercer modelo del benchmark (ya no pendiente). "
+            "Se bajó de DeepSeek-R1-Distill-Llama-70B a este de 32B después de "
+            "varios intentos fallidos con la versión de 70B en Kabré: fallo de "
+            "compilación GGUF, quota de disco excedida con el repo original sin "
+            "cuantizar, y torch.OutOfMemoryError con la versión cuantizada "
+            "compressed-tensors (caching_allocator_warmup de transformers no "
+            "dejaba margen suficiente en una GPU de 46GB). 32B es el mismo "
+            "tamaño que Qwen2.5-32B, que ya carga sin problemas con "
+            "bitsandbytes en esta misma infraestructura. Sigue siendo un "
+            "modelo de razonamiento (<think>...</think>) de la familia "
+            "R1-Distill: se salta el razonamiento con el mismo cierre forzado "
+            "de '</think>' inyectado en el input antes de generar (técnica "
+            "validada por Caleb en su repo). max_new_tokens=700: valor "
+            "generoso otra vez porque ya no estamos al límite de VRAM como "
+            "con el 70B, pero sigue dejando espacio para el bloque <think>."
         ),
     ),
 }
