@@ -77,11 +77,25 @@ def _load_deepseek_r1_distill_llama_70b(hf_repo: str):
     # compressed-tensors w4a16 pre-cuantizado: igual que AWQ, transformers
     # detecta la cuantización automáticamente desde el checkpoint. Requiere
     # `compressed-tensors` instalado (pip install compressed-tensors).
+    #
+    # max_memory limita explícitamente cuánta VRAM puede tomar la carga de
+    # pesos, dejando margen aparte para el KV-cache de generate(). Sin este
+    # límite, device_map="auto" llena la GPU casi por completo con los
+    # pesos (~43.9GB de 46GB medidos en el smoke test) y generate() se
+    # queda colgado sin margen para el KV-cache, en vez de fallar con un
+    # OOM explícito.
+    #
+    # attn_implementation="sdpa" se fija explícitamente (en vez de dejar
+    # que transformers elija el default) porque para un modelo de 70B casi
+    # al límite de VRAM, la implementación de atención puede ser la
+    # diferencia entre entrar o no en la memoria libre.
     tokenizer = AutoTokenizer.from_pretrained(hf_repo)
     model = AutoModelForCausalLM.from_pretrained(
         hf_repo,
         device_map="auto",
         torch_dtype=torch.float16,
+        max_memory={0: "40GiB"},
+        attn_implementation="sdpa",
     )
     return model, tokenizer
 

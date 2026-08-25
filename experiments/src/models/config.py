@@ -46,7 +46,7 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
         name="DeepSeek-R1-Distill-Llama-70B",
         hf_repo="RedHatAI/DeepSeek-R1-Distill-Llama-70B-quantized.w4a16",
         quantization="compressed-tensors w4a16 (pre-cuantizado, requiere `pip install compressed-tensors`)",
-        max_new_tokens=600,
+        max_new_tokens=300,  # TEMPORAL: bajado de 600 para el smoke test, ver nota abajo
         do_sample=False,
         skip_reasoning=True,
         notes=(
@@ -55,14 +55,14 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
             "inyectando el token de cierre '</think>' directo en el input "
             "antes de generar (técnica validada por Caleb en su repo), en "
             "vez de pedirlo por prompt en lenguaje natural (menos confiable). "
-            "max_new_tokens=600 es una estimación intermedia: más bajo que "
-            "los 800 originales porque skip_reasoning elimina el bloque de "
-            "pensamiento, pero más alto que los 300 que usó Caleb porque "
-            "nuestras preguntas abiertas piden más síntesis que las suyas. "
-            "PENDIENTE: verificar que el repo RedHatAI cargue bien con "
-            "transformers + compressed-tensors en Kabré; si falla, plan B es "
-            "bitsandbytes 4-bit sobre el repo original de DeepSeek, liberando "
-            "espacio suficiente en /work primero (~140GB necesarios)."
+            "La carga con transformers + compressed-tensors SÍ funciona en "
+            "Kabré (confirmado: 43.9GB/46GB VRAM), pero generate() se colgó "
+            "en el primer smoke test sin margen para el KV-cache. "
+            "max_new_tokens bajado temporalmente a 300 (de 600) y "
+            "run_model.py ajustado con max_memory={0: \"40GiB\"} y "
+            "attn_implementation=\"sdpa\" para dejar margen real de VRAM. "
+            "PENDIENTE: confirmar que esto resuelve el cuelgue y subir "
+            "max_new_tokens de vuelta gradualmente (300 -> 600)."
         ),
     ),
 }
