@@ -5,6 +5,9 @@ CLAUDE.md
 experiments/data/source_documents/*.pdf
 experiments/data/benchmark_300.xlsx
 
+# Índice RAG cacheado por pipeline.py (regenerable desde los PDFs)
+experiments/data/rag_index/
+
 # Python
 __pycache__/
 *.pyc

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "sino_001",
+    "categoria": "sino",
+    "pregunta": "¿El Instrumento de detección debe devolverse siempre al establecimiento cuando tiene algún error, por mínimo que sea?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_002",
+    "categoria": "sino",
+    "pregunta": "¿Todo funcionario o funcionaria de la Dirección Nacional de CEN-CINAI puede detectar y referir un caso de malnutrición?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_003",
+    "categoria": "sino",
+    "pregunta": "¿Se comparan los resultados del EDIN y del EVADE cuando un niño o niña cambia de edad a mayor de 6 años?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_004",
+    "categoria": "sino",
+    "pregunta": "¿La aplicación de un tamizaje por sí sola constituye un seguimiento interdisciplinario?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_005",
+    "categoria": "sino",
+    "pregunta": "¿La Jefatura de Área Técnica Regional debe enviar la herramienta de seguimiento actualizada a la UIVCD del nivel central de forma anual?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_006",
+    "categoria": "sino",
+    "pregunta": "¿Se asigna prioridad 4 a un niño o niña en servicio DAF que recuperó su estado nutricional normal y está en período de protección?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_007",
+    "categoria": "sino",
+    "pregunta": "¿Un resultado \"rojo\" en el EDIN II implica que el niño o niña debe ser referido de forma automática a la CCSS en todos los casos?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_008",
+    "categoria": "sino",
+    "pregunta": "¿El informe anual de atención interdisciplinaria se elabora en el mes de febrero del año siguiente?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_009",
+    "categoria": "sino",
+    "pregunta": "¿El Grupo F (menores de 5 años, prioridad 3) representa la prioridad más alta de atención según el procedimiento?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_010",
+    "categoria": "sino",
+    "pregunta": "¿La información confidencial de un niño o niña puede compartirse con terceros si el funcionario lo considera conveniente?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_011",
+    "categoria": "sino",
+    "pregunta": "¿Se puede utilizar el indicador Peso para la edad (P/E) por sí solo para clasificar a un niño con sobrepeso u obesidad?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_012",
+    "categoria": "sino",
+    "pregunta": "Si un punto marcado en la gráfica de crecimiento cae exactamente sobre una línea de desviación estándar, ¿se debe clasificar al niño en la categoría de mayor severidad?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_013",
+    "categoria": "sino",
+    "pregunta": "¿Es obligatorio el uso de la \"edad corregida\" para evaluar a niños prematuros hasta que alcancen los 3 años y 4 meses de edad cronológica?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_014",
+    "categoria": "sino",
+    "pregunta": "¿Es el personal ASSC 3 el responsable principal de aplicar la prueba de desarrollo EDIN II en los establecimientos?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_015",
+    "categoria": "sino",
+    "pregunta": "¿Se aplica el tamizaje de agudeza auditiva (prueba de tarjetas) a todos los niños sin importar su edad?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_016",
+    "categoria": "sino",
+    "pregunta": "¿El indicador Peso para la edad se considera un índice confiable cuando no se puede determinar la edad exacta del niño con precisión?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_017",
+    "categoria": "sino",
+    "pregunta": "¿Un niño en modalidad \"extramuros\" con estado nutricional normal debe ser evaluado antropométricamente dos veces al año?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_018",
+    "categoria": "sino",
+    "pregunta": "¿Incluye el modelo SISVENDIS la \"divulgación de hallazgos\" como uno de los elementos fundamentales de su ciclo de operación?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_019",
+    "categoria": "sino",
+    "pregunta": "¿La Unidad de Investigación y Vigilancia del Crecimiento y Desarrollo (UIVCD) recolecta los datos de vigilancia directamente de las boletas de papel a nivel nacional?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_020",
+    "categoria": "sino",
+    "pregunta": "Para niños mayores de 5 años, ¿se sustituye el indicador Peso para la Talla (P/T) por el índice de Masa Corporal (IMC)?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_021",
+    "categoria": "sino",
+    "pregunta": "¿Se debe exonerar de capacitación a quien utilice el Manual EDIN II si ya leyó el instructivo?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_022",
+    "categoria": "sino",
+    "pregunta": "¿La corrección de edad para prematuros en EDIN II se realiza después de los 2 años de edad cronológica?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_023",
+    "categoria": "sino",
+    "pregunta": "¿Es permitido alterar el orden de presentación de las áreas en la escala EDIN II?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_024",
+    "categoria": "sino",
+    "pregunta": "¿Un resultado de \"Adecuado\" en EDIN II se identifica con el color amarillo?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_025",
+    "categoria": "sino",
+    "pregunta": "¿El EDIN II permite evaluar el desarrollo de niños de hasta 12 años de edad?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_026",
+    "categoria": "sino",
+    "pregunta": "¿Es el ASSC 2 un ejecutor posible de la Norma de Selección?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_027",
+    "categoria": "sino",
+    "pregunta": "¿La Jefatura de la Oficina Local es responsable de la supervisión de la norma PCD-VCD-N-01?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_028",
+    "categoria": "sino",
+    "pregunta": "¿Se considera privación enterrar la basura en zonas rurales según el PRO-AIAIM-P-01?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_029",
+    "categoria": "sino",
+    "pregunta": "¿Debe el instrumento de detección ser devuelto al establecimiento si tiene errores de fondo según el Anexo 8?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_030",
+    "categoria": "sino",
+    "pregunta": "¿El equipo de Área Técnica Regional tiene funciones de asesoría técnica para los establecimientos?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_031",
+    "categoria": "sino",
+    "pregunta": "¿Incluye el EDIN II láminas ilustradas como parte de sus materiales?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_032",
+    "categoria": "sino",
+    "pregunta": "¿La modalidad de \"Comidas Servidas\" está incluida en la norma API-EC-N-01?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_033",
+    "categoria": "sino",
+    "pregunta": "¿El ingreso per cápita del hogar se puede obtener directamente del CAF?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_034",
+    "categoria": "sino",
+    "pregunta": "¿Es obligatorio que el lugar de aplicación del EDIN II sea silencioso?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_035",
+    "categoria": "sino",
+    "pregunta": "¿Se puede usar el indicador Peso para Edad (P/E) para niños mayores de 5 años?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_036",
+    "categoria": "sino",
+    "pregunta": "¿La Unidad de Investigación y Vigilancia (UIVCD) tiene potestad para determinar nuevos instrumentos de vigilancia?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_037",
+    "categoria": "sino",
+    "pregunta": "¿El Anexo 5 de calidad de la herramienta es para uso exclusivo del personal de cocina?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_038",
+    "categoria": "sino",
+    "pregunta": "¿Un niño con obesidad (Prioridad 1) requiere seguimiento al menos una vez al mes?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_039",
+    "categoria": "sino",
+    "pregunta": "¿Se deben registrar las alergias alimentarias en el expediente del niño?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_040",
+    "categoria": "sino",
+    "pregunta": "¿El resultado \"Global Rojo\" en EDIN II implica un riesgo de retraso en el desarrollo?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_041",
+    "categoria": "sino",
+    "pregunta": "¿La Norma PCD-GF-N-01 incluye el acompañamiento a adolescentes madres?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_042",
+    "categoria": "sino",
+    "pregunta": "¿Se debe usar una mesa y sillas para evaluar a niños lactantes en el EDIN II?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_043",
+    "categoria": "sino",
+    "pregunta": "¿Es el Anexo 3 un nomograma para el cálculo del Índice de Masa Corporal?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_044",
+    "categoria": "sino",
+    "pregunta": "¿La norma de asistencia técnica responde a necesidades identificadas por los funcionarios?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_045",
+    "categoria": "sino",
+    "pregunta": "¿Se permite dejar espacios en blanco en la columna de \"Servicio asignado\" de la herramienta?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_046",
+    "categoria": "sino",
+    "pregunta": "¿El kit de materiales del EDIN II puede ser reemplazado por objetos similares si no están disponibles?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_047",
+    "categoria": "sino",
+    "pregunta": "¿La evaluación cualitativa de API se aplica únicamente en el segundo trimestre?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_048",
+    "categoria": "sino",
+    "pregunta": "¿Se utiliza la cartilla de Snellen (Agudeza Visual) en niños menores de 2 años?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_049",
+    "categoria": "sino",
+    "pregunta": "¿El reporte al hogar (Anexo 4) debe llevar el sello del establecimiento?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_050",
+    "categoria": "sino",
+    "pregunta": "¿Se aplican las curvas de Fenton para niños prematuros hasta las 50 semanas gestacionales?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_051",
+    "categoria": "sino",
+    "pregunta": "¿El indicador Talla para Edad puede clasificar una \"Baja Talla Severa\"?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_052",
+    "categoria": "sino",
+    "pregunta": "¿La bitácora de sesión de equipo interdisciplinario es parte de los requerimientos del Anexo 6?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_053",
+    "categoria": "sino",
+    "pregunta": "¿Es la Directora Nacional quien da el aval final a las normas sustantivas?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_054",
+    "categoria": "sino",
+    "pregunta": "¿Se debe realizar el destete obligatorio antes de los 12 meses según las normas de salud?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_055",
+    "categoria": "sino",
+    "pregunta": "¿El Anexo 8 prohíbe las anotaciones especializadas fuera del expediente interdisciplinario?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_056",
+    "categoria": "sino",
+    "pregunta": "¿La frecuencia de consumo de alimentos frescos se consulta solo al ingreso del niño?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_057",
+    "categoria": "sino",
+    "pregunta": "¿Un niño de 3 años con resultado global verde debe evaluarse dos veces al año según la prueba?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_058",
+    "categoria": "sino",
+    "pregunta": "¿La norma PCD-IO-N-01 se refiere a investigaciones operativas?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_059",
+    "categoria": "sino",
+    "pregunta": "¿Es el ASSC 3 responsable de revisar el esquema de vacunas en el proceso de selección?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_060",
+    "categoria": "sino",
+    "pregunta": "¿El EDIN II fue validado por la Escuela de Enfermería de la UCR?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_061",
+    "categoria": "sino",
+    "pregunta": "¿El nivel socioeconómico de la familia influye en la prioridad de atención del caso?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_062",
+    "categoria": "sino",
+    "pregunta": "¿Se puede usar el perímetro braquial en niños con parálisis cerebral?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_063",
+    "categoria": "sino",
+    "pregunta": "¿La \"Tendencia\" se observa comparando el registro actual con evaluaciones anteriores?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_064",
+    "categoria": "sino",
+    "pregunta": "¿La herramienta de Excel 2010 permite registrar hasta tres evaluaciones subsecuentes de EDIN II?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_065",
+    "categoria": "sino",
+    "pregunta": "¿El Grupo J (Prioridad 4) incluye a niños que recuperaron su estado nutricional normal?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_066",
+    "categoria": "sino",
+    "pregunta": "¿La corrección de edad compensa el periodo de vida intrauterina faltante?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_067",
+    "categoria": "sino",
+    "pregunta": "¿La norma NUT-EN-N-01 utiliza como base las Guías Alimentarias vigentes?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_068",
+    "categoria": "sino",
+    "pregunta": "¿El test de lenguaje se aplica de forma masiva a todos los niños de 0 a 6 años?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_069",
+    "categoria": "sino",
+    "pregunta": "¿La visión institucional de CEN-CINAI incluye el enfoque de derechos de la niñez?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_070",
+    "categoria": "sino",
+    "pregunta": "¿Se requiere una colchoneta para evaluar conductas en niños mayores de 3 años?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_071",
+    "categoria": "sino",
+    "pregunta": "¿El Anexo 5 permite el registro de datos \"indocumentados\" en el expediente?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_072",
+    "categoria": "sino",
+    "pregunta": "¿La supervisión técnica se realiza siempre de personal de menor nivel a mayor nivel?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_073",
+    "categoria": "sino",
+    "pregunta": "¿El modelo SISVENDIS integra la vigilancia de salud oral?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_074",
+    "categoria": "sino",
+    "pregunta": "¿Se debe marcar la casilla \"Digitado en herramienta\" en el instrumento físico de detección?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_075",
+    "categoria": "sino",
+    "pregunta": "¿Un niño nacido a las 38 semanas gestacionales se considera prematuro?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_076",
+    "categoria": "sino",
+    "pregunta": "¿La prueba EDIN II es un instrumento de diagnóstico definitivo de patologías?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_077",
+    "categoria": "sino",
+    "pregunta": "¿La norma SC-N-01 focaliza sus acciones en población con obesidad únicamente?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_078",
+    "categoria": "sino",
+    "pregunta": "¿El seguimiento nutricional en desnutrición severa debe ser mínimo 4 veces al año?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_079",
+    "categoria": "sino",
+    "pregunta": "¿Se debe registrar la fecha de ingreso al servicio DAF en la herramienta?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_080",
+    "categoria": "sino",
+    "pregunta": "¿Es la Dirección de Gestión la encargada de la evaluación de efectos de los servicios?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_081",
+    "categoria": "sino",
+    "pregunta": "¿El kit de estimulación infantil incluye una guía de actividades impresa?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_082",
+    "categoria": "sino",
+    "pregunta": "¿Se debe medir de pie a un niño menor de 2 años que ya camina?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_083",
+    "categoria": "sino",
+    "pregunta": "¿El Anexo 6 incluye una guía para la elaboración del ASISSEN?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_084",
+    "categoria": "sino",
+    "pregunta": "¿La herramienta de Excel permite filtrar por \"Condición en el seguimiento\"?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_085",
+    "categoria": "sino",
+    "pregunta": "¿Se debe aplicar el tamizaje de salud oral a niños en modalidad extramuros?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_086",
+    "categoria": "sino",
+    "pregunta": "¿El indicador IMC para menores de 5 años es obligatorio en todas las evaluaciones?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_087",
+    "categoria": "sino",
+    "pregunta": "¿La bitácora del equipo interdisciplinario debe ser foliada igual que el expediente?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_088",
+    "categoria": "sino",
+    "pregunta": "¿Se considera un \"Desastre\" únicamente a fenómenos de origen natural?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_089",
+    "categoria": "sino",
+    "pregunta": "¿El equipo antropométrico debe estar en buenas condiciones previo a cada tamizaje?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_090",
+    "categoria": "sino",
+    "pregunta": "¿La norma API-EX-N-07 incluye la entrega de leche para consumo en el hogar?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_091",
+    "categoria": "sino",
+    "pregunta": "¿El resultado \"Superior\" en la escala EDIN anterior se registra con la letra \"S\"?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_092",
+    "categoria": "sino",
+    "pregunta": "¿La Prioridad 3 se asigna a niños con estado nutricional normal pero riesgo social alto?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_093",
+    "categoria": "sino",
+    "pregunta": "¿El profesional en nutrición es quien llena los datos de salud individual en el seguimiento?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_094",
+    "categoria": "sino",
+    "pregunta": "¿Se puede dar de alta a un niño si los riesgos familiares son manejados por el grupo familiar?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_095",
+    "categoria": "sino",
+    "pregunta": "¿El EDIN II evalúa el área \"Socioafectiva\"?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_096",
+    "categoria": "sino",
+    "pregunta": "¿La herramienta de seguimiento debe ser enviada mensualmente al nivel central?",
+    "ground_truth": "No"
+  },
+  {
+    "id": "sino_097",
+    "categoria": "sino",
+    "pregunta": "¿La norma PCD-GF-N-01 busca desarrollar competencias parentales?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_098",
+    "categoria": "sino",
+    "pregunta": "¿Se utiliza el indicador Talla para Edad en mayores de 5 años?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_099",
+    "categoria": "sino",
+    "pregunta": "¿El equipo itinerante de Oficina Local brinda acompañamiento técnico?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "sino_100",
+    "categoria": "sino",
+    "pregunta": "¿La fecha de nacimiento es un dato indispensable para el cálculo de la edad corregida?",
+    "ground_truth": "Sí"
+  },
+  {
+    "id": "corta_001",
+    "categoria": "corta",
+    "pregunta": "¿Cuáles son los criterios antropométricos que activan la referencia de un niño al proceso de atención interdisciplinaria en CEN-CINAI?",
+    "ground_truth": "Los criterios incluyen clasificaciones de obesidad, sobrepeso, desnutrición o desnutrición severa (en Peso para Talla o IMC), bajo peso o bajo peso severo (en Peso para Edad), y baja talla o baja talla severa (en Talla para Edad)."
+  },
+  {
+    "id": "corta_002",
+    "categoria": "corta",
+    "pregunta": "¿Qué disciplinas conforman el equipo interdisciplinario de una Oficina Local de CEN-CINAI y cuál es la función de cada una en el proceso de atención?",
+    "ground_truth": "El equipo está conformado por profesionales en Nutrición, Psicología, Docencia y Terapia de Lenguaje. Sus funciones incluyen la valoración, detección, atención y seguimiento de los casos, así como la ejecución de estrategias individuales, familiares o grupales según su especialidad."
+  },
+  {
+    "id": "corta_003",
+    "categoria": "corta",
+    "pregunta": "¿Con qué frecuencia mínima debe revisar el equipo interdisciplinario de la Oficina Local el Instrumento de detección de un niño o niña con malnutrición?",
+    "ground_truth": "El equipo interdisciplinario debe analizar y priorizar los casos al menos una vez al mes."
+  },
+  {
+    "id": "corta_004",
+    "categoria": "corta",
+    "pregunta": "¿Qué información debe contener el expediente/instrumento de seguimiento de un niño referido al proceso de atención interdisciplinaria?",
+    "ground_truth": "Debe contener datos generales (identificación, sexo, nacimiento, dirección), resultados de tamizajes de crecimiento y desarrollo, datos de salud individual, el plan de atención interdisciplinario, las estrategias empleadas y las referencias realizadas."
+  },
+  {
+    "id": "corta_005",
+    "categoria": "corta",
+    "pregunta": "¿Qué debe hacer el equipo interdisciplinario si, después de tres meses de aplicar estrategias, un niño o niña no logra superar el rezago identificado en el nivel de desarrollo (resultado amarillo)?",
+    "ground_truth": "El equipo interdisciplinario debe actualizar la estrategia de abordaje y el plan de estimulación, registrando el nuevo seguimiento en la herramienta respectiva."
+  },
+  {
+    "id": "corta_006",
+    "categoria": "corta",
+    "pregunta": "¿Con qué frecuencia mínima debe reunirse el equipo interdisciplinario de una Oficina Local para el análisis de casos activos?",
+    "ground_truth": "El equipo debe realizar sesiones de análisis de casos para el seguimiento oportuno al menos una vez al mes en cada Oficina Local."
+  },
+  {
+    "id": "corta_007",
+    "categoria": "corta",
+    "pregunta": "Según el Instrumento de Referencia y Contrarreferencia, ¿cuáles son las tres posibles decisiones que puede tomar el equipo interdisciplinario respecto al seguimiento de un caso?",
+    "ground_truth": "Según el Anexo 4: Se da de alta (el problema se resolvió), Tratamiento subsecuente (requiere seguimiento terapéutico), o Se refiere a otro nivel de atención."
+  },
+  {
+    "id": "corta_008",
+    "categoria": "corta",
+    "pregunta": "¿A qué instituciones externas puede referirse un caso mediante el Instrumento de Referencia y Contrarreferencia Intersectorial, y qué información debe incluir la contrarreferencia?",
+    "ground_truth": "Puede referirse a la CCSS (EBAIS), PANI, IMAS, Ministerio Público, MEP o CONAPDIS. La contrarreferencia debe incluir fecha, identificación, sexo, nombre completo, fecha de nacimiento, dirección exacta y nombre del encargado legal."
+  },
+  {
+    "id": "corta_009",
+    "categoria": "corta",
+    "pregunta": "¿Cómo se consolida y reporta la información del proceso de atención interdisciplinaria desde el nivel local hacia los niveles regional y nacional?",
+    "ground_truth": "El nivel local digita los datos en una herramienta Excel y envía el consolidado al nivel regional; la Dirección Regional elabora un informe consolidado que remite a la UIVCD en el nivel central para estudios de efectos de país."
+  },
+  {
+    "id": "corta_010",
+    "categoria": "corta",
+    "pregunta": "¿Cuáles son las condiciones bajo las cuales un caso de atención interdisciplinaria puede darse por concluido o cerrado?",
+    "ground_truth": "El caso se concluye cuando el niño o niña alcanza la recuperación del estado nutricional normal y supera los rezagos en el desarrollo u otras condiciones especiales identificadas en el seguimiento."
+  },
+  {
+    "id": "corta_011",
+    "categoria": "corta",
+    "pregunta": "¿Cuáles son las cinco áreas del desarrollo que evalúa la prueba EDIN II según el procedimiento de vigilancia?",
+    "ground_truth": "Motora gruesa, motora fina, socioafectiva, lenguaje y cognoscitiva."
+  },
+  {
+    "id": "corta_012",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el plazo máximo para que un funcionario realice la referencia a la Oficina Local tras detectar un riesgo en el crecimiento o desarrollo?",
+    "ground_truth": "El procedimiento establece que la referencia debe ser permanente toda vez que se detecte un caso con malnutrición o rezago en su desarrollo."
+  },
+  {
+    "id": "corta_013",
+    "categoria": "corta",
+    "pregunta": "¿Qué gráficas específicas deben utilizarse para la valoración nutricional de niños nacidos pretérmino hasta las 50 semanas gestacionales?",
+    "ground_truth": "Se deben utilizar las gráficas de crecimiento para niños nacidos pretérmino específicas para cada sexo."
+  },
+  {
+    "id": "corta_014",
+    "categoria": "corta",
+    "pregunta": "Mencione tres tipos de objetos que el personal debe pedir a los niños que saquen de sus bolsillos antes de pesarlos.",
+    "ground_truth": "Piedras, bolinchas (canicas) y trompos, entre otros objetos que puedan alterar el peso."
+  },
+  {
+    "id": "corta_015",
+    "categoria": "corta",
+    "pregunta": "Según el modelo 2023, ¿cuál es la unidad organizativa responsable de coordinar la armonización de la normativa con la UNAT?",
+    "ground_truth": "La Unidad de Investigación y Vigilancia del Crecimiento y Desarrollo (UIVCD) es la unidad responsable de mantener la coordinación con la Unidad de Normalización y Asistencia Técnica (UNAT) para este fin."
+  },
+  {
+    "id": "corta_016",
+    "categoria": "corta",
+    "pregunta": "¿Qué significan las siglas EDIN y en qué caso específico de detección se debe completar esta boleta?",
+    "ground_truth": "EDIN significa Evaluación del Desarrollo Integral de la Niña y el Niño; se completa al detectar un caso con malnutrición."
+  },
+  {
+    "id": "corta_017",
+    "categoria": "corta",
+    "pregunta": "¿Con qué frecuencia se debe aplicar el control de placa bacteriana (odontograma) a los niños que reciben el servicio de API?",
+    "ground_truth": "Se debe aplicar de forma trimestral para los niños que reciben el servicio intramuros. Específicamente, el procedimiento de vigilancia indica que se realiza en el primer, segundo y cuarto trimestre del año para niños mayores de 3 años."
+  },
+  {
+    "id": "corta_018",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el indicador antropométrico más recomendado para identificar casos de deficiencias nutricionales agudas o emaciación?",
+    "ground_truth": "Peso para la Talla (P/T) en menores de 5 años; Índice de Masa Corporal (IMC) en mayores de 5 años."
+  },
+  {
+    "id": "corta_019",
+    "categoria": "corta",
+    "pregunta": "Cite las tres fuentes o instrumentos técnicos de donde se toman los datos para elaborar el informe anual de SISVENDIS.",
+    "ground_truth": "Las fuentes son el Informe Mensual de Servicios CEN-CINAI, el Sistema SIDINACC (a través de la boleta de Caracterización del Ambiente Hogar - CAH) y la Herramienta Excel de vigilancia institucional."
+  },
+  {
+    "id": "corta_020",
+    "categoria": "corta",
+    "pregunta": "¿Quién es el responsable de brindar acompañamiento técnico y modelaje para asegurar la calidad de la toma de datos en los establecimientos locales?",
+    "ground_truth": "Las personas profesionales integrantes del equipo interdisciplinario de cada Oficina Local son las responsables directas de brindar este acompañamiento técnico y modelaje al personal de los establecimientos."
+  },
+  {
+    "id": "corta_021",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el diámetro estandarizado de la \"Dona\" utilizada como material en la prueba EDIN II?",
+    "ground_truth": "La \"Dona\" viene en tres tamaños de diámetro: 15 cm, 10 cm y 5 cm."
+  },
+  {
+    "id": "corta_022",
+    "categoria": "corta",
+    "pregunta": "¿Qué tres profesionales supervisaron técnicamente la actualización de las Normas Técnicas Sustantivas en 2021?",
+    "ground_truth": "Supervisado técnicamente por Xiomara Molina Retana (Directora Técnica), con asesoría de Merceditas Lizano Vega (Planificación Estratégica) y ejecución de las unidades UNAT y UIVCD."
+  },
+  {
+    "id": "corta_023",
+    "categoria": "corta",
+    "pregunta": "Mencione el código de la norma que regula específicamente la Selección de clientes y beneficiarias.",
+    "ground_truth": "El código de la norma es SC-N-01."
+  },
+  {
+    "id": "corta_024",
+    "categoria": "corta",
+    "pregunta": "¿Qué software se menciona en el Anexo 5 para verificar el puntaje Z de los indicadores antropométricos?",
+    "ground_truth": "Se menciona el software Anthro de la OMS, el cual cuenta con una calculadora que el profesional en Nutrición debe utilizar para corroborar los datos de detección."
+  },
+  {
+    "id": "corta_025",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es la frecuencia de aplicación de la evaluación cualitativa para niños que reciben el servicio de API?",
+    "ground_truth": "Se aplica de forma semestral, específicamente durante el primer y tercer trimestre del año."
+  },
+  {
+    "id": "corta_026",
+    "categoria": "corta",
+    "pregunta": "¿Qué siglas deben anotarse en el recuadro de edad cuando se utiliza la edad corregida en prematuros?",
+    "ground_truth": "Se deben anotar las siglas EC para identificar que el valor registrado corresponde a la edad corregida."
+  },
+  {
+    "id": "corta_027",
+    "categoria": "corta",
+    "pregunta": "Según la norma PCD-VCD-N-01, ¿con qué periodicidad mínima se deben aplicar tamizajes de salud?",
+    "ground_truth": "Se deben aplicar al menos una vez al año (anual) como parte de la vigilancia regular, aunque la frecuencia aumenta según el tipo de tamizaje y la edad del niño, como en el caso del odontograma que es trimestral."
+  },
+  {
+    "id": "corta_028",
+    "categoria": "corta",
+    "pregunta": "¿Qué herramienta de software específica se requiere para que funcione la \"Herramienta para el seguimiento interdisciplinario\"?",
+    "ground_truth": "Se requiere Microsoft Excel, versión 2010 en adelante."
+  },
+  {
+    "id": "corta_029",
+    "categoria": "corta",
+    "pregunta": "¿Cuáles son las dos unidades que integran la Dirección Técnica encargadas de la evaluación de la Norma de Selección?",
+    "ground_truth": "Las unidades encargadas son la Unidad de Normalización y Asistencia Técnica (UNAT) y la Unidad de Investigación y Vigilancia del Crecimiento y Desarrollo (UIVCD)."
+  },
+  {
+    "id": "corta_030",
+    "categoria": "corta",
+    "pregunta": "¿Qué material estandarizado se utiliza en el EDIN II para provocar respuestas en el grupo de edad de 0 a 1 mes si la conducta no es espontánea?",
+    "ground_truth": "Se utiliza un cubo de color (rojo o verde) para evaluar si el niño fija la mirada y sigue el objeto en movimiento."
+  },
+  {
+    "id": "corta_031",
+    "categoria": "corta",
+    "pregunta": "Cite el nombre de la norma identificada con el código NUT-EN-N-01.",
+    "ground_truth": "El nombre de la norma es Norma para Educación Alimentaria Nutricional."
+  },
+  {
+    "id": "corta_032",
+    "categoria": "corta",
+    "pregunta": "¿Qué debe contener la \"Portada\" del informe anual regional según la guía del Anexo 6?",
+    "ground_truth": "Debe contener los datos de la institución, el título del informe, la Dirección Regional que lo envía, el nombre completo de los integrantes del equipo técnico responsable y el año."
+  },
+  {
+    "id": "corta_033",
+    "categoria": "corta",
+    "pregunta": "¿En qué meses del año se debe aplicar la herramienta de supervisión del cumplimiento según el Anexo 5?",
+    "ground_truth": "Se debe aplicar cada cuatrimestre, específicamente en los meses de abril, agosto y diciembre."
+  },
+  {
+    "id": "corta_034",
+    "categoria": "corta",
+    "pregunta": "Mencione dos materiales de apoyo para el abordaje de la malnutrición que no sean equipos de medición.",
+    "ground_truth": "Se mencionan los modelos o réplicas de alimentos y el material impreso de apoyo educativo, como los rotafolios para la alimentación."
+  },
+  {
+    "id": "corta_035",
+    "categoria": "corta",
+    "pregunta": "¿Qué acción debe realizar el profesional si un expediente interdisciplinario va a ser trasladado a otra Oficina Local?",
+    "ground_truth": "Debe anotar el traslado en el espacio de observaciones indicando el destino y la fecha, y el profesional respectivo debe contactar a su homólogo en la oficina de destino para transmitir información sensible o informes específicos."
+  },
+  {
+    "id": "corta_036",
+    "categoria": "corta",
+    "pregunta": "¿A qué grupo de edad se le aplica la Evaluación del Desarrollo del Escolar (EVADE)?",
+    "ground_truth": "Se aplica a niñas, niños y adolescentes en el rango de edad de 6 a 14 años."
+  },
+  {
+    "id": "corta_037",
+    "categoria": "corta",
+    "pregunta": "¿Qué significa un resultado \"¡Valor!\" o \"REFF!\" en las columnas de seguimiento de la herramienta de Excel?",
+    "ground_truth": "Significa que la herramienta ha detectado datos extremos o no congruentes en el registro de fechas, edades o resultados, lo cual requiere una revisión y corrección de la calidad del dato."
+  },
+  {
+    "id": "corta_038",
+    "categoria": "corta",
+    "pregunta": "¿Qué indicador antropométrico se utiliza para clasificar el estado nutricional en niños mayores de 5 años?",
+    "ground_truth": "Se utilizan los indicadores de Índice de Masa Corporal (IMC) y Talla para Edad (T/E)."
+  },
+  {
+    "id": "corta_039",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es la población objetivo de la norma PCD-GF-N-01?",
+    "ground_truth": "La población objetivo es el núcleo familiar de las niñas, niños, adolescentes madres y mujeres embarazadas o en periodo de lactancia que reciben servicios en CEN-CINAI."
+  },
+  {
+    "id": "corta_040",
+    "categoria": "corta",
+    "pregunta": "Según el Anexo 8, ¿cómo debe estar el foliado de un expediente de atención interdisciplinaria?",
+    "ground_truth": "El expediente debe estar debidamente foliado para garantizar el orden administrativo y la seguridad de la documentación física bajo custodia."
+  },
+  {
+    "id": "corta_041",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el objetivo principal de la Lista de Cotejo de Patrones de Hábitos de Salud?",
+    "ground_truth": "Su objetivo es conocer si el niño o niña cumple o no cumple con las conductas de salud esperadas que impactan su desarrollo integral."
+  },
+  {
+    "id": "corta_042",
+    "categoria": "corta",
+    "pregunta": "¿Qué profesional es el responsable de brindar acompañamiento técnico en la ejecución de tamizajes en la Oficina Local?",
+    "ground_truth": "Los profesionales integrantes del equipo interdisciplinario (Nutrición, Psicología, Docencia, Terapia de Lenguaje) de cada Oficina Local son los responsables."
+  },
+  {
+    "id": "corta_043",
+    "categoria": "corta",
+    "pregunta": "Mencione el código de la norma que regula la Atención Integral de niños Extramuros.",
+    "ground_truth": "El código de la norma es API-EX-N-07."
+  },
+  {
+    "id": "corta_044",
+    "categoria": "corta",
+    "pregunta": "¿Qué técnica se utiliza para evaluar ítems que el niño no puede ejecutar en el momento pero que la madre conoce?",
+    "ground_truth": "Se utiliza la entrevista o reporte de la madre (o cuidadora) para acreditar conductas que no son observadas de forma espontánea durante la evaluación."
+  },
+  {
+    "id": "corta_045",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el plazo máximo para realizar el primer seguimiento de un caso clasificado como Prioridad 1?",
+    "ground_truth": "El primer seguimiento debe realizarse en un plazo máximo de un mes después del análisis y priorización del caso."
+  },
+  {
+    "id": "corta_046",
+    "categoria": "corta",
+    "pregunta": "¿Qué datos personales del niño se consideran obligatorios en el encabezado de las hojas de respuesta del EDIN II?",
+    "ground_truth": "Son obligatorios el nombre completo, número de identificación, sexo y la edad exacta (años y meses) al momento de la evaluación."
+  },
+  {
+    "id": "corta_047",
+    "categoria": "corta",
+    "pregunta": "¿Qué norma técnica sustantiva tiene un carácter transversal a todas las modalidades de atención?",
+    "ground_truth": "Las normas de Selección (SC-N-01) y de Asistencia Técnica (AT-N-01) tienen un carácter transversal y encuadre común para todos los servicios institucionales."
+  },
+  {
+    "id": "corta_048",
+    "categoria": "corta",
+    "pregunta": "Según el Anexo 7, ¿qué tipo de modelos se utilizan para la educación alimentaria?",
+    "ground_truth": "Se utilizan modelos o réplicas de alimentos para estimar tamaños de porciones y mejorar la exactitud de la educación alimentaria."
+  },
+  {
+    "id": "corta_049",
+    "categoria": "corta",
+    "pregunta": "¿Quién autoriza oficialmente las Normas Técnicas Sustantivas de la Dirección Nacional?",
+    "ground_truth": "La Dirección Nacional de CEN-CINAI otorga el aval oficial y la autorización para la vigencia de las normas."
+  },
+  {
+    "id": "corta_050",
+    "categoria": "corta",
+    "pregunta": "¿En qué periodo gestacional se considera a un niño como \"pretérmino\" para efectos de la corrección de edad?",
+    "ground_truth": "Se considera pretérmino a todo niño nacido antes de las 37 semanas de gestación."
+  },
+  {
+    "id": "corta_051",
+    "categoria": "corta",
+    "pregunta": "¿Qué áreas de desarrollo evalúa específicamente la prueba EVADE?",
+    "ground_truth": "Evalúa cinco áreas: motora gruesa, motora fina, lenguaje, cognitiva y socioafectiva."
+  },
+  {
+    "id": "corta_052",
+    "categoria": "corta",
+    "pregunta": "¿Qué documento orienta la elaboración del Diagnóstico de establecimiento (DISSEN)?",
+    "ground_truth": "El documento de orientación es el Manual metodológico para la elaboración del Diagnóstico de establecimiento (DISSEN)."
+  },
+  {
+    "id": "corta_053",
+    "categoria": "corta",
+    "pregunta": "¿Cómo se clasifica a un niño que no cumple hitos de su edad pero sí los de la edad anterior?",
+    "ground_truth": "Se clasifica como un caso de rezago en el desarrollo (identificado con el color amarillo)."
+  },
+  {
+    "id": "corta_054",
+    "categoria": "corta",
+    "pregunta": "¿Qué material del kit EDIN II se utiliza para evaluar la interacción con objetos en los primeros meses?",
+    "ground_truth": "Se utilizan materiales estandarizados como el sonajero o el cubo (rojo o verde) para observar la fijación y seguimiento de objetos."
+  },
+  {
+    "id": "corta_055",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es la periodicidad del informe anual de atención interdisciplinaria?",
+    "ground_truth": "Tiene una periodicidad anual y debe remitirse en el mes de febrero del año siguiente."
+  },
+  {
+    "id": "corta_056",
+    "categoria": "corta",
+    "pregunta": "Según la norma PCD-ID-N-06, ¿cuándo debe recibir un niño atención interdisciplinaria profesional?",
+    "ground_truth": "Debe recibirla cuando se detecte malnutrición en sus indicadores antropométricos, un resultado de riesgo de retraso (rojo) en su desarrollo o condiciones de riesgo psicosocial."
+  },
+  {
+    "id": "corta_057",
+    "categoria": "corta",
+    "pregunta": "¿Qué dato antropométrico es indispensable para que el programa Anthro sume o reste 0.7 cm automáticamente?",
+    "ground_truth": "Es indispensable indicar si la medición fue realizada acostado o de pie, además de la edad exacta del niño."
+  },
+  {
+    "id": "corta_058",
+    "categoria": "corta",
+    "pregunta": "¿Qué debe hacer el equipo si el rezago (amarillo) persiste tras tres meses de estrategias?",
+    "ground_truth": "El equipo debe actualizar el plan de atención y la estrategia de estimulación, y si no hay mejoría, valorar la referencia a servicios de salud externos."
+  },
+  {
+    "id": "corta_059",
+    "categoria": "corta",
+    "pregunta": "Mencione dos indicadores de riesgo familiar que se registran en el instrumento de detección.",
+    "ground_truth": "Se registran indicadores como el hacinamiento y la inadecuada disposición de desechos sólidos o basura."
+  },
+  {
+    "id": "corta_060",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el código de la norma para Investigaciones Operativas?",
+    "ground_truth": "El código es PCD-IO-N-01."
+  },
+  {
+    "id": "corta_061",
+    "categoria": "corta",
+    "pregunta": "¿Qué material se usa para la prueba de agudeza auditiva en mayores de 3 años?",
+    "ground_truth": "Se utiliza el kit de tarjetas estandarizado de la \"Prueba Auditiva de las Tarjetas en Costa Rica\"."
+  },
+  {
+    "id": "corta_062",
+    "categoria": "corta",
+    "pregunta": "¿En qué casos específicos se establece el uso del perímetro braquial como medición antropométrica alternativa?",
+    "ground_truth": "Se utiliza oficialmente para la valoración nutricional de niñas y niños que presentan necesidades especiales de crecimiento, tales como aquellos con parálisis cerebral infantil (PCI)."
+  },
+  {
+    "id": "corta_063",
+    "categoria": "corta",
+    "pregunta": "¿Cómo se identifica visualmente la tendencia de crecimiento de un niño en las gráficas del expediente?",
+    "ground_truth": "Se identifica trazando una línea recta que conecte los puntos marcados como resultado de dos o más evaluaciones nutricionales sucesivas."
+  },
+  {
+    "id": "corta_064",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el número máximo de evaluaciones subsecuentes de la prueba EDIN II que permite registrar la herramienta digital?",
+    "ground_truth": "El formato de registro en la herramienta digital institucional contempla columnas para capturar la evaluación inicial y el seguimiento de hasta tres evaluaciones subsecuentes."
+  },
+  {
+    "id": "corta_065",
+    "categoria": "corta",
+    "pregunta": "¿Qué población integra específicamente el Grupo J (Prioridad 4) en el proceso de atención?",
+    "ground_truth": "Este grupo está integrado por niños y niñas en servicio DAF que han recuperado su estado nutricional normal en todos los indicadores y se encuentran cumpliendo su año de protección."
+  },
+  {
+    "id": "corta_066",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el objetivo técnico de aplicar la corrección de edad en la evaluación de niños nacidos pretérmino?",
+    "ground_truth": "Su objetivo es compensar de forma parcial el periodo de vida intrauterina faltante para evaluar al menor según su madurez biológica real y evitar diagnósticos erróneos."
+  },
+  {
+    "id": "corta_067",
+    "categoria": "corta",
+    "pregunta": "¿Qué instrumentos técnicos nacionales sirven de base para los contenidos de la norma de Educación Alimentaria Nutricional?",
+    "ground_truth": "Las acciones y contenidos educativos de esta norma técnica se fundamentan en los lineamientos establecidos por las Guías Alimentarias vigentes en el país."
+  },
+  {
+    "id": "corta_068",
+    "categoria": "corta",
+    "pregunta": "¿Bajo qué condición específica se debe aplicar el Test de detección de dificultades de lenguaje a un menor?",
+    "ground_truth": "Se aplica a niños que presentan rezago o riesgo en el área de comunicación y lenguaje tras haber agotado un plan de estimulación previo sin mostrar mejoría."
+  },
+  {
+    "id": "corta_069",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el eje transversal que garantiza el bienestar integral de la niñez en los sistemas de vigilancia de CEN-CINAI?",
+    "ground_truth": "El enfoque de derechos de la niñez es el eje transversal que rige el diseño de los modelos operativos y los sistemas de vigilancia institucional."
+  },
+  {
+    "id": "corta_070",
+    "categoria": "corta",
+    "pregunta": "¿Qué mobiliario específico se utiliza para aplicar la prueba de desarrollo en niños de grupos de edad mayores?",
+    "ground_truth": "Según los instructivos, para los grupos de edad mayores se debe utilizar una mesa y dos sillas, reservando el uso de la colchoneta para lactantes."
+  },
+  {
+    "id": "corta_071",
+    "categoria": "corta",
+    "pregunta": "¿Qué término se debe anotar en el campo de identificación de la herramienta digital cuando el menor no posee documentos de identidad?",
+    "ground_truth": "El procedimiento permite registrar la palabra \"indocumentado\" o un código alfanumérico provisional para garantizar el acceso al servicio sin exclusiones."
+  },
+  {
+    "id": "corta_072",
+    "categoria": "corta",
+    "pregunta": "¿Quiénes son los responsables de ejercer la función gerencial de supervisión técnica y del cumplimiento en los establecimientos?",
+    "ground_truth": "Esta responsabilidad recae en las Jefaturas de Oficina Local, las Jefaturas de Área Técnica Regional (ATE) y la Dirección Regional respectiva."
+  },
+  {
+    "id": "corta_073",
+    "categoria": "corta",
+    "pregunta": "¿Qué componentes de salud, además de nutrición y desarrollo, integra el modelo operativo SISVENDIS 2023?",
+    "ground_truth": "Integra formalmente la vigilancia de la salud oral mediante la detección de placa bacteriana y la identificación de higiene oral mala."
+  },
+  {
+    "id": "corta_074",
+    "categoria": "corta",
+    "pregunta": "¿Qué acción administrativa confirma que la información del instrumento físico de detección ya fue ingresada al sistema digital?",
+    "ground_truth": "El funcionario responsable debe marcar con una \"X\" el recuadro específico de \"Digitado en herramienta\" ubicado en el instrumento físico de detección."
+  },
+  {
+    "id": "corta_075",
+    "categoria": "corta",
+    "pregunta": "¿A partir de cuántas semanas de gestación se clasifica técnicamente a un recién nacido como \"a término\"?",
+    "ground_truth": "Se clasifica como nacido a término a aquel menor cuyo periodo gestacional se ubica entre las 38 y 41 semanas."
+  },
+  {
+    "id": "corta_076",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es la finalidad principal de la prueba EDIN II dentro del sistema de vigilancia?",
+    "ground_truth": "Funciona como un instrumento de tamizaje rápido para detectar tempranamente riesgos en el desarrollo integral, no para el diagnóstico clínico de patologías."
+  },
+  {
+    "id": "corta_077",
+    "categoria": "corta",
+    "pregunta": "¿Qué condiciones de vulnerabilidad regula la norma SC-N-01 para el ingreso de personas usuarias a los servicios?",
+    "ground_truth": "Regula el ingreso por diversas condiciones, incluyendo malnutrición biológica, riesgo social, condición de pobreza y otras necesidades especiales."
+  },
+  {
+    "id": "corta_078",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es la frecuencia mínima de seguimientos subsecuentes establecida para un caso clasificado como Prioridad 1?",
+    "ground_truth": "El procedimiento exige realizar evaluaciones de seguimiento cada dos meses después del primer análisis, lo que equivale a un mínimo de seis evaluaciones por año."
+  },
+  {
+    "id": "corta_079",
+    "categoria": "corta",
+    "pregunta": "¿Qué dato de ingreso es indispensable registrar en la herramienta digital para controlar el cumplimiento del año de protección?",
+    "ground_truth": "Es obligatorio registrar la modalidad del servicio (específicamente DAF) y la fecha de ingreso para monitorear el periodo de permanencia tras la recuperación nutricional."
+  },
+  {
+    "id": "corta_080",
+    "categoria": "corta",
+    "pregunta": "¿Qué unidad técnica del nivel central es la responsable de conducir la vigilancia institucional y los estudios de efectos de país?",
+    "ground_truth": "La responsabilidad técnica recae en la Unidad de Investigación y Vigilancia del Crecimiento y Desarrollo (UIVCD) de la Dirección Técnica."
+  },
+  {
+    "id": "corta_081",
+    "categoria": "corta",
+    "pregunta": "¿Qué documento orientador se incluye dentro de los kits de estimulación infantil entregados a las familias?",
+    "ground_truth": "El kit incluye la \"Guía de planes de estimulación para la promoción del desarrollo infantil\", la cual contiene las actividades educativas para el hogar."
+  },
+  {
+    "id": "corta_082",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el criterio de edad para determinar si a un niño se le debe medir la longitud (acostado) o la estatura (de pie)?",
+    "ground_truth": "En menores de 2 años se mide obligatoriamente la longitud en posición acostada, mientras que la estatura de pie se aplica a partir de los 2 años cumplidos."
+  },
+  {
+    "id": "corta_083",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el contenido técnico principal de las guías establecidas en el Anexo 6 del procedimiento?",
+    "ground_truth": "El Anexo 6 provee las guías estandarizadas para la elaboración del informe anual de atención interdisciplinaria y el monitoreo del cumplimiento regional."
+  },
+  {
+    "id": "corta_084",
+    "categoria": "corta",
+    "pregunta": "¿Qué opciones de clasificación ofrece el filtro de \"Condición en el seguimiento\" dentro de la herramienta digital?",
+    "ground_truth": "Permite clasificar y filtrar los casos activos según su estado de egreso, egreso satisfactorio o si el menor continúa en seguimiento."
+  },
+  {
+    "id": "corta_085",
+    "categoria": "corta",
+    "pregunta": "¿En qué modalidades de servicio es obligatorio realizar el control trimestral de placa bacteriana a niños mayores de 3 años?",
+    "ground_truth": "Este tamizaje de salud oral es obligatorio únicamente para los niños que asisten a servicios intramuros, como API o Comidas Servidas."
+  },
+  {
+    "id": "corta_086",
+    "categoria": "corta",
+    "pregunta": "¿A partir de qué edad es obligatorio el uso del indicador de Índice de Masa Corporal (IMC) para la valoración nutricional?",
+    "ground_truth": "El uso del IMC es obligatorio y estándar para la clasificación del estado nutricional en toda la población mayor de 5 años."
+  },
+  {
+    "id": "corta_087",
+    "categoria": "corta",
+    "pregunta": "¿Qué requisitos de orden administrativo deben cumplir los instrumentos de registro oficial como expedientes y bitácoras de acuerdos?",
+    "ground_truth": "Deben estar debidamente foliados, mantener un orden cronológico estricto y estar bajo custodia física segura en la Oficina Local."
+  },
+  {
+    "id": "corta_088",
+    "categoria": "corta",
+    "pregunta": "¿Qué factores de origen se contemplan en la definición institucional de \"desastre\" como riesgo comunitario?",
+    "ground_truth": "Se contemplan situaciones de riesgo derivadas de fenómenos de origen natural, tecnológico o antrópico provocado por el hombre."
+  },
+  {
+    "id": "corta_089",
+    "categoria": "corta",
+    "pregunta": "¿Qué acciones preventivas debe realizar el personal respecto al equipo de medición antes de iniciar una sesión de tamizaje?",
+    "ground_truth": "El personal debe verificar que las balanzas y tallímetros estén limpios, en condiciones óptimas de funcionamiento y debidamente calibrados."
+  },
+  {
+    "id": "corta_090",
+    "categoria": "corta",
+    "pregunta": "¿A qué población específica se dirige la norma de Educación Extramuros identificada con el código API-EX-N-07?",
+    "ground_truth": "Se dirige a las niñas y niños beneficiarios de la modalidad de Distribución de Leche (DL) para consumo en el hogar."
+  },
+  {
+    "id": "corta_091",
+    "categoria": "corta",
+    "pregunta": "¿Qué siglas se deben anotar para registrar resultados superiores en las áreas de desarrollo evaluadas con la escala simplificada?",
+    "ground_truth": "Se debe anotar la letra \"S\" en el recuadro correspondiente para identificar que el menor alcanzó un nivel superior en dicha área."
+  },
+  {
+    "id": "corta_092",
+    "categoria": "corta",
+    "pregunta": "¿Qué características antropométricas y de desarrollo definen la asignación de la Prioridad 3 en un caso?",
+    "ground_truth": "Se asigna a menores con malnutrición que presentan un desarrollo adecuado (Verde) y no tienen factores de riesgo social identificados."
+  },
+  {
+    "id": "corta_093",
+    "categoria": "corta",
+    "pregunta": "¿Qué miembro del equipo es el encargado de completar el registro de datos en el instrumento de seguimiento interdisciplinario?",
+    "ground_truth": "El llenado puede ser ejecutado por cualquier profesional integrante del equipo interdisciplinario o personal asistente bajo supervisión profesional."
+  },
+  {
+    "id": "corta_094",
+    "categoria": "corta",
+    "pregunta": "¿Bajo qué condiciones relacionadas con el entorno familiar puede el equipo interdisciplinario otorgar el alta de un caso?",
+    "ground_truth": "Se otorga cuando se verifica que los riesgos familiares están siendo manejados por el grupo familiar y se ha logrado la recuperación integral del niño."
+  },
+  {
+    "id": "corta_095",
+    "categoria": "corta",
+    "pregunta": "¿Cuáles son las cinco dimensiones del desarrollo integral que evalúa formalmente la prueba EDIN II?",
+    "ground_truth": "Evalúa las dimensiones motora gruesa, motora fina, cognitiva, lenguaje y socioafectiva."
+  },
+  {
+    "id": "corta_096",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el flujo oficial de información para el envío de informes desde las Oficinas Locales hasta el nivel central?",
+    "ground_truth": "Las Oficinas Locales envían datos a la Dirección Regional para su consolidación, y esta remite el informe anual a la UIVCD en el nivel central."
+  },
+  {
+    "id": "corta_097",
+    "categoria": "corta",
+    "pregunta": "¿Cuál es el propósito central de la norma de educación dirigida al grupo familiar identificada como PCD-GF-N-01?",
+    "ground_truth": "Su propósito es proveer aprendizaje a las familias para fortalecer competencias parentales y promover vínculos afectivos seguros y democráticos."
+  },
+  {
+    "id": "corta_098",
+    "categoria": "corta",
+    "pregunta": "¿Qué indicadores antropométricos son obligatorios para la valoración nutricional de la población escolar mayor de 5 años?",
+    "ground_truth": "Se deben aplicar obligatoriamente los indicadores de Talla para Edad (T/E) e Índice de Masa Corporal (IMC)."
+  },
+  {
+    "id": "corta_099",
+    "categoria": "corta",
+    "pregunta": "¿Cuáles son las funciones principales de los profesionales que integran el equipo interdisciplinario itinerante de la Oficina Local?",
+    "ground_truth": "Tienen la función de brindar acompañamiento técnico, modelaje y asesoría al personal que ejecuta los servicios en los establecimientos locales."
+  },
+  {
+    "id": "corta_100",
+    "categoria": "corta",
+    "pregunta": "¿Qué datos personales del niño son estrictamente indispensables para determinar la edad corregida en menores prematuros?",
+    "ground_truth": "Son indispensables la fecha de nacimiento exacta, para determinar la edad cronológica, y las semanas de edad gestacional registradas al nacer."
+  },
+  {
+    "id": "abierta_001",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo el sistema de semáforo (verde/amarillo/rojo) del EDIN/EDIN II determina las acciones que debe tomar el equipo interdisciplinario, comparando qué cambia entre un resultado y otro.",
+    "ground_truth": "El sistema de semáforo clasifica el nivel de desarrollo para definir la intensidad del abordaje: el verde indica un desarrollo normal donde solo se mantienen actividades de promoción y recomendaciones al hogar. El amarillo (rezago) activa el diseño de un plan de estimulación específico y una revisión de estrategias tras tres meses; si el rezago persiste, se debe actualizar el plan o valorar referencias. El rojo (riesgo de retraso) representa la mayor alerta, obligando a una referencia inmediata al equipo interdisciplinario para una valoración profunda y, de ser necesario, la coordinación con servicios de salud externos como la CCSS."
+  },
+  {
+    "id": "abierta_002",
+    "categoria": "abierta",
+    "pregunta": "Compare el proceso de atención de un niño o niña del Grupo F (menores de 5 años) frente a uno del Grupo H (mayores de 5 años, prioridad 2) — ¿qué elementos de valoración cambian y por qué?",
+    "ground_truth": "La principal diferencia radica en los indicadores técnicos y las herramientas de tamizaje según la etapa del ciclo vital: para el Grupo F (<5 años) se utilizan los indicadores Peso/Edad, Peso/Talla y Talla/Edad junto con la prueba EDIN II. Para el Grupo H (>5 años), el indicador Peso/Talla es sustituido obligatoriamente por el Índice de Masa Corporal (IMC) y se aplica la prueba EVADE en lugar del EDIN. Este cambio responde a que los patrones de crecimiento y los hitos del desarrollo esperados varían significativamente al entrar en la etapa escolar."
+  },
+  {
+    "id": "abierta_003",
+    "categoria": "abierta",
+    "pregunta": "Describa el proceso completo desde la detección de un niño con malnutrición hasta su egreso por evolución satisfactoria, señalando los responsables en cada etapa.",
+    "ground_truth": "El proceso inicia con la detección por parte del personal ASSC 3/2 o profesional del establecimiento, quienes deben referir el caso en un máximo de 5 días hábiles. Posteriormente, el equipo interdisciplinario de la Oficina Local sesiona mensualmente para analizar, priorizar el caso en grupos de riesgo y diseñar el Plan de Atención. Se ejecutan estrategias de seguimiento (individual, grupal o familiar) y se registran avances en la herramienta Excel. El egreso satisfactorio lo dictamina el equipo interdisciplinario cuando se documenta la recuperación del estado nutricional normal y la superación de los rezagos en el desarrollo."
+  },
+  {
+    "id": "abierta_004",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo el procedimiento integra factores de riesgo social (violencia intrafamiliar, pobreza, drogas) junto con los criterios antropométricos para definir la prioridad de atención de un caso.",
+    "ground_truth": "El procedimiento utiliza un enfoque integral donde el riesgo social puede elevar la prioridad de atención independientemente del estado nutricional; por ejemplo, los Grupos B, E y H se clasifican como Prioridad 1 o 2 si presentan indicadores antropométricos de malnutrición acompañados de \"presencia significativa\" de riesgos sociales como violencia, alcoholismo o pobreza extrema. Esta integración permite que el equipo interdisciplinario focalice recursos en casos donde el entorno familiar o comunitario compromete la viabilidad de la recuperación física del menor."
+  },
+  {
+    "id": "abierta_005",
+    "categoria": "abierta",
+    "pregunta": "¿Cómo se relaciona el rol de la UIVCD en el nivel central con el trabajo del equipo interdisciplinario en el nivel local, considerando el flujo de información descrito en el procedimiento?",
+    "ground_truth": "La relación es de retroalimentación técnica y normativa: el nivel local genera la información primaria mediante la digitación de tamizajes en herramientas Excel y bitácoras de seguimiento. Esta información fluye hacia las Direcciones Regionales y finalmente a la UIVCD, que se encarga de analizar los datos a nivel nacional para generar informes de \"Datos Básicos\" e infografías de gestión. Con estos insumos, la UIVCD actualiza las normas y manuales que orientan el trabajo operativo local, cerrando el ciclo de mejora continua basada en evidencia."
+  },
+  {
+    "id": "abierta_006",
+    "categoria": "abierta",
+    "pregunta": "Explique el papel del enfoque de salud pública y atención primaria en el diseño de este procedimiento, y qué implicaciones tiene para el trabajo del equipo interdisciplinario.",
+    "ground_truth": "El diseño se basa en reconocer los Determinantes Sociales de la Salud (DSS), entendiendo que la malnutrición no es solo un problema biológico sino el resultado de factores socioeconómicos y culturales. Para el equipo interdisciplinario, esto implica que su labor trasciende la consulta clínica, obligándolos a trabajar de forma colaborativa en la detección temprana de riesgos y la promoción de la salud en el entorno familiar. Las estrategias deben ser preventivas y adaptadas a la realidad de la comunidad, buscando el empoderamiento de las familias y no solo la corrección de cifras antropométricas."
+  },
+  {
+    "id": "abierta_007",
+    "categoria": "abierta",
+    "pregunta": "¿Qué diferencias existen entre una referencia hacia otra institución (CCSS, MEP, PANI, IMAS) y el manejo interno de un caso dentro de CEN-CINAI, en términos de responsabilidades y seguimiento?",
+    "ground_truth": "El manejo interno implica que CEN-CINAI mantiene la custodia del caso, aplicando planes de estimulación, educación alimentaria y seguimiento nutricional directo por su equipo interdisciplinario. Por el contrario, la referencia externa traslada la responsabilidad de la atención especializada (clínica en CCSS, protección legal en PANI o educativa en MEP) a la institución competente. No obstante, CEN-CINAI no abandona el caso, sino que debe mantener una coordinación intersectorial y seguimiento con el grupo familiar para asegurar que el niño reciba las atenciones referidas."
+  },
+  {
+    "id": "abierta_008",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo el procedimiento garantiza tanto la calidad de la información registrada como la confidencialidad de los datos de los niños y niñas atendidos.",
+    "ground_truth": "La calidad se asegura mediante guías de revisión obligatorias para las jefaturas, quienes aplican filtros en la herramienta Excel para detectar datos extremos, no congruentes o errores de cálculo como \"#¡VALOR!\". La confidencialidad se garantiza a través del resguardo físico de los expedientes debidamente foliados en las Oficinas Locales y el manejo restringido de las bases de datos digitales. Además, el procedimiento permite el registro de menores bajo la etiqueta de \"indocumentado\" para asegurar su atención sin vulnerar su seguridad jurídica o social."
+  },
+  {
+    "id": "abierta_009",
+    "categoria": "abierta",
+    "pregunta": "¿Cómo afectan los factores comunitarios (acceso a agua potable, manejo de desechos, riesgo de desastres) la clasificación del grupo de riesgo de un niño o niña, y qué acciones se derivan de ello?",
+    "ground_truth": "Los factores comunitarios actúan como determinantes que pueden agravar la condición de vulnerabilidad; la carencia de agua apta, disposición de excretas o el riesgo de desastres se consideran privaciones que elevan la complejidad del caso. Si estos factores son significativos, el niño es priorizado en grupos que requieren seguimientos más frecuentes (cada 1 o 2 meses). Las acciones derivadas incluyen la incorporación de estas variables en el Plan de Atención Interdisciplinario y la posible activación de redes comunales o interinstitucionales para mitigar dichos riesgos."
+  },
+  {
+    "id": "abierta_010",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo el procedimiento maneja los casos en los que un niño o niña recupera su estado nutricional pero mantiene rezago en el desarrollo, incluyendo el concepto de \"período de protección\".",
+    "ground_truth": "Cuando un niño alcanza la normalidad nutricional pero persiste un rezago (amarillo) o riesgo (rojo) en el desarrollo, el equipo interdisciplinario debe mantener las estrategias de seguimiento en sesiones de apoyo hasta que se logre el progreso esperado. En el caso específico de los beneficiarios del servicio DAF, al recuperar su estado normal inician un \"año de protección\" (clasificados en Grupo J, Prioridad 4), donde se les continúa brindando el beneficio alimentario mientras el equipo asegura la consolidación de su estado nutricional y de desarrollo integral."
+  },
+  {
+    "id": "abierta_011",
+    "categoria": "abierta",
+    "pregunta": "Explique las diferencias entre las modalidades \"intramuros\" y \"extramuros\" en cuanto a la frecuencia de vigilancia nutricional para un niño con estado nutricional normal.",
+    "ground_truth": "En la modalidad intramuros (como API o Comidas Servidas), la vigilancia es más constante debido a la asistencia diaria del niño al establecimiento, permitiendo tamizajes según la programación de los servicios. Para la modalidad extramuros (como Distribución de Leche o DAF), un niño con estado nutricional normal en todos sus indicadores debe ser evaluado antropométricamente una vez al año. Sin embargo, si el niño presenta bajo peso en el indicador de Peso/Edad aun siendo normal en los demás, la frecuencia de evaluación en extramuros aumenta a dos veces por año."
+  },
+  {
+    "id": "abierta_012",
+    "categoria": "abierta",
+    "pregunta": "Compare los roles del Equipo de Área Técnica Regional y la UIVCD en cuanto a la planificación y ejecución de la asistencia técnica para el personal operativo.",
+    "ground_truth": "La UIVCD (Nivel Central) tiene un rol normativo y de diseño, encargándose de elaborar los modelos operativos, manuales y procedimientos de vigilancia que rigen a toda la institución. Por su parte, el Equipo de Área Técnica Regional (ATE) actúa como el enlace de supervisión directa, brindando asesoría técnica y acompañamiento en sitio al personal de las Oficinas Locales y establecimientos. Mientras la UIVCD analiza tendencias nacionales, el ATE regional monitorea el cumplimiento de las metas locales y la calidad del dato digitado en su región."
+  },
+  {
+    "id": "abierta_013",
+    "categoria": "abierta",
+    "pregunta": "Describa cómo evoluciona el proceso de cálculo de edad y selección de gráficas para un niño prematuro desde su nacimiento hasta los 4 años de edad.",
+    "ground_truth": "Durante las primeras etapas, se utiliza obligatoriamente la Edad Corregida (EC) y las gráficas de Fenton hasta las 50 semanas de edad gestacional. Posteriormente, para la valoración nutricional, se mantiene el uso de la EC hasta que el niño alcance los 3 años y 4 meses de edad cronológica, empleando los indicadores de Peso/Edad hasta los 2 años y Talla/Edad o Peso/Talla según corresponda. Al cumplir los 4 años, la corrección de edad cesa para efectos nutricionales y se aplican los patrones de referencia estándar de la OMS para su edad cronológica."
+  },
+  {
+    "id": "abierta_014",
+    "categoria": "abierta",
+    "pregunta": "Explique el flujo de información de vigilancia desde que se registra un tamizaje en el expediente clínico hasta que los datos se consolidan a nivel regional.",
+    "ground_truth": "El flujo inicia con el registro manual del tamizaje (peso, talla, EDIN) en el expediente físico del menor por parte del personal operativo. Estos datos son trasladados luego a la herramienta digital Excel de la Oficina Local, marcando la casilla de \"digitado\" en el instrumento físico para control. Mensualmente, las Oficinas Locales consolidan su información y la remiten a la Dirección Regional, donde el equipo ATE supervisa la calidad y genera un informe regional anual que resume el estado nutricional y de desarrollo de su población."
+  },
+  {
+    "id": "abierta_015",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo el \"enfoque de salud pública\" obliga al personal a considerar factores no antropométricos al interpretar un estado nutricional inadecuado.",
+    "ground_truth": "Este enfoque impone una visión de integralidad, donde el personal no puede limitarse a reportar un peso bajo, sino que debe investigar las causas raíz en el entorno del niño. Factores como el hacinamiento, la falta de agua potable, el destete temprano o el nivel educativo de la madre son determinantes críticos que deben anotarse en el expediente y considerarse en la sesión interdisciplinaria. La interpretación del estado nutricional se convierte así en un diagnóstico social que guía intervenciones orientadas a modificar las condiciones de vida y no solo la ingesta calórica."
+  },
+  {
+    "id": "abierta_016",
+    "categoria": "abierta",
+    "pregunta": "Describa la relación entre los 10 elementos del modelo SISVENDIS y el objetivo institucional de mejorar la toma de decisiones basada en evidencia.",
+    "ground_truth": "Los elementos del SISVENDIS (que incluyen recursos, tamizajes, procesamiento y análisis de datos) están diseñados para crear un sistema de información veraz y continuo. Al sistematizar la recolección de datos desde el nivel local hasta el nacional, la institución garantiza que las decisiones gerenciales, como la asignación de presupuestos o la actualización de normas, se basen en resultados reales de salud y desarrollo infantil. Esto permite observar tendencias de recuperación y evaluar la efectividad de los servicios de CEN-CINAI en la mejora de la calidad de vida de los niños."
+  },
+  {
+    "id": "abierta_017",
+    "categoria": "abierta",
+    "pregunta": "Explique cuáles son las responsabilidades específicas de la persona profesional en Nutrición de la Oficina Local cuando se detecta un niño con necesidades especiales de crecimiento.",
+    "ground_truth": "El nutricionista es el responsable técnico de realizar la clasificación definitiva del estado nutricional utilizando patrones de crecimiento específicos (como los de Síndrome de Down o Acondroplasia) en lugar del estándar OMS 2006. Debe verificar la precisión de los datos de detección mediante el uso del software Anthro de la OMS y anotar el patrón utilizado en el expediente. Además, lidera el acompañamiento técnico del personal ASSC para asegurar que las mediciones en estos casos complejos mantengan los más altos estándares de calidad."
+  },
+  {
+    "id": "abierta_018",
+    "categoria": "abierta",
+    "pregunta": "Compare los requerimientos de tamizaje y los indicadores utilizados para la valoración nutricional integral en niños menores de 5 años frente a los mayores de 5 años.",
+    "ground_truth": "Para los menores de 5 años, los requerimientos incluyen tamizajes de Peso/Edad, Peso/Talla, Talla/Edad y la evaluación del desarrollo mediante EDIN II, sumado al control trimestral de placa bacteriana para mayores de 3 años en API. En contraste, para los mayores de 5 años, el indicador Peso/Talla se elimina y se utiliza obligatoriamente el IMC, se mantiene Talla/Edad y la evaluación del desarrollo migra a la prueba EVADE. Esta diferenciación asegura que los instrumentos de vigilancia sean sensibles a los cambios biológicos y demandas cognitivas de cada grupo etario."
+  },
+  {
+    "id": "abierta_019",
+    "categoria": "abierta",
+    "pregunta": "Explique la importancia de las \"líneas de tendencia\" en las gráficas de crecimiento y cómo deben representarse visualmente en el expediente según los manuales.",
+    "ground_truth": "Las líneas de tendencia son fundamentales para el seguimiento clínico porque permiten observar la velocidad y dirección del crecimiento en el tiempo, lo cual es más informativo que un dato aislado. Visualmente, se representan uniendo con una línea recta los puntos resultantes de al menos dos mediciones sucesivas ploteadas en las gráficas de crecimiento del expediente. Una línea plana o descendente es un signo de alerta que requiere atención inmediata del equipo interdisciplinario, incluso si el niño aún se encuentra dentro de los rangos considerados normales."
+  },
+  {
+    "id": "abierta_020",
+    "categoria": "abierta",
+    "pregunta": "Describa cómo la actualización de SISVENDIS 2023 integra la vigilancia de la salud oral y la diversidad alimentaria como complementos a la vigilancia nutricional tradicional.",
+    "ground_truth": "El SISVENDIS 2023 trasciende la antropometría básica al incluir la \"Consulta sobre diversidad alimentaria mínima\", que evalúa la calidad de la dieta del niño, y la vigilancia de la salud oral mediante el odontograma trimestral para detectar placa bacteriana. Estos complementos permiten identificar riesgos de salud antes de que se manifiesten como alteraciones de peso o talla. Al integrar estos factores en la herramienta de vigilancia institucional, CEN-CINAI fortalece su capacidad de respuesta temprana ante carencias de micronutrientes y malos hábitos de higiene."
+  },
+  {
+    "id": "abierta_021",
+    "categoria": "abierta",
+    "pregunta": "Explique el procedimiento paso a paso para realizar el cálculo de la edad corregida en un niño prematuro según el Manual EDIN II.",
+    "ground_truth": "El proceso inicia restando la edad gestacional del niño (en semanas) a las 40 semanas que representan un embarazo a término para obtener las semanas de prematurez. Posteriormente, estas semanas deben restarse a la edad cronológica actual del niño al momento de la evaluación. Este ajuste técnico es obligatorio para la aplicación de la prueba EDIN II en menores de 2 años y para la valoración nutricional en menores de 3 años y 4 meses. El resultado final debe registrarse en los instrumentos oficiales utilizando las iniciales \"EC\" para diferenciarlo de la edad cronológica."
+  },
+  {
+    "id": "abierta_022",
+    "categoria": "abierta",
+    "pregunta": "Compare las responsabilidades del ASSC 2 frente al ASSC 3 en la aplicación de la prueba EDIN II y la vigilancia nutricional.",
+    "ground_truth": "El personal ASSC 3 tiene la responsabilidad primordial de ejecutar la evaluación del estado nutricional, encargándose de la toma de medidas de peso y talla. Por su parte, el ASSC 2 es el responsable principal de aplicar la prueba EDIN II para determinar el nivel de desarrollo integral y realizar tamizajes auditivos. Ambos roles deben colaborar en los establecimientos bajo el modelaje y acompañamiento técnico del equipo interdisciplinario de la Oficina Local. Es deber de ambos asegurar la calidad del registro manual en los expedientes físicos antes de su digitación regional."
+  },
+  {
+    "id": "abierta_023",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo el enfoque de \"Cuidado Cariñoso y Sensible\" se integra en las metas de las Normas Técnicas Sustantivas 2021.",
+    "ground_truth": "Este enfoque se integra al reconocer al niño como un ser integral con dimensiones físicas, mentales y emocionales que deben ser atendidas de forma simultánea. Las normas 2021 promueven estrategias de educación al grupo familiar para fortalecer las competencias parentales y los vínculos afectivos seguros. Se prioriza la atención durante los primeros mil días de vida como una ventana crítica de oportunidad para el desarrollo óptimo. Finalmente, el objetivo es garantizar un servicio de calidad que respete el enfoque de derechos de la niñez en todas las modalidades de atención."
+  },
+  {
+    "id": "abierta_024",
+    "categoria": "abierta",
+    "pregunta": "Describa el proceso de traslado de un expediente de atención interdisciplinaria entre oficinas locales, incluyendo la gestión de datos en la herramienta digital.",
+    "ground_truth": "El profesional responsable debe registrar el traslado en el apartado de observaciones del expediente físico, detallando la fecha y la oficina de destino. Es obligatorio que el funcionario de origen contacte a su homólogo en la oficina receptora para transferir información sensible y asegurar la continuidad del plan de atención. En la herramienta digital Excel, se debe actualizar la condición del caso para reflejar el egreso administrativo por traslado. Todos los instrumentos originales de seguimiento deben enviarse foliados y completos para garantizar la seguridad de la información del menor."
+  },
+  {
+    "id": "abierta_025",
+    "categoria": "abierta",
+    "pregunta": "Explique los criterios técnicos para clasificar a un niño en el Grupo G de riesgo, considerando edad, indicadores antropométricos y nivel de desarrollo.",
+    "ground_truth": "El Grupo G incluye a niñas y niños mayores de 5 años que requieren atención de Prioridad 1. Los criterios antropométricos incluyen clasificaciones de baja talla severa (Z ≤ -3) o condiciones de obesidad según el Índice de Masa Corporal (Z ≥ 2). En cuanto al desarrollo, se clasifica en este grupo si el niño presenta un resultado \"Rojo\" en EDIN II o un rezago significativo en la prueba EVADE (0 o 1 punto sin logro de la edad anterior). Esta clasificación obliga al equipo a realizar seguimientos mensuales para revertir los riesgos detectados en salud y crecimiento."
+  },
+  {
+    "id": "abierta_026",
+    "categoria": "abierta",
+    "pregunta": "Desarrolle la estructura y contenidos mínimos que debe tener un Plan de Atención Interdisciplinario según el Anexo 5 y el instructivo de detección.",
+    "ground_truth": "El plan debe establecer objetivos claros, estrategias consensuadas por el equipo, recursos necesarios y plazos para la evaluación de avances. Incluye un apartado específico donde el nutricionista anota la clasificación definitiva y el patrón de crecimiento utilizado, especialmente en casos con necesidades especiales. Deben marcarse con una \"X\" los indicadores de riesgo identificados a nivel individual, familiar y comunitario. Además, el plan debe registrar el seguimiento de datos de salud y las estrategias educativas dirigidas al hogar para asegurar un abordaje integral."
+  },
+  {
+    "id": "abierta_027",
+    "categoria": "abierta",
+    "pregunta": "Explique la importancia de las \"Líneas de Tendencia\" en la herramienta de seguimiento y qué acciones debe tomar el equipo ante una tendencia negativa.",
+    "ground_truth": "Las líneas de tendencia permiten visualizar la velocidad y dirección del crecimiento del niño al unir puntos de mediciones sucesivas en las gráficas. Una tendencia negativa, representada por una línea plana o descendente, es una señal de alerta temprana que indica un estancamiento en el desarrollo. Ante este hallazgo, el equipo interdisciplinario debe sesionar de forma inmediata para revisar y ajustar las estrategias de estimulación y el plan alimentario. Esta herramienta es crucial para tomar decisiones preventivas antes de que el niño caiga en rangos de malnutrición severa."
+  },
+  {
+    "id": "abierta_028",
+    "categoria": "abierta",
+    "pregunta": "Compare los objetivos de la modalidad \"Intramuros\" (API-EC-N-01) y \"Extramuros\" (API-EX-N-07) respecto a la promoción del crecimiento y desarrollo.",
+    "ground_truth": "La modalidad intramuros ofrece una atención diaria y sistemática que permite tamizajes frecuentes, incluyendo odontogramas trimestrales y evaluaciones cualitativas constantes. En contraste, la modalidad extramuros se enfoca en niños que no asisten diariamente, priorizando la vigilancia del crecimiento anual y la distribución de suplementos como la leche. Ambas modalidades comparten el objetivo de detectar riesgos tempranos mediante técnicas antropométricas y la prueba EDIN II. No obstante, intramuros permite una intervención interdisciplinaria más directa y un monitoreo más estrecho de los hitos del desarrollo."
+  },
+  {
+    "id": "abierta_029",
+    "categoria": "abierta",
+    "pregunta": "Describa los filtros de calidad que el Jefe de Oficina Local debe aplicar a la herramienta de Excel para asegurar que no existan datos erróneos en las fechas de evaluación.",
+    "ground_truth": "El jefe debe verificar que todas las fechas de evaluación (ENU y desarrollo) cumplan estrictamente con el formato dd/mm/aaaa. Se deben aplicar filtros para identificar datos extremos o no congruentes, como fechas futuras o registros que no coincidan con la edad cronológica del niño. Es fundamental detectar y corregir errores de sistema como \"#¡VALOR!\" o \"#REF!\" que surgen de entradas de datos inválidas. Una vez revisada la herramienta, el jefe debe firmar el control de calidad para validar la veracidad de la información regional."
+  },
+  {
+    "id": "abierta_030",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo se vincula el servicio de \"Nutrición Preventiva\" con el de \"Promoción del Crecimiento y Desarrollo\" según el Reglamento Orgánico.",
+    "ground_truth": "Nutrición Preventiva actúa como un soporte biológico mediante el suministro de alimentos fortificados y complementos nutricionales para evitar deficiencias. El servicio de Promoción del Crecimiento y Desarrollo se encarga de vigilar que el niño alcance su potencial mediante tamizajes de salud y desarrollo. Ambos servicios se vinculan a través de la vigilancia: los resultados de los tamizajes sirven como insumo para asignar beneficios nutricionales a los casos de mayor riesgo. Esta sinergia garantiza que el apoyo alimentario sea acompañado de una estimulación adecuada para el bienestar integral."
+  },
+  {
+    "id": "abierta_031",
+    "categoria": "abierta",
+    "pregunta": "Explique las diferencias en la selección de gráficas de crecimiento para un niño con Síndrome de Down versus un niño nacido prematuro con menos de 50 semanas.",
+    "ground_truth": "Para un niño con Síndrome de Down se deben utilizar patrones de referencia específicos para esa condición, en lugar de las curvas estándar de la OMS. En el caso del niño prematuro menor de 50 semanas gestacionales, el estándar institucional exige el uso exclusivo de las gráficas de Fenton (2013). Una vez que el niño prematuro supera las 50 semanas gestacionales, se realiza la transición al patrón de crecimiento OMS 2006 utilizando la edad corregida. Estas distinciones son vitales para evitar clasificaciones erróneas del estado nutricional en poblaciones con necesidades especiales."
+  },
+  {
+    "id": "abierta_032",
+    "categoria": "abierta",
+    "pregunta": "Describa los componentes del kit estandarizado EDIN II y por qué el instructivo prohíbe el reemplazo de estos materiales.",
+    "ground_truth": "El kit contiene objetos específicos como la \"Dona\" bicolor, sonajeros, cubos de colores y láminas ilustradas, todos con dimensiones y texturas normalizadas. Se prohíbe el reemplazo de estos materiales porque la validez científica de la prueba depende de que el estímulo sensorial sea idéntico para todos los niños evaluados. Un cambio en el tamaño o peso de un objeto podría alterar la respuesta motora o cognitiva del niño, invalidando el resultado del tamizaje. La estandarización asegura que los datos recolectados a nivel nacional sean comparables y fiables para la toma de decisiones."
+  },
+  {
+    "id": "abierta_033",
+    "categoria": "abierta",
+    "pregunta": "Analice el rol del \"Equipo de Área Técnica Regional\" en la consolidación del informe anual de malnutrición y la toma de decisiones basada en datos.",
+    "ground_truth": "Este equipo actúa como el garante técnico de la supervisión y asesoría para las Oficinas Locales y los establecimientos de su región. Tienen la tarea de consolidar los datos de las herramientas Excel locales para elaborar un informe anual que resuma los hallazgos en nutrición y desarrollo. Realizan reflexiones analíticas sobre los resultados por oficina para identificar necesidades de capacitación o recursos adicionales. Su análisis permite que la Dirección Regional oriente sus metas y estrategias basándose en la situación epidemiológica real de su población atendida."
+  },
+  {
+    "id": "abierta_034",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo se determina la Prioridad 4 (Grupo J) y qué implica el concepto de \"año de protección\" para niños que reciben DAF.",
+    "ground_truth": "La Prioridad 4 se asigna a niños beneficiarios del servicio DAF que han logrado recuperar un estado nutricional normal en todos sus indicadores. El \"año de protección\" es un periodo de 12 meses durante el cual el niño continúa recibiendo el beneficio alimentario para asegurar la estabilidad de su recuperación. Durante este tiempo, se clasifica en el Grupo J y el equipo interdisciplinario realiza seguimientos menos frecuentes, generalmente cada 10 meses. Este mecanismo busca prevenir recaídas nutricionales inmediatas y consolidar los avances logrados en el desarrollo integral."
+  },
+  {
+    "id": "abierta_035",
+    "categoria": "abierta",
+    "pregunta": "Describa la relación entre el tamizaje de agudeza visual y auditiva y el desarrollo integral del niño según los fundamentos del SISVENDIS.",
+    "ground_truth": "Estos tamizajes son pilares de la vigilancia integral, ya que cualquier déficit sensorial no detectado puede obstaculizar gravemente el aprendizaje y la comunicación. El SISVENDIS integra estas pruebas para identificar barreras físicas al desarrollo cognitivo y social de manera temprana. Al detectar problemas visuales o auditivos, el equipo puede realizar referencias oportunas a especialistas externos para mitigar el impacto en el desempeño escolar. Este enfoque refuerza la visión del niño como un ser integral donde la salud física es el cimiento para la adquisición de habilidades complejas."
+  },
+  {
+    "id": "abierta_036",
+    "categoria": "abierta",
+    "pregunta": "Explique el sistema de calificación por colores de la prueba EDIN II y qué acciones específicas se derivan de un resultado \"Amarillo\" tras tres meses de intervención.",
+    "ground_truth": "El color amarillo indica un \"rezago\", lo que significa que el niño no ha logrado los hitos esperados para su grupo de edad actual. Si este resultado persiste tras tres meses de aplicar el plan de estimulación inicial, el equipo debe actualizar obligatoriamente la estrategia de abordaje. Esto incluye diseñar nuevas actividades de estimulación específicas y reforzar las recomendaciones educativas para el hogar. Si no hay mejoría posterior, el equipo debe valorar la referencia del caso a servicios de salud especializados de la CCSS."
+  },
+  {
+    "id": "abierta_037",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo la norma de \"Selección de Usuarios\" (SC-N-01) garantiza la equidad en el acceso a los servicios de CEN-CINAI.",
+    "ground_truth": "La norma exige la aplicación de un estudio de selección a todas las personas interesadas que se encuentren en condición de pobreza o riesgo social. Al estandarizar los criterios antropométricos y socioeconómicos de ingreso, se asegura que los recursos institucionales se asignen a quienes tienen mayor vulnerabilidad. CEN-CINAI evita la exclusión arbitraria mediante el uso de herramientas objetivas como la boleta CAH y el CAF para medir la necesidad real. Este marco normativo garantiza que el acceso a la salud pública sea un derecho ejercido con equidad y basado en evidencia técnica."
+  },
+  {
+    "id": "abierta_038",
+    "categoria": "abierta",
+    "pregunta": "Describa los lineamientos de custodia del expediente físico de malnutrición y quiénes tienen acceso a las anotaciones especializadas de cada disciplina.",
+    "ground_truth": "Los expedientes deben permanecer bajo custodia física en la Oficina Local, debidamente foliados y protegidos contra pérdida o daño. El acceso a las notas especializadas de Psicología, Nutrición o Terapia de Lenguaje está restringido a los miembros del equipo interdisciplinario y personal autorizado. Esto protege la confidencialidad de la información sensible del menor y su familia mientras se asegura el uso profesional de los datos. Durante cada sesión de seguimiento, el expediente debe estar disponible para que los profesionales consulten y registren la evolución cronológica del caso."
+  },
+  {
+    "id": "abierta_039",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo el personal debe prepararse para la toma de peso y talla, detallando los requisitos del lugar y los ajustes técnicos en el equipo antropométrico.",
+    "ground_truth": "El lugar de medición debe estar bien iluminado y contar con un piso firme y nivelado para evitar errores en la lectura de las balanzas. El equipo antropométrico debe ser verificado y calibrado antes de iniciar cada sesión de tamizaje para garantizar su precisión. Al niño se le debe solicitar retirar zapatos, exceso de ropa y objetos de los bolsillos que sumen peso falso. Para la talla, se debe determinar si el niño es menor de 2 años para medirlo acostado (longitud) o mayor de 2 años para medirlo de pie (estatura)."
+  },
+  {
+    "id": "abierta_040",
+    "categoria": "abierta",
+    "pregunta": "Analice el impacto de la malnutrición en el desarrollo infantil (rezago o riesgo de retraso) y cómo el procedimiento prioriza esta relación en los Grupos A y D.",
+    "ground_truth": "El procedimiento reconoce que las deficiencias nutricionales severas pueden comprometer el crecimiento cerebral y la adquisición de habilidades cognitivas y motoras. Los Grupos A y D se priorizan como Nivel 1 porque combinan malnutrición biológica con un resultado de \"Riesgo de Retraso\" (Rojo) en el desarrollo integral. Esta priorización asegura que el niño reciba una intervención intensiva que incluya tanto recuperación nutricional como planes de estimulación temprana. El objetivo final es revertir el daño potencial y asegurar que el menor alcance su calidad de vida óptima."
+  },
+  {
+    "id": "abierta_041",
+    "categoria": "abierta",
+    "pregunta": "Describa el flujo de información desde que se detecta un caso con boleta VE01 hasta que se registra en el Sistema Nacional de Vigilancia de la Salud.",
+    "ground_truth": "Una vez detectado el caso de malnutrición, el funcionario tiene un plazo máximo de 5 días hábiles para completar la boleta de notificación individual VE01. Esta boleta se remite inmediatamente al Área Rectora de Salud del Ministerio de Salud más cercana al establecimiento. Este paso integra la detección local de CEN-CINAI en el Sistema Nacional de Vigilancia de la Salud para el seguimiento epidemiológico estatal. Simultáneamente, la información se digita en la herramienta Excel institucional para el control administrativo regional y nacional."
+  },
+  {
+    "id": "abierta_042",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo se utiliza el nomograma del Anexo 3 para el cálculo del IMC y en qué casos es preferible usar la calculadora del software Anthro.",
+    "ground_truth": "El nomograma es una herramienta gráfica que permite una estimación rápida del IMC en niños mayores de 5 años cruzando los valores de peso y talla. No obstante, el software Anthro de la OMS es preferible para clasificaciones definitivas debido a su capacidad para calcular puntajes Z exactos. Los profesionales en Nutrición deben utilizar Anthro para verificar los datos de detección y asegurar la confiabilidad del diagnóstico nutricional institucional. Su uso es obligatorio en casos complejos o de niños con necesidades especiales que requieren patrones de referencia específicos."
+  },
+  {
+    "id": "abierta_043",
+    "categoria": "abierta",
+    "pregunta": "Compare la frecuencia de las sesiones de análisis interdisciplinario de casos con la periodicidad de los informes regionales.",
+    "ground_truth": "Las sesiones de análisis interdisciplinario de casos activos se realizan con una frecuencia mínima mensual en cada Oficina Local. Por el contrario, los informes regionales que consolidan los hallazgos de todas las oficinas tienen una periodicidad anual. Mientras que las sesiones mensuales buscan agilizar las decisiones clínicas y el seguimiento directo del niño, los informes anuales evalúan metas estratégicas regionales. Esta estructura asegura que la atención individual sea dinámica mientras que la vigilancia gerencial mantiene una visión de largo plazo."
+  },
+  {
+    "id": "abierta_044",
+    "categoria": "abierta",
+    "pregunta": "Describa los criterios para considerar que un hogar tiene una \"adecuada disposición de desechos sólidos\" según las definiciones técnicas vigentes.",
+    "ground_truth": "Se considera inadecuada la disposición si el hogar quema la basura, la entierra, la lanza a lotes baldíos o a cuerpos de agua como ríos y quebradas. Un criterio de excepción es la zona rural, donde enterrar la basura no se contabiliza técnicamente como una privación del servicio. Lo ideal es el acceso a la recolección municipal periódica o el traslado a centros de acopio autorizados. Este determinante ambiental es vigilado porque las malas prácticas de higiene en el entorno familiar elevan el riesgo de enfermedades infecciosas que afectan la nutrición."
+  },
+  {
+    "id": "abierta_045",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo se integra la educación al grupo familiar en el plan de atención de un niño con malnutrición severa.",
+    "ground_truth": "La educación se integra mediante \"Sesiones de Apoyo\" y encuentros individuales donde se analizan conjuntamente las causas de la malnutrición en el hogar. El equipo diseña planes de aprendizaje para que la familia adquiera prácticas alimentarias saludables y mejore sus competencias de cuido. Se identifican factores de riesgo específicos en el expediente, como el destete temprano, para orientar los temas de las sesiones educativas. Esta intervención busca que el grupo familiar se convierta en el principal agente de recuperación y sostenibilidad del estado nutricional del menor."
+  },
+  {
+    "id": "abierta_046",
+    "categoria": "abierta",
+    "pregunta": "Analice la importancia de registrar el dato \"Indocumentado\" en la herramienta y qué implicaciones tiene para el seguimiento del niño.",
+    "ground_truth": "El registro de la palabra \"indocumentado\" en la herramienta digital es una medida administrativa crucial para garantizar el acceso universal a los servicios de salud y nutrición de CEN-CINAI. Esta acción permite que niños y niñas en condición migratoria irregular o sin documentos de identidad vigentes sean ingresados formalmente al sistema de vigilancia sin ser excluidos por trámites burocráticos. Para el seguimiento, esto implica que el equipo interdisciplinario puede monitorear el estado nutricional y del desarrollo del menor de la misma manera que a cualquier otro beneficiario, asegurando la continuidad del Plan de Atención Interdisciplinario. Asimismo, el uso de este identificador alfanumérico en el software permite generar reportes estadísticos que visibilizan a esta población vulnerable para la toma de decisiones gerenciales. Es una práctica fundamentada en el enfoque de derechos de la niñez que protege la integridad y seguridad jurídica de las familias atendidas."
+  },
+  {
+    "id": "abierta_047",
+    "categoria": "abierta",
+    "pregunta": "Describa los materiales impresos de apoyo educativo disponibles y cómo se distribuyen según el Anexo 7.",
+    "ground_truth": "Los materiales impresos incluyen rotafolios específicos para la educación alimentaria y nutricional, así como fichas técnicas para la evolución del crecimiento y desarrollo infantil. También se dispone de guías impresas de planes de estimulación diseñadas para orientar a las familias en la promoción del desarrollo desde el hogar. Estos recursos se distribuyen a través de las Oficinas Locales hacia los establecimientos CEN-CINAI para ser utilizados por el personal operativo y profesional durante las sesiones grupales o individuales. La entrega de estos materiales se prioriza según las necesidades identificadas en el Plan de Atención Interdisciplinario de cada niño o niña. El objetivo institucional es que estos insumos faciliten la transferencia de conocimientos técnicos de forma visual y comprensible para padres, madres y personas cuidadoras."
+  },
+  {
+    "id": "abierta_048",
+    "categoria": "abierta",
+    "pregunta": "Explique los tres posibles resultados del indicador Peso para Talla en menores de 5 años y su interpretación nutricional (desnutrición, normal, sobrepeso).",
+    "ground_truth": "El indicador Peso para Talla (P/T) clasifica el estado nutricional actual comparando el peso del menor con su propia estatura. Un resultado de desnutrición (severa o moderada) se interpreta como una pérdida de peso reciente o emaciación, causada generalmente por enfermedades agudas o carencia inmediata de alimentos. El resultado normal indica una relación armónica entre el peso y la talla, reflejando un estado de equilibrio nutricional satisfactorio para el momento de la evaluación. Por último, un resultado de sobrepeso u obesidad se interpreta como un exceso de peso para la estatura alcanzada, frecuentemente asociado a la sobrealimentación en el tiempo. Esta interpretación es vital porque el P/T es el índice más sensible para detectar cambios nutricionales rápidos e independientes de la edad del niño."
+  },
+  {
+    "id": "abierta_049",
+    "categoria": "abierta",
+    "pregunta": "Analice la función de la UIVCD como unidad técnica rectora en la actualización de los manuales operativos de vigilancia.",
+    "ground_truth": "La Unidad de Investigación y Vigilancia del Crecimiento y Desarrollo (UIVCD) tiene la responsabilidad de diseñar, normar y actualizar los instrumentos técnicos que rigen el SISVENDIS. Su función rectora asegura que los manuales operativos, como los de antropometría o EDIN II, se fundamenten en la evidencia científica más reciente y en estándares internacionales como los de la OMS. Además, la UIVCD analiza los datos consolidados a nivel nacional para identificar vacíos normativos o necesidades de ajuste en los procedimientos de vigilancia locales. Esta unidad también coordina con la UNAT para asegurar que la normativa sea coherente con la capacidad instalada y los objetivos estratégicos de la institución. Finalmente, su labor garantiza que el personal operativo cuente con herramientas estandarizadas para la detección oportuna de riesgos en la población infantil."
+  },
+  {
+    "id": "abierta_050",
+    "categoria": "abierta",
+    "pregunta": "Describa el proceso de evaluación del nivel de desarrollo para un escolar (EVADE) y cómo se diferencia el puntaje de 1 punto con y sin logro de la edad anterior.",
+    "ground_truth": "El proceso inicia con la aplicación de la prueba EVADE a niños y niñas mayores de 6 años, evaluando áreas como motora fina, motora gruesa, lenguaje, cognitiva y socioafectiva. Un puntaje de 1 punto se obtiene cuando el niño logra realizar solo algunas de las conductas esperadas para su rango de edad actual. La diferencia técnica fundamental es que, si el niño obtiene 1 punto pero ha logrado satisfactoriamente todos los hitos de la edad cronológica anterior, se considera un \"rezago\" que requiere un plan de estimulación local. Sin embargo, si el niño obtiene 1 punto (o 0) y además no ha cumplido con los hitos de la edad anterior, se clasifica como Prioridad 1 debido al alto riesgo de retraso en el desarrollo. Esta distinción es crítica para que el equipo interdisciplinario determine si el caso debe ser referido de inmediato a especialistas externos o manejado internamente."
+  },
+  {
+    "id": "abierta_051",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo la norma PCD-VCD-N-01 define la vigilancia del crecimiento y desarrollo infantil y qué técnicas emplea.",
+    "ground_truth": "La norma PCD-VCD-N-01 define la vigilancia como un proceso continuo y sistemático de recolección y análisis de datos sobre el estado de salud y nutrición de los niños. Emplea técnicas antropométricas estandarizadas para la medición periódica del peso y la talla/longitud con el fin de clasificar el estado nutricional. También utiliza técnicas de tamizaje del desarrollo infantil mediante la aplicación de las escalas EDIN II y EVADE según el grupo de edad. Complementariamente, integra tamizajes de salud visual, auditiva y oral para detectar alteraciones sensoriales o de higiene que impacten el bienestar integral. Todas estas técnicas se aplican al menos una vez al año para orientar la toma de decisiones clínicas y gerenciales basadas en evidencia."
+  },
+  {
+    "id": "abierta_052",
+    "categoria": "abierta",
+    "pregunta": "Analice por qué el personal debe solicitar a los niños que se quiten objetos de los bolsillos antes del pesaje y cómo esto afecta la calidad del dato.",
+    "ground_truth": "El personal debe solicitar el retiro de objetos como monedas, llaves o juguetes pequeños para asegurar que la medición refleje únicamente la masa corporal real del niño. Esta acción es fundamental para evitar sesgos sistemáticos en el pesaje que podrían llevar a clasificaciones erróneas del estado nutricional, como un falso sobrepeso. La calidad del dato antropométrico depende de la rigurosidad técnica, y cualquier peso adicional no biológico altera el cálculo exacto de los puntajes Z. Un registro inexacto compromete la vigilancia epidemiológica y puede derivar en intervenciones interdisciplinarias innecesarias o en el descuido de riesgos reales. Por lo tanto, esta preparación previa es un paso obligatorio descrito en los manuales para garantizar la veracidad de la información en el expediente."
+  },
+  {
+    "id": "abierta_053",
+    "categoria": "abierta",
+    "pregunta": "Describa los elementos que deben ser revisados periódicamente por la Jefatura de Oficina Local en la herramienta de Excel para garantizar su veracidad.",
+    "ground_truth": "La jefatura debe verificar que los datos personales como nombre, sexo y número de expediente estén correctamente ingresados y coincidan con el formato alfanumérico permitido. Es indispensable revisar que las fechas de evaluación nutricional y de desarrollo sigan el formato dd/mm/aaaa y no presenten valores extremos o incongruentes. También debe supervisar que las clasificaciones nutricionales y del desarrollo (como NL, DES, Verde, Rojo) correspondan fielmente a los resultados obtenidos en los tamizajes físicos. Un elemento crítico es la identificación y corrección de errores de fórmulas como \"#¡VALOR!\" o \"#REF!\", que invalidan el procesamiento regional de los datos. Finalmente, la revisión debe incluir el control del \"año de protección\" para los beneficiarios del servicio DAF que ya han recuperado su estado nutricional normal."
+  },
+  {
+    "id": "abierta_054",
+    "categoria": "abierta",
+    "pregunta": "Explique el manejo técnico de un niño con \"Baja Talla\" y qué profesional es el encargado de su clasificación final.",
+    "ground_truth": "El manejo inicia con la detección de un estancamiento en el crecimiento lineal mediante el indicador Talla para Edad (T/E), registrando el dato en el expediente físico. El caso debe ser referido obligatoriamente al equipo interdisciplinario de la Oficina Local para una valoración profunda de sus determinantes sociales y biológicos. La persona profesional en Nutrición es la encargada de realizar la clasificación técnica definitiva, verificando los datos mediante el software Anthro de la OMS. En el caso de niños con necesidades especiales, el nutricionista debe seleccionar el patrón de crecimiento específico correspondiente, como el de Síndrome de Down o Acondroplasia. Posteriormente, se diseña un plan de atención que incluya el seguimiento nutricional y la posible referencia a servicios de pediatría de la CCSS."
+  },
+  {
+    "id": "abierta_055",
+    "categoria": "abierta",
+    "pregunta": "Analice la importancia de la \"escucha activa y respeto\" como ejes transversales en la atención integral infantil.",
+    "ground_truth": "La escucha activa y el respeto son pilares fundamentales para establecer un vínculo de confianza entre el personal de CEN-CINAI y el grupo familiar. Estos ejes transversales permiten que los profesionales comprendan mejor la realidad socioeconómica y cultural que rodea al niño con malnutrición. Al aplicar un enfoque de \"cuidado cariñoso y sensible\", se garantiza que la intervención respete la dignidad y los derechos de la niñez y sus familias. Esta actitud empática facilita la adherencia de los padres a los planes de estimulación en el hogar y a las recomendaciones educativas. En última instancia, una atención humanizada potencia la efectividad del tratamiento interdisciplinario y contribuye al bienestar psicosocial del menor atendido."
+  },
+  {
+    "id": "abierta_056",
+    "categoria": "abierta",
+    "pregunta": "Describa cómo evoluciona la valoración de un niño prematuro después de las 50 semanas gestacionales según el patrón OMS 2006.",
+    "ground_truth": "Al alcanzar las 50 semanas de edad gestacional, el niño prematuro realiza la transición técnica de las gráficas de Fenton hacia el patrón de crecimiento estándar OMS 2006. Durante esta etapa, es obligatorio continuar utilizando la Edad Corregida (EC) en lugar de la edad cronológica para todas las valoraciones antropométricas. Este ajuste permite comparar el crecimiento del niño con niños nacidos a término que tienen su mismo nivel de madurez biológica, evitando diagnósticos erróneos de desnutrición o baja talla. El uso de la EC se mantiene de forma sistemática hasta que el niño cumpla los 3 años y 4 meses de edad cronológica, momento en que el crecimiento suele haberse nivelado. Esta evolución técnica asegura una vigilancia precisa y adaptada a la historia biológica particular de cada menor pretérmino."
+  },
+  {
+    "id": "abierta_057",
+    "categoria": "abierta",
+    "pregunta": "Explique la relación entre la condición de pobreza o riesgo social y los criterios de selección de beneficiarios en las normas de 2021.",
+    "ground_truth": "Las normas técnicas 2021 establecen que la selección de personas usuarias debe priorizar a quienes se encuentran en condición de pobreza o riesgo social. El proceso de ingreso requiere la aplicación de un estudio de selección que utiliza herramientas como la boleta de Caracterización del Ambiente Hogar (CAH) para medir estas variables. La malnutrición detectada antropométricamente se analiza siempre junto con determinantes sociales como el desempleo, el hacinamiento o la falta de servicios básicos en el hogar. Esta relación permite clasificar a los beneficiarios en grupos de riesgo que determinan el tipo y la intensidad del servicio asignado, garantizando que los recursos institucionales lleguen a la población más vulnerable. Así, la norma SC-N-01 actúa como un mecanismo de equidad y justicia social en el acceso a la salud pública."
+  },
+  {
+    "id": "abierta_058",
+    "categoria": "abierta",
+    "pregunta": "Describa los materiales específicos del Kit EDIN II utilizados para evaluar el área motora gruesa en niños de 7 a 8 meses.",
+    "ground_truth": "Para evaluar el área motora gruesa en este rango de edad, el manual indica el uso de materiales que estimulen el desplazamiento y la estabilidad postural. Se utiliza la \"Dona\" bicolor o el sonajero para motivar al niño a realizar movimientos de rotación sobre su propio eje y el inicio del gateo. También se emplean cubos de colores estandarizados para observar si el niño logra mantenerse sentado sin apoyo mientras manipula objetos. La colchoneta firme es un recurso esencial del kit para proporcionar una superficie segura donde el niño pueda ejecutar estas conductas motrices. Estos materiales estandarizados garantizan que el estímulo sensorial sea el mismo para todos los menores, asegurando la validez del tamizaje del desarrollo."
+  },
+  {
+    "id": "abierta_059",
+    "categoria": "abierta",
+    "pregunta": "Analice el rol de las \"Sesiones de apoyo\" como estrategia de abordaje interdisciplinario y quiénes participan en ellas.",
+    "ground_truth": "Las sesiones de apoyo funcionan como espacios de intervención intensiva para casos de malnutrición severa o persistente donde se requiere un acompañamiento más estrecho con la familia. En estas sesiones participa el equipo interdisciplinario completo de la Oficina Local junto con la madre, padre o persona cuidadora del niño. El objetivo es analizar conjuntamente las barreras que impiden la recuperación del menor y diseñar estrategias educativas y afectivas personalizadas. Estas sesiones permiten mantener el seguimiento clínico incluso cuando un niño ya ha recuperado su estado nutricional pero aún presenta rezagos en su desarrollo integral. Representan una modalidad de atención que trasciende la vigilancia individual para fomentar un cambio sostenible en el entorno familiar del niño."
+  },
+  {
+    "id": "abierta_060",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo el Manual EDIN II define el \"Rezago en el desarrollo\" y cómo se diferencia del \"Riesgo de retraso\".",
+    "ground_truth": "El manual define el \"rezago\" (identificado con el color amarillo) como una condición donde el niño o niña no ha alcanzado los hitos esperados para su edad actual, pero sí cumple con los de la edad inmediata anterior. Por su parte, el \"riesgo de retraso\" (color rojo) ocurre cuando el menor presenta resultados bajos en tres o más niveles según su edad o no logra cumplir ni siquiera con las conductas de la edad anterior. La diferencia operativa es fundamental: el rezago suele manejarse con un plan de estimulación reforzado en el establecimiento y el hogar, mientras que el riesgo de retraso activa una alerta de prioridad máxima que puede requerir referencia a la CCSS. Ambas condiciones son monitoreadas por el equipo interdisciplinario, pero el riesgo de retraso implica una vulnerabilidad mayor que compromete el potencial integral del niño."
+  },
+  {
+    "id": "abierta_061",
+    "categoria": "abierta",
+    "pregunta": "Describa los apartados obligatorios del instrumento de \"Detección del niño o niña con malnutrición\".",
+    "ground_truth": "El instrumento cuenta con un primer apartado de Datos Generales que incluye identificación, sexo, fecha de nacimiento y dirección exacta. El segundo apartado obligatorio es la Evaluación del Crecimiento y Desarrollo, donde se registran peso, talla, edad (cronológica o corregida) y los resultados de las escalas EDIN II o EVADE. Un tercer bloque corresponde a los Datos de Salud Individual, que abarca antecedentes del embarazo, peso al nacer y esquema de vacunas. También es mandatorio el apartado de Determinantes Sociales, evaluando indicadores de riesgo a nivel individual, familiar y comunitario como el hacinamiento o acceso a agua. Finalmente, el instrumento debe incluir el Plan de Atención Interdisciplinario inicial, firmado por el funcionario responsable de la detección."
+  },
+  {
+    "id": "abierta_062",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo los determinantes sociales de la salud (agua, vivienda, violencia) afectan la priorización de un caso en la sesión interdisciplinaria.",
+    "ground_truth": "Los determinantes sociales actúan como factores multiplicadores del riesgo que obligan al equipo a elevar la prioridad de atención de un caso, incluso si la malnutrición biológica es leve. La falta de agua potable o una vivienda con inadecuada disposición de excretas aumentan la probabilidad de enfermedades infecciosas que impiden la ganancia de peso del niño. Asimismo, la presencia de violencia intrafamiliar o consumo de drogas en el hogar se consideran riesgos psicosociales críticos que colocan al menor en Grupos de Riesgo Prioridad 1. Durante la sesión, el equipo interdisciplinario analiza estos factores para decidir la frecuencia de los seguimientos y la necesidad de referencias intersectoriales a instituciones como el PANI o el IMAS. La priorización basada en determinantes asegura que la intervención institucional ataque las causas raíz de la malnutrición y no solo sus síntomas."
+  },
+  {
+    "id": "abierta_063",
+    "categoria": "abierta",
+    "pregunta": "Explique la periodicidad de los tamizajes de agudeza visual y auditiva en el marco del primer trimestre del año.",
+    "ground_truth": "Según el procedimiento de vigilancia 2021, los tamizajes de agudeza visual y auditiva deben realizarse de forma anual para todos los niños y niñas mayores de tres años. Aunque la norma general pide realizarlos al menos una vez al año, la planificación institucional suele priorizar la ejecución masiva de estas pruebas durante el primer trimestre para detectar problemas sensoriales tempranamente al inicio del ciclo educativo. En el caso de los servicios intramuros como API, estas evaluaciones se integran en el cronograma trimestral de vigilancia de salud. Los resultados obtenidos se registran en el expediente respectivo y orientan la referencia inmediata al EBAIS si se detectan hallazgos dudosos o deficientes. Esta periodicidad asegura que el déficit sensorial no se convierta en una barrera para el aprendizaje y desarrollo integral del menor durante el año."
+  },
+  {
+    "id": "abierta_064",
+    "categoria": "abierta",
+    "pregunta": "Describa el procedimiento de \"Auto evaluación y supervisión del cumplimiento\" que deben realizar las oficinas locales.",
+    "ground_truth": "El procedimiento se basa en el uso del Formulario para la Auto Evaluación y Supervisión (FAES), el cual permite monitorear el apego a las normas técnicas de vigilancia. Las Oficinas Locales deben aplicar esta herramienta de forma cuatrimestral (abril, agosto y diciembre) para evaluar la calidad del llenado de expedientes y la toma de medidas antropométricas. El personal profesional revisa una muestra representativa de casos para verificar que los tamizajes se realicen oportunamente y que las referencias al equipo interdisciplinario se completen en el plazo normado. Si se detectan brechas o incumplimientos, la jefatura debe anotar las observaciones y diseñar planes de mejora inmediata con el personal operativo. Este proceso de supervisión capacitante garantiza la estandarización y calidad del servicio brindado en todos los establecimientos del país."
+  },
+  {
+    "id": "abierta_065",
+    "categoria": "abierta",
+    "pregunta": "Analice la importancia del \"Test de detección de dificultades de lenguaje\" y en qué casos de rezago en EDIN II debe ser aplicado.",
+    "ground_truth": "Este test es una herramienta de segundo nivel que permite profundizar en la valoración de las habilidades fonéticas y comunicativas cuando se sospechan alteraciones específicas. Es fundamental para diferenciar un retraso madurativo general de un trastorno del lenguaje que requiera terapia especializada. Su aplicación es obligatoria en casos donde la prueba EDIN II arroje un resultado de rezago (amarillo) o riesgo (rojo) específicamente en el área de Lenguaje, tras haber agotado un plan de estimulación previo de tres meses sin mejoría. El resultado de este test permite que el Terapeuta de Lenguaje del equipo interdisciplinario defina estrategias de abordaje clínico o coordine la referencia a servicios de salud externos. Así, este instrumento asegura que las dificultades de comunicación sean atendidas de forma oportuna para evitar impactos en la escolaridad futura."
+  },
+  {
+    "id": "abierta_066",
+    "categoria": "abierta",
+    "pregunta": "Explique la diferencia técnica entre \"Medición acostado\" y \"Medición de pie\" y cómo afecta el cálculo en el software Anthro.",
+    "ground_truth": "La diferencia técnica radica en la posición biológica del cuerpo y su impacto en la longitud ósea; por estándar, en menores de 2 años se mide la longitud (acostado) y en mayores de 2 años la estatura (de pie). El software Anthro de la OMS requiere que el personal especifique la posición en la que se tomó la medida para aplicar una corrección automática de 0.7 cm. Si un niño mayor de 2 años se mide acostado, el software restará 0.7 cm al dato ingresado para estandarizarlo a estatura. Por el contrario, si un menor de 2 años se mide de pie, el programa sumará 0.7 cm para obtener su longitud real estimada. Registrar incorrectamente la posición en la herramienta digital genera un error sistemático en el cálculo del puntaje Z que puede alterar la clasificación final del estado nutricional."
+  },
+  {
+    "id": "abierta_067",
+    "categoria": "abierta",
+    "pregunta": "Describa los objetivos del servicio de \"Atención y Protección Infantil\" (API) según las normas sustantivas.",
+    "ground_truth": "El servicio de API tiene como objetivo primordial brindar atención integral y protección cotidiana a niñas y niños mientras sus padres trabajan o estudian. Busca promover el crecimiento y desarrollo óptimo mediante actividades educativas estructuradas y el suministro de alimentación complementaria de alta calidad. Entre sus fines específicos destaca la vigilancia sistemática de la salud, incluyendo tamizajes antropométricos, auditivos, visuales y bucales de forma frecuente. Además, este servicio intramuros permite la detección temprana de riesgos psicosociales o rezagos en el desarrollo para su abordaje inmediato por el equipo interdisciplinario. En síntesis, la modalidad API integra nutrición, educación y salud en un entorno seguro que garantiza el ejercicio de los derechos de la niñez atendida."
+  },
+  {
+    "id": "abierta_068",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo se seleccionan los materiales de apoyo según la prioridad del caso de malnutrición.",
+    "ground_truth": "La selección de materiales está condicionada por el Plan de Atención Interdisciplinario y el nivel de prioridad asignado al caso. Para los casos de Prioridad 1 y 2 (Grupos A, B, D y G), que presentan malnutrición severa o riesgo de retraso, se asignan kits completos de estimulación infantil y modelos de réplicas de alimentos para educación intensiva en el hogar. Estos beneficiarios reciben rotafolios educativos específicos y guías de planes de estimulación personalizados que el profesional utiliza durante las visitas domiciliarias o sesiones de apoyo. En contraste, para casos de menor riesgo o con desarrollo normal (Verde), se utilizan principalmente materiales impresos informativos y recomendaciones generales de promoción de la salud. Esta distribución diferenciada asegura que los recursos más especializados se focalicen en revertir las condiciones de mayor vulnerabilidad biológica y social."
+  },
+  {
+    "id": "abierta_069",
+    "categoria": "abierta",
+    "pregunta": "Explique la función de la \"Bitácora de sesión de trabajo\" en el monitoreo regional del cumplimiento del procedimiento.",
+    "ground_truth": "La bitácora de sesión de trabajo sirve como el registro oficial y legal de todos los acuerdos, análisis y decisiones tomadas por el equipo interdisciplinario durante sus reuniones mensuales. Su función primordial en el monitoreo es evidenciar la trazabilidad del seguimiento de cada niño, permitiendo que la Jefatura de Área Técnica Regional verifique que se estén aplicando las estrategias normadas. Al reflejar los casos analizados, las priorizaciones realizadas y los egresos otorgados, funciona como un insumo crítico para la elaboración del informe anual de malnutrición. Además, la bitácora permite detectar necesidades de asesoría técnica o recursos adicionales al mostrar patrones regionales de incumplimiento o dificultades operativas en las oficinas locales. Es, por lo tanto, una herramienta de control interno y transparencia administrativa que garantiza la calidad del proceso de atención."
+  },
+  {
+    "id": "abierta_070",
+    "categoria": "abierta",
+    "pregunta": "Describa los criterios para el ingreso de un niño al servicio de Distribución de Alimentos a Familias (DAF).",
+    "ground_truth": "El ingreso al servicio DAF se basa primordialmente en la detección de una condición de malnutrición severa o moderada (desnutrición o baja talla) mediante tamizaje antropométrico. Además de los criterios biológicos, se evalúa que el núcleo familiar se encuentre en condición de pobreza o pobreza extrema, validado a través de estudios socioeconómicos institucionales. También pueden ingresar menores que presenten un riesgo social significativo, como negligencia o inseguridad alimentaria crítica en el hogar, previo análisis del equipo interdisciplinario. Un criterio adicional es la permanencia del menor en programas de vigilancia activa, comprometiéndose la familia a asistir a los controles de crecimiento y desarrollo normados. El cumplimiento de estos criterios permite que la Oficina Local autorice la entrega periódica de paquetes de alimentos fortificados para mejorar la ingesta nutricional del grupo familiar."
+  },
+  {
+    "id": "abierta_071",
+    "categoria": "abierta",
+    "pregunta": "Analice por qué es fundamental que la herramienta de seguimiento funcione en Excel 2010 o superior para el análisis regional.",
+    "ground_truth": "Es fundamental porque las versiones de Excel 2010 en adelante poseen la capacidad técnica para manejar tablas de datos extensas y aplicar macros complejas necesarias para el cálculo automático de los puntajes Z. Estas versiones permiten el uso de filtros avanzados y validaciones de datos que aseguran la consistencia de la información antes de ser consolidada a nivel regional. La compatibilidad del formato es crucial para que las Direcciones Regionales puedan integrar los archivos de múltiples Oficinas Locales en un solo cuadro resumen sin pérdida de integridad técnica. Además, estas herramientas digitales facilitan la generación automática de gráficos de tendencia y reportes de \"Datos Básicos\" indispensables para la vigilancia epidemiológica nacional. El uso de versiones obsoletas impediría el análisis estadístico oportuno y aumentaría el riesgo de errores en la captura de información sensible de salud."
+  },
+  {
+    "id": "abierta_072",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo se clasifican los resultados de la Lista de Cotejo de Patrones de Hábitos de Salud (Cumple / No Cumple).",
+    "ground_truth": "La clasificación se realiza mediante la observación directa o la entrevista a la persona cuidadora, evaluando conductas cotidianas relacionadas con la alimentación, higiene y descanso. Se clasifica como \"Cumple\" cuando el niño o niña ejecuta de forma sistemática el comportamiento saludable esperado para su etapa de desarrollo, como el lavado de manos o el consumo de agua. Por el contrario, se marca como \"No Cumple\" cuando la conducta está ausente o se realiza de forma incorrecta, lo que se interpreta como un factor de riesgo para la salud integral. Los resultados de esta lista de cotejo se registran obligatoriamente cada vez que se aplica la prueba EDIN II en menores de 6 años. Esta información cualitativa complementa la valoración biológica y permite que el equipo interdisciplinario diseñe estrategias educativas específicas para corregir hábitos inadecuados en el hogar."
+  },
+  {
+    "id": "abierta_073",
+    "categoria": "abierta",
+    "pregunta": "Describa las tareas del profesional en Nutrición de la Oficina Local en el acompañamiento técnico del personal ASSC.",
+    "ground_truth": "El nutricionista de la Oficina Local tiene la tarea primordial de brindar modelaje y asesoría en sitio al personal ASSC para asegurar la técnica correcta en la toma de peso y talla. Supervisa periódicamente que los equipos antropométricos estén debidamente calibrados y en condiciones óptimas para el uso diario. Asimismo, acompaña en la interpretación de las gráficas de crecimiento para evitar errores en el ploteo de puntos y en la identificación de tendencias negativas. El profesional también capacita al personal asistente en el manejo del software Anthro para la verificación de casos complejos y en el llenado correcto de los instrumentos de detección inicial. Estas tareas de acompañamiento técnico garantizan que la vigilancia nutricional en los establecimientos mantenga los estándares de calidad exigidos por la Dirección Nacional."
+  },
+  {
+    "id": "abierta_074",
+    "categoria": "abierta",
+    "pregunta": "Analice la composición del equipo técnico responsable de elaborar las normas sustantivas de 2021.",
+    "ground_truth": "Las normas sustantivas de 2021 fueron elaboradas por un equipo técnico interdisciplinario adscrito a la Dirección Técnica de CEN-CINAI. Este equipo contó con la participación directa de profesionales de la Unidad de Normalización y Asistencia Técnica (UNAT) y de la Unidad de Investigación y Vigilancia del Crecimiento y Desarrollo (UIVCD). Entre los responsables técnicos identificados se encuentran María Eugenia Villalobos Hernández, Ana Zelmira Arias y otros especialistas encargados de operativizar los servicios institucionales. El documento final recibió la revisión estratégica de la Unidad de Planificación Institucional y el aval superior de la Directora Técnica, Xiomara Molina Retana. Esta composición asegura que la normativa integre tanto la visión operativa como la investigativa, garantizando un enfoque integral en la atención de la niñez costarricense."
+  },
+  {
+    "id": "abierta_075",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo se reportan los avances de la intervención interdisciplinaria en el apartado de \"Observaciones\" de la herramienta digital.",
+    "ground_truth": "Los avances se reportan de forma cualitativa, describiendo los cambios significativos observados en el niño o en su entorno tras la aplicación de las estrategias del plan. En este apartado se anota la evolución del estado nutricional, destacando si hay una mejora en la tendencia de peso o si persisten barreras biológicas. También se registra el progreso en el desarrollo integral, detallando si el menor ha superado rezagos específicos o si se mantiene su condición de riesgo. Es fundamental incluir información sobre el compromiso de la familia, anotando si han asistido a las sesiones de apoyo o si han implementado las recomendaciones de estimulación en el hogar. Finalmente, las observaciones sirven para justificar cambios en el Plan de Atención o para documentar los motivos técnicos de un egreso satisfactorio del sistema de seguimiento."
+  },
+  {
+    "id": "abierta_076",
+    "categoria": "abierta",
+    "pregunta": "Describa el uso de la \"Dona\" y el \"Sonajero\" en la evaluación de la motora fina en lactantes.",
+    "ground_truth": "Estos materiales estandarizados son fundamentales en la aplicación de la prueba EDIN II para evaluar la coordinación óculo-manual y el agarre en los primeros meses de vida. El sonajero se utiliza para observar si el lactante dirige su mano hacia un objeto sonoro, demostrando intención y control motor; mientras que la dona bicolor (negra con blanco) sirve para evaluar el tipo de prensión, ya sea palmar o de pinza fina, según la edad. El evaluador debe presentar los objetos a una distancia específica para provocar la respuesta motora y registrar si el niño logra alcanzar, sostener o transferir el objeto de una mano a otra. Estos estímulos sensoriales permiten detectar rezagos tempranos en la maduración del sistema nervioso central vinculados a la motora fina."
+  },
+  {
+    "id": "abierta_077",
+    "categoria": "abierta",
+    "pregunta": "Analice por qué el procedimiento prohíbe devolver instrumentos con errores de fondo a los establecimientos.",
+    "ground_truth": "Esta prohibición se fundamenta en el principio de continuidad y oportunidad de la atención para niños con malnutrición biológica o riesgo social. Si se devolvieran los instrumentos físicos de detección (como el Anexo 5 o la boleta VE01) ante errores administrativos o técnicos, se detendría el flujo de intervención interdisciplinaria, poniendo en riesgo la salud del menor. En su lugar, el procedimiento exige que el profesional de la Oficina Local o el equipo regional asuman la corrección del dato mediante la comunicación directa con el establecimiento o la verificación en el software Anthro. El objetivo es asegurar que el seguimiento inicie de inmediato, priorizando la recuperación nutricional sobre los trámites burocráticos internos."
+  },
+  {
+    "id": "abierta_078",
+    "categoria": "abierta",
+    "pregunta": "Explique la importancia de la actualización constante de la normativa institucional ante cambios en las pruebas de desarrollo (como el paso de EDIN a EDIN II).",
+    "ground_truth": "La actualización normativa, liderada por la UIVCD, garantiza que la vigilancia institucional se base en la evidencia científica más reciente y en instrumentos validados por la academia, como el paso a la escala EDIN II validada por la UCR. Mantener los manuales operativos al día permite unificar las técnicas de medición a nivel nacional, reduciendo los sesgos en la detección de rezagos. Esto es crítico para el SISVENDIS 2023, ya que herramientas más sensibles permiten capturar hitos del desarrollo de forma precisa, orientando mejor la asignación de recursos y estrategias de estimulación. Una normativa desactualizada comprometería la calidad del dato y, por ende, la efectividad de las políticas públicas dirigidas a la primera infancia."
+  },
+  {
+    "id": "abierta_079",
+    "categoria": "abierta",
+    "pregunta": "Describa los indicadores de riesgo que el profesional debe marcar con una \"X\" en el plan de atención interdisciplinario.",
+    "ground_truth": "El profesional debe identificar y marcar factores críticos divididos en tres niveles: individual, familiar y comunitario. A nivel individual, se incluyen antecedentes como bajo peso al nacer o esquema de vacunas incompleto. En el ámbito familiar, se marcan situaciones de hacinamiento, inadecuada disposición de basura, violencia intrafamiliar o consumo de drogas. Finalmente, en lo comunitario, se consideran riesgos de desastre o falta de acceso a agua apta para consumo humano. Esta marcación con una \"X\" permite que el equipo interdisciplinario visualice rápidamente los determinantes sociales que están afectando el crecimiento del niño y diseñe estrategias de mitigación en el Plan de Atención."
+  },
+  {
+    "id": "abierta_080",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo el SISVENDIS contribuye al cumplimiento de los Objetivos de Desarrollo Sostenible (ODS) relacionados con el maltrato infantil.",
+    "ground_truth": "El modelo operativo SISVENDIS 2023 integra variables de vigilancia que responden directamente a las metas de bienestar infantil de los ODS 2030. Al monitorear signos de alerta biopsicosociales, como la violencia intrafamiliar y la negligencia en el cuido, la institución actúa como un mecanismo de detección temprana de maltrato. El sistema facilita la referencia inmediata a instancias legales como el PANI o el Ministerio Público, cumpliendo con la protección de la niñez contra todas las formas de violencia. Además, la sistematización de estos datos a nivel nacional permite a CEN-CINAI reportar avances país en la reducción de brechas de desigualdad y protección de poblaciones vulnerables."
+  },
+  {
+    "id": "abierta_081",
+    "categoria": "abierta",
+    "pregunta": "Explique cómo se diferencian operativamente los conceptos de \"pobreza básica\" y \"pobreza extrema\" dentro del proceso de selección de beneficiarios y qué importancia tiene esta distinción para la equidad en el acceso a los servicios.",
+    "ground_truth": "Operativamente, CEN-CINAI utiliza herramientas como el CAF y la boleta de Caracterización del Ambiente Hogar (CAH) para calcular el ingreso per cápita y el índice de carencias del hogar. La pobreza extrema se identifica cuando el ingreso no alcanza para cubrir la canasta básica alimentaria, mientras que la pobreza básica cubre alimentación pero no otras necesidades esenciales. Esta distinción permite priorizar el ingreso a servicios intensivos como API o Comidas Servidas a los niños en extrema precariedad, asegurando que los recursos limitados se asignen con equidad. Al diferenciar estos niveles, la institución garantiza que la malnutrición sea abordada con mayor urgencia donde la carencia biológica y económica es total."
+  },
+  {
+    "id": "abierta_082",
+    "categoria": "abierta",
+    "pregunta": "Analice la importancia estratégica de los \"primeros mil días de vida\" dentro de la ventana de oportunidad de CEN-CINAI y cómo este enfoque condiciona la periodicidad de los tamizajes nutricionales.",
+    "ground_truth": "Este enfoque reconoce que el periodo desde la gestación hasta los dos años es crítico para el desarrollo cerebral y el crecimiento lineal irreversible. CEN-CINAI prioriza estratégicamente esta ventana mediante una vigilancia más frecuente de las mujeres embarazadas y los lactantes, utilizando tamizajes de peso y talla para detectar estancamientos de forma inmediata. Para este grupo etario, la periodicidad de los controles es mayor que en niños escolares, debido a la plasticidad biológica y la alta demanda de nutrientes. Esta intervención oportuna busca prevenir el retardo en talla y las deficiencias cognitivas que impactarían la calidad de vida futura del individuo y su productividad nacional."
+  },
+  {
+    "id": "abierta_083",
+    "categoria": "abierta",
+    "pregunta": "Describa el protocolo ético y legal que debe seguir el personal institucional para garantizar la confidencialidad de los expedientes, citando la legislación nacional específica que rige el tratamiento de datos personales en salud.",
+    "ground_truth": "El personal debe resguardar físicamente los expedientes en archivos bajo llave en las Oficinas Locales, asegurando que el foliado se mantenga íntegro para evitar la pérdida de documentos. Legalmente, este manejo se rige por la Ley No. 8968 (Protección de la Persona frente al Tratamiento de sus Datos Personales) y el Reglamento de Vigilancia de la Salud. El protocolo prohíbe compartir información sensible con terceros sin autorización legal, permitiendo el acceso únicamente al equipo interdisciplinario para fines de atención integral. Incluso en herramientas digitales, se utilizan filtros de seguridad y el registro de casos como \"indocumentado\" para proteger la identidad del menor sin privarle del derecho a la salud."
+  },
+  {
+    "id": "abierta_084",
+    "categoria": "abierta",
+    "pregunta": "Compare las definiciones de \"Asesoría Técnica\" y \"Asistencia Técnica\" según el modelo operativo SISVENDIS, explicando cómo cada una apoya el fortalecimiento de capacidades en el nivel local.",
+    "ground_truth": "La Asistencia Técnica se define como un proceso continuo y participativo de acompañamiento y modelaje directo al personal que ejecuta los tamizajes en los establecimientos para asegurar la calidad del dato. Por otro lado, la Asesoría Técnica tiene un carácter más consultivo y gerencial, enfocándose en la resolución de problemas específicos de implementación o interpretación de normas que surgen en el nivel local. Mientras la asistencia fortalece las destrezas operativas diarias del ASSC3/2, la asesoría apoya al equipo interdisciplinario en la toma de decisiones estratégicas basadas en los informes regionales. Ambas funciones son esenciales para mantener la estandarización técnica exigida por la Dirección Nacional."
+  },
+  {
+    "id": "abierta_085",
+    "categoria": "abierta",
+    "pregunta": "Explique detalladamente el proceso de transición en la vigilancia del desarrollo cuando un niño o niña cumple los 6 años, especificando el cambio de instrumentos de evaluación y la coordinación con el sistema escolar.",
+    "ground_truth": "Al cumplir los 6 años, el menor egresa del rango de aplicación de la prueba EDIN II y realiza la transición a la prueba EVADE, diseñada específicamente para la población escolar de 6 a 14 años. En este proceso, el equipo interdisciplinario debe analizar el historial del niño para comunicar cualquier rezago persistente a los padres, facilitando la coordinación con el Ministerio de Educación Pública (MEP) para el apoyo educativo. El expediente cambia su estructura para registrar indicadores propios de la edad escolar, como el IMC en lugar de Peso/Talla. Esta transición asegura que la vigilancia del desarrollo integral no se detenga al iniciar la escolaridad formal, permitiendo una detección continua de barreras de aprendizaje."
+  },
+  {
+    "id": "abierta_086",
+    "categoria": "abierta",
+    "pregunta": "Analice el rol del \"Comité de CEN-CINAI\" en la selección de usuarios y cómo este órgano actúa como un mecanismo de participación social para validar las necesidades de la comunidad.",
+    "ground_truth": "El Comité de CEN-CINAI actúa como el enlace vital entre la institución y la comunidad, participando activamente en la validación de las familias candidatas para los servicios. Su rol es actitudinal y de apoyo en el proceso de selección, aportando conocimientos sobre la realidad local que las herramientas técnicas podrían omitir, como riesgos sociales específicos del entorno. Este órgano garantiza la transparencia en la asignación de cupos al actuar como un observador social que certifica que los servicios lleguen a quienes realmente se encuentran en pobreza o vulnerabilidad. Su participación fortalece la gobernanza democrática y el empoderamiento comunitario en la gestión de la salud pública local."
+  },
+  {
+    "id": "abierta_087",
+    "categoria": "abierta",
+    "pregunta": "Describa el procedimiento técnico de corrección de datos que debe realizar el equipo interdisciplinario cuando la herramienta de Excel arroja errores de cálculo tipo \"¡VALOR!\" o \"REFF!\".",
+    "ground_truth": "Ante la aparición de estos errores, el equipo debe aplicar una guía de revisión de calidad para identificar la entrada de datos que invalida las fórmulas de Excel. El primer paso es verificar que las fechas de evaluación tengan el formato dd/mm/aaaa y que las edades coincidan cronológicamente con la fecha de nacimiento. Seguidamente, se debe revisar si se ingresaron caracteres no numéricos en campos de peso o talla, o si existen celdas vacías en columnas obligatorias para el cálculo de puntajes Z. Una vez localizado el error, el dato debe corregirse en la herramienta digital y marcarse la casilla de \"digitado\" en el expediente físico para asegurar que la información consolidada sea íntegra y veraz."
+  },
+  {
+    "id": "abierta_088",
+    "categoria": "abierta",
+    "pregunta": "Explique la utilidad del software Anthro de la OMS como herramienta de validación técnica en el proceso de detección y qué patrón de referencia (año de publicación) es el estándar oficial para la institución.",
+    "ground_truth": "El software Anthro de la OMS es la herramienta de referencia obligatoria para que el profesional en Nutrición verifique la precisión de las clasificaciones antropométricas realizadas manualmente. Su utilidad radica en la capacidad de calcular con exactitud los puntajes Z (desviaciones estándar) basándose en el estándar oficial de la institución: el Patrón de Crecimiento OMS 2006. Anthro permite cruzar variables como peso, talla, edad y sexo, corrigiendo automáticamente por la posición de medición (acostado/pie) para evitar diagnósticos erróneos de malnutrición. Esta validación técnica asegura que las decisiones del equipo interdisciplinario y las referencias externas se sustenten en datos robustos y estandarizados internacionalmente."
+  },
+  {
+    "id": "abierta_089",
+    "categoria": "abierta",
+    "pregunta": "Compare las metas de la norma PCD-GF-N-01 (Educación al Grupo Familiar) con los objetivos de las \"sesiones de apoyo\" en el abordaje integral de casos de malnutrición severa.",
+    "ground_truth": "La norma PCD-GF-N-01 tiene una meta preventiva y general, buscando proveer aprendizaje a todas las familias atendidas para fortalecer competencias parentales y vínculos afectivos sanos. En contraste, las sesiones de apoyo son una estrategia de abordaje intensivo y específica para casos ya detectados con malnutrición severa o persistente. Mientras la educación al grupo familiar es transversal a todos los servicios, las sesiones de apoyo reúnen al equipo interdisciplinario con la familia del caso de alta prioridad para analizar barreras biológicas y sociales críticas. Ambas buscan el empoderamiento familiar, pero las sesiones de apoyo funcionan como un tratamiento especializado para revertir condiciones de riesgo inminente."
+  },
+  {
+    "id": "abierta_090",
+    "categoria": "abierta",
+    "pregunta": "Analice cómo el modelo SISVENDIS 2023 integra la vigilancia de la \"diversidad alimentaria mínima\" como un determinante crítico que complementa la valoración antropométrica tradicional.",
+    "ground_truth": "El SISVENDIS 2023 trasciende la medición del peso y talla al incluir la consulta sobre diversidad alimentaria como un tamizaje regular registrado en el expediente. Esta variable evalúa si el niño consume alimentos de al menos cuatro grupos distintos en las últimas 24 horas, permitiendo detectar carencias de micronutrientes incluso si el peso es aparentemente normal. Al integrar este dato en la herramienta de vigilancia, la institución puede identificar hogares con inseguridad alimentaria cualitativa de forma temprana. Este complemento es vital para las \"acciones de doble propósito\", ya que permite orientar la educación nutricional hacia la calidad de la dieta, previniendo tanto la desnutrición oculta como la obesidad."
+  },
+  {
+    "id": "abierta_091",
+    "categoria": "abierta",
+    "pregunta": "Explique el manejo administrativo y técnico de un niño con estatus migratorio \"indocumentado\" dentro del sistema de vigilancia, detallando cómo se registra su información sin vulnerar su derecho a la atención.",
+    "ground_truth": "CEN-CINAI garantiza la atención integral de toda persona menor de edad independientemente de su condición migratoria, fundamentado en el enfoque de derechos de la niñez. Administrativamente, la herramienta digital permite ingresar la palabra \"indocumentado\" o códigos alfanuméricos provisionales en el campo de identificación para no bloquear el proceso de ingreso. Técnicamente, el niño recibe todos los tamizajes de crecimiento, desarrollo y salud bajo el mismo protocolo que un beneficiario con documentos nacionales. Esta práctica asegura que la vigilancia epidemiológica institucional sea inclusiva y que el menor reciba los servicios de nutrición y protección necesarios mientras se regulariza su situación jurídica en el país."
+  },
+  {
+    "id": "abierta_092",
+    "categoria": "abierta",
+    "pregunta": "Describa la evolución histórica de los informes de \"Datos Básicos\" desde el año 2002 hasta la actualidad, destacando el cambio del procesamiento manual a la digitalización en Excel por niveles.",
+    "ground_truth": "Históricamente, los informes de \"Datos Básicos\" iniciaron como resúmenes manuales de tamizajes que se enviaban físicamente para su consolidación nacional, lo que generaba retrasos importantes en el análisis. A partir de la implementación de modelos como SISVENDI y el actual SISVENDIS 2023, el proceso se ha digitalizado mediante herramientas Excel estandarizadas en las Oficinas Locales. Esto permite que la información de cada niño se digite localmente y fluya electrónicamente hacia los niveles regionales para la generación de informes automáticos de ejecución programática. Esta evolución ha mejorado drásticamente la oportunidad y calidad del dato, permitiendo a los tomadores de decisión contar con infografías de tendencias nacionales en tiempo real."
+  },
+  {
+    "id": "abierta_093",
+    "categoria": "abierta",
+    "pregunta": "Analice la relación jerárquica entre el Diagnóstico de Establecimiento (DISSEN) y el Análisis de Situación (ASSISEN), explicando cómo la información local se transforma en insumo para la toma de decisiones nacional.",
+    "ground_truth": "El DISSEN funciona como la base de la pirámide informativa, recolectando variables socioeconómicas, de salud y nutrición de los niños en cada establecimiento específico. Estos diagnósticos locales son procesados y armonizados regionalmente para elaborar el ASSISEN Regional, el cual identifica tendencias y problemáticas epidemiológicas de un área geográfica mayor. Finalmente, los ASSISEN de todas las regiones se consolidan en el Análisis de Situación Nacional a cargo de la UIVCD. Esta estructura permite que una necesidad detectada en un CEN-CINAI rural se transforme en un insumo estadístico que justifica la creación de nuevas normas técnicas o la reasignación de presupuestos a nivel nacional."
+  },
+  {
+    "id": "abierta_094",
+    "categoria": "abierta",
+    "pregunta": "Explique el concepto de \"acciones de doble propósito\" en el abordaje de la malnutrición y cómo estas buscan reducir simultáneamente el riesgo de deficiencias nutricionales y el exceso de peso (obesidad).",
+    "ground_truth": "Las acciones de doble propósito son intervenciones diseñadas para impactar de forma positiva en los dos extremos de la malnutrición a través de una misma estrategia. Por ejemplo, la promoción de la lactancia materna exclusiva protege al lactante contra la desnutrición aguda y, simultáneamente, reduce el riesgo de obesidad futura. Otro ejemplo es el suministro de alimentos fortificados de alta calidad nutricional que sustituyen el consumo de productos ultraprocesados en el hogar. Este enfoque es central en el SISVENDIS 2023, ya que permite al equipo interdisciplinario optimizar sus planes de atención para lograr una composición corporal saludable en toda la población atendida."
+  },
+  {
+    "id": "abierta_095",
+    "categoria": "abierta",
+    "pregunta": "Describa las responsabilidades específicas de la Jefatura de Área Técnica Regional en la supervisión de la calidad del dato y la elaboración del informe consolidado regional de malnutrición.",
+    "ground_truth": "La Jefatura Regional es el garante técnico de la veracidad de la información generada en su jurisdicción. Entre sus responsabilidades está la aplicación de revisiones de calidad a las herramientas Excel de las Oficinas Locales para corregir errores de fórmula o inconsistencias de edad. Debe consolidar todos los tamizajes nutricionales y del desarrollo para elaborar el informe anual regional, integrando reflexiones analíticas sobre el cumplimiento de metas sustantivas. Además, esta jefatura coordina las acciones de asesoría técnica y capacitación para el personal operativo, asegurando que las Oficinas Locales apliquen correctamente los protocolos de egreso y seguimiento interdisciplinario definidos por el nivel central."
+  },
+  {
+    "id": "abierta_096",
+    "categoria": "abierta",
+    "pregunta": "Analice el impacto de la lactancia materna exclusiva frente al destete antes de los 12 meses en la clasificación del riesgo individual de un niño dentro del instrumento de detección inicial.",
+    "ground_truth": "El instrumento de detección clasifica la lactancia materna exclusiva como un factor protector fundamental, cuyo tiempo de duración debe registrarse en meses para interpretar la historia nutricional del menor. Por el contrario, el destete antes de los 12 meses se cataloga como un indicador de riesgo individual crítico que el personal debe marcar con una \"X\" en el expediente. Este dato impacta la clasificación de los grupos de riesgo, ya que una práctica de lactancia limitada se asocia técnicamente con la aparición de baja talla y desnutrición crónica. Al integrar esta información, el equipo interdisciplinario puede elevar la prioridad del caso, entendiendo que el entorno biológico inicial del niño presenta una vulnerabilidad que requiere estrategias de educación alimentaria reforzadas para la familia."
+  },
+  {
+    "id": "abierta_097",
+    "categoria": "abierta",
+    "pregunta": "Explique el flujo de coordinación técnica necesario para referir a un niño con \"rezago en comunicación y lenguaje\" a especialistas externos, tras agotar las estrategias de estimulación del personal docente.",
+    "ground_truth": "El flujo inicia con la aplicación de un plan de estimulación por parte del docente tras detectar un rezago (amarillo) en el área de lenguaje del EDIN II. Si después de tres meses la condición persiste, el personal del establecimiento debe aplicar el Test de Lenguaje específico para profundizar en la valoración fonética. Ante un resultado desfavorable, se realiza la referencia formal al equipo interdisciplinario de la Oficina Local, donde el Terapeuta de Lenguaje asume la conducción técnica del caso. Finalmente, si el equipo determina que la patología trasciende el ámbito educativo-preventivo, gestiona la referencia intersectorial hacia los servicios de salud de la CCSS (EBAIS) para atención clínica especializada. Este proceso asegura una trazabilidad del seguimiento desde la detección local hasta la atención experta."
+  },
+  {
+    "id": "abierta_098",
+    "categoria": "abierta",
+    "pregunta": "Describa el uso de las infografías de vigilancia como herramientas de gestión y qué tipo de datos clave deben visualizarse para que las Jefaturas de Oficina Local orienten sus recursos.",
+    "ground_truth": "Las infografías generadas por la UIVCD funcionan como instrumentos de comunicación visual que simplifican el análisis de datos masivos para la toma de decisiones ágiles en cada nivel de gestión. Para las Jefaturas de Oficina Local, estas herramientas deben visualizar datos claves como el perfil socioeconómico de los beneficiarios y la prevalencia regional de malnutrición y rezagos del desarrollo. Al observar estas tendencias geográficas y demográficas, las jefaturas pueden orientar sus recursos hacia los distritos con mayor vulnerabilidad, priorizando el acompañamiento técnico del equipo itinerante en esos establecimientos. Además, facilitan el monitoreo del cumplimiento de metas institucionales, permitiendo que la gestión local pase de un enfoque puramente administrativo a uno basado en la evidencia epidemiológica del SISVENDIS."
+  },
+  {
+    "id": "abierta_099",
+    "categoria": "abierta",
+    "pregunta": "Analice la relevancia de la validación de la prueba EDIN II por la Escuela de Enfermería de la UCR y cómo esta alianza académica fortalece la validez científica de la vigilancia del desarrollo en el país.",
+    "ground_truth": "La validación de la prueba EDIN II por parte de la Escuela de Enfermería de la Universidad de Costa Rica otorga un respaldo científico y académico de alto nivel a los procesos de tamizaje institucional. Esta alianza permite que el sistema de vigilancia se fundamente en instrumentos normalizados y actualizados según la realidad biológica y social de la niñez costarricense. Científicamente, el cambio de la escala simplificada al modelo de semáforo por cada hito del desarrollo fortalece la sensibilidad para detectar riesgos tempranos de forma más precisa. Para el SISVENDIS 2023, esto se traduce en una mayor confiabilidad de los datos nacionales, asegurando que las políticas públicas de CEN-CINAI y las evaluaciones de efectos de país se sustenten en una base de evidencia robusta y validada por expertos universitarios."
+  },
+  {
+    "id": "abierta_100",
+    "categoria": "abierta",
+    "pregunta": "Explique técnica y administrativamente el concepto de \"Año de Protección\" para niños en servicio DAF, detallando los criterios que el equipo interdisciplinario debe verificar para otorgar el egreso satisfactorio.",
+    "ground_truth": "El \"Año de Protección\" es un periodo técnico de 12 meses de seguimiento obligatorio para niños en el servicio DAF que ya han alcanzado la recuperación nutricional normal. Administrativamente, estos menores se clasifican como Prioridad 4 (Grupo J), manteniendo el beneficio alimentario para evitar recaídas y consolidar su estado de salud. Para otorgar el egreso satisfactorio, el equipo interdisciplinario debe verificar en sesión de trabajo que el niño ha mantenido su estado nutricional normal en todos los indicadores antropométricos durante dicho año. Asimismo, es indispensable comprobar que se han superado satisfactoriamente los rezagos previos en el desarrollo o comunicación, asegurando una evolución integral estable. El proceso culmina con el registro oficial de la condición de egreso en la herramienta Excel y el cierre del expediente de seguimiento interdisciplinario."
+  }
+]
