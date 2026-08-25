@@ -8,9 +8,10 @@ Uso (desde experiments/):
     python src/pipeline.py qwen2.5-32b
 
 Formato esperado de benchmark_300.json: una lista de objetos con al menos
-las claves "numero", "categoria", "pregunta", "respuesta" (el ground
-truth). Si el archivo está vacío o no existe, el pipeline falla temprano
-con un mensaje claro en vez de arrancar a cargar el modelo en vano.
+las claves "id", "categoria", "pregunta", "ground_truth" (ver
+scripts/excel_to_json.py, que genera este archivo). Si el archivo está
+vacío o no existe, el pipeline falla temprano con un mensaje claro en vez
+de arrancar a cargar el modelo en vano.
 """
 
 import json
@@ -130,7 +131,7 @@ def load_qa_dataset(path: Path = QA_PATH) -> list[dict]:
     if not data:
         raise ValueError(f"{path} no tiene preguntas (lista vacía).")
 
-    required_keys = {"pregunta", "respuesta"}
+    required_keys = {"pregunta", "ground_truth"}
     missing = required_keys - set(data[0])
     if missing:
         raise ValueError(
@@ -184,10 +185,10 @@ def run_pipeline(model_key: str):
     start = time.time()
 
     for i, item in enumerate(qa_dataset, start=1):
-        pregunta_id = item.get("numero", i)
+        pregunta_id = item.get("id", i)
         categoria = item.get("categoria")
         pregunta = item["pregunta"]
-        ground_truth = item.get("respuesta")
+        ground_truth = item.get("ground_truth")
 
         result = {
             "pregunta_id": pregunta_id,
