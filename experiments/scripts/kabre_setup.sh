@@ -1,5 +1,5 @@
 #!/bin/bash
-# Variables de entorno para correr el benchmark en Kabré (ver CLAUDE.md).
+# Variables de entorno para correr el benchmark en Kabré
 # Correr con `source scripts/kabre_setup.sh` después de `module load mamba/HuggingFace`,
 # dentro de una sesión tmux, antes de lanzar cualquier script de src/.
 

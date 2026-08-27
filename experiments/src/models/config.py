@@ -1,4 +1,4 @@
-"""Configuración de los 3 modelos del benchmark (ver tabla en CLAUDE.md).
+"""Configuración de los 3 modelos del benchmark
 
 Generación determinística (do_sample=False) en los 3 modelos: para un
 benchmark de QA factual necesitamos poder reproducir las respuestas y

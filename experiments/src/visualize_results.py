@@ -2,18 +2,15 @@
 results/metrics/resumen_comparativo.csv: un gráfico de barras agrupadas y
 un gráfico de radar, con el mismo esquema de color modelo->color en ambos
 (para que se puedan mirar juntas en el paper sin confundir qué color es
-qué modelo).
+qué modelo)
 
 METEOR se excluye de las 2 visualizaciones a propósito: ya documentamos en
 evaluation/metrics_open.py que la implementación de nltk usa WordNet +
-PorterStemmer en inglés, sin stemming ni sinónimos reales para español —
+PorterStemmer en inglés, sin stemming ni sinónimos reales para español,
 su validez como métrica semántica acá es limitada, así que no tiene
 sentido darle el mismo peso visual que a sino_accuracy/corta_f1/BERTScore/
 ROUGE-L en una figura pensada para el paper. Sigue disponible en el CSV y
 en el detalle por pregunta, solo no se grafica.
-
-No hardcodea los números de ningún modelo: todo sale de leer el CSV, así
-que corre igual si mañana hay un cuarto modelo o cambian los promedios.
 
 Uso (desde experiments/):
     python src/visualize_results.py
@@ -39,8 +36,14 @@ METRIC_LABELS = {
 
 DPI = 200
 
+# Padding alrededor del rango real de datos para el eje radial del radar
+# (ver plot_radar): "zoom" para que se note la diferencia entre modelos,
+# en vez de usar siempre 0-1 fijo donde valores parecidos (ej. 0.72 vs
+# 0.75) quedan visualmente indistinguibles.
+RADAR_PADDING = 0.05
+
 # Paleta fija (no depende del orden de filas del CSV): así el color de
-# cada modelo queda estable entre corridas y consistente entre las 2 figuras.
+# cada modelo queda estable entre corridas y consistente entre las 2 figuras
 _PALETTE = ["#4C72B0", "#DD8452", "#55A868", "#C44E52", "#8172B2"]
 
 
@@ -96,10 +99,22 @@ def plot_bars(rows: list[dict], colors: dict[str, str], out_path: Path):
     plt.close(fig)
 
 
+def _radar_limits(rows: list[dict], padding: float = RADAR_PADDING) -> tuple[float, float]:
+    """Rango radial ajustado al rango real de los datos (+ padding), en vez
+    de 0-1 fijo. Calculado siempre desde `rows`, nunca hardcodeado, así se
+    ajusta solo si cambian los resultados."""
+    all_values = [row[m] for row in rows for m in METRICS]
+    r_min = max(0.0, min(all_values) - padding)
+    r_max = min(1.0, max(all_values) + padding)
+    return r_min, r_max
+
+
 def plot_radar(rows: list[dict], colors: dict[str, str], out_path: Path):
     n_metrics = len(METRICS)
     angles = [n / n_metrics * 2 * np.pi for n in range(n_metrics)]
     angles += angles[:1]  # cerrar el polígono
+
+    r_min, r_max = _radar_limits(rows)
 
     fig, ax = plt.subplots(figsize=(7, 7), dpi=DPI, subplot_kw={"polar": True})
 
@@ -112,10 +127,22 @@ def plot_radar(rows: list[dict], colors: dict[str, str], out_path: Path):
 
     ax.set_xticks(angles[:-1])
     ax.set_xticklabels([METRIC_LABELS[m] for m in METRICS])
-    ax.set_ylim(0, 1)
-    ax.set_yticks([0.2, 0.4, 0.6, 0.8, 1.0])
+    ax.set_ylim(r_min, r_max)
+    ax.set_yticks(np.linspace(r_min, r_max, 5))
+    ax.set_yticklabels([f"{t:.2f}" for t in np.linspace(r_min, r_max, 5)])
     ax.set_title("Comparación de modelos por métrica (radar)", pad=30)
     ax.legend(title="Modelo", loc="upper right", bbox_to_anchor=(1.35, 1.1))
+
+    # El eje radial NO arranca en 0 (queda claro en las etiquetas de arriba,
+    # pero se aclara también en texto para que no se lea como engañoso en
+    # el paper): es un zoom deliberado al rango real de los datos, para que
+    # se note la diferencia entre modelos.
+    fig.text(
+        0.5, 0.02,
+        f"Eje radial de {r_min:.2f} a {r_max:.2f} (no arranca en 0) — ajustado al "
+        f"rango real de los datos para resaltar diferencias entre modelos.",
+        ha="center", fontsize=8, style="italic",
+    )
 
     fig.tight_layout()
     fig.savefig(out_path, dpi=DPI, bbox_inches="tight")
