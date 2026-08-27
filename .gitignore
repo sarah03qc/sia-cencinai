@@ -18,6 +18,7 @@ env/
 
 # Resultados de experimentos 
 experiments/results/raw/*
+!experiments/results/raw/*.json
 experiments/results/metrics/*
 !experiments/results/raw/.gitkeep
 !experiments/results/metrics/.gitkeep
