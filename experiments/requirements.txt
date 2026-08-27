@@ -38,3 +38,7 @@ nltk>=3.9
 
 # Utilidades numéricas usadas directamente en rag/
 numpy>=1.26
+
+# Visualizaciones (visualize_results.py) — ya entraba como dependencia
+# transitiva de bert-score, se declara directo para no depender de eso
+matplotlib>=3.9

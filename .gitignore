@@ -23,6 +23,10 @@ experiments/results/metrics/*
 !experiments/results/raw/.gitkeep
 !experiments/results/metrics/.gitkeep
 
+# Figuras del paper (results/metrics/* las ignora arriba; estas sí se versionan)
+!experiments/results/metrics/figures/
+!experiments/results/metrics/figures/*.png
+
 # Caché de modelos / HuggingFace
 *.gguf
 *.safetensors
