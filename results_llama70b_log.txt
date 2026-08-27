@@ -1,0 +1,63 @@
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/work/squesada/python-packages/lib/python3.13/site-packages/awq/__init__.py:21: DeprecationWarning: 
+I have left this message as the final dev message to help you transition.
+
+Important Notice:
+- AutoAWQ is officially deprecated and will no longer be maintained.
+- The last tested configuration used Torch 2.6.0 and Transformers 4.51.3.
+- If future versions of Transformers break AutoAWQ compatibility, please report the issue to the Transformers project.
+
+Alternative:
+- AutoAWQ has been adopted by the vLLM Project: https://github.com/vllm-project/llm-compressor
+
+For further inquiries, feel free to reach out:
+- X: https://x.com/casper_hansen_
+- LinkedIn: https://www.linkedin.com/in/casper-hansen-804005170/
+
+  warnings.warn(_FINAL_DEV_MESSAGE, category=DeprecationWarning, stacklevel=1)
+Cargando índice RAG existente de /work/squesada/sia-cencinai/experiments/data/rag_index...
+  619 chunks cargados
+Cargando modelo llama3.3-70b...
+Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s]Loading checkpoint shards:  11%|█         | 1/9 [00:00<00:07,  1.05it/s]Loading checkpoint shards:  22%|██▏       | 2/9 [00:01<00:06,  1.06it/s]Loading checkpoint shards:  33%|███▎      | 3/9 [00:02<00:05,  1.06it/s]Loading checkpoint shards:  44%|████▍     | 4/9 [00:03<00:04,  1.06it/s]Loading checkpoint shards:  56%|█████▌    | 5/9 [00:04<00:03,  1.13it/s]Loading checkpoint shards:  67%|██████▋   | 6/9 [00:05<00:02,  1.22it/s]Loading checkpoint shards:  78%|███████▊  | 7/9 [00:05<00:01,  1.27it/s]Loading checkpoint shards:  89%|████████▉ | 8/9 [00:06<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 9/9 [00:06<00:00,  1.78it/s]Loading checkpoint shards: 100%|██████████| 9/9 [00:06<00:00,  1.34it/s]
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Modelo cargado. Empezando benchmark...
+10/300 procesadas (133s transcurridos)
+20/300 procesadas (290s transcurridos)
+30/300 procesadas (439s transcurridos)
+40/300 procesadas (579s transcurridos)
+50/300 procesadas (670s transcurridos)
+60/300 procesadas (772s transcurridos)
+70/300 procesadas (892s transcurridos)
+80/300 procesadas (1048s transcurridos)
+90/300 procesadas (1158s transcurridos)
+100/300 procesadas (1288s transcurridos)
+110/300 procesadas (1519s transcurridos)
+120/300 procesadas (1620s transcurridos)
+130/300 procesadas (1715s transcurridos)
+140/300 procesadas (1845s transcurridos)
+150/300 procesadas (1937s transcurridos)
+160/300 procesadas (2025s transcurridos)
+170/300 procesadas (2153s transcurridos)
+180/300 procesadas (2268s transcurridos)
+190/300 procesadas (2422s transcurridos)
+200/300 procesadas (2623s transcurridos)
+210/300 procesadas (3156s transcurridos)
+220/300 procesadas (3660s transcurridos)
+230/300 procesadas (4146s transcurridos)
+240/300 procesadas (4575s transcurridos)
+250/300 procesadas (4941s transcurridos)
+260/300 procesadas (5352s transcurridos)
+270/300 procesadas (5722s transcurridos)
+280/300 procesadas (6143s transcurridos)
+290/300 procesadas (6530s transcurridos)
+300/300 procesadas (6975s transcurridos)
+
+Listo: 300 preguntas, 0 errores, 6975s total. Resultados en /work/squesada/sia-cencinai/experiments/results/raw/llama3.3-70b.json

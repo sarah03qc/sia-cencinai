@@ -27,9 +27,6 @@ accelerate>=0.33
 autoawq          # cuantización AWQ, para Llama 3.3 70B. Instalar ANTES de forzar
                   # la versión de transformers de arriba (ver orden al inicio del
                   # archivo) — autoawq downgradea transformers como dependencia.
-compressed-tensors  # cuantización w4a16 — ya no la usa ningún loader activo
-                     # (DeepSeek pasó a bitsandbytes/32B); pendiente decidir si se saca
-
 # Manejo del dataset (benchmark_300.xlsx)
 pandas>=2.2
 openpyxl>=3.1
