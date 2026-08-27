@@ -1,0 +1,44 @@
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Cargando índice RAG existente de /work/squesada/sia-cencinai/experiments/data/rag_index...
+  619 chunks cargados
+Cargando modelo deepseek-r1-distill-qwen-32b...
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:19<02:13, 19.09s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:39<02:00, 20.08s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [01:02<01:47, 21.41s/it]Loading checkpoint shards:  50%|█████     | 4/8 [01:21<01:21, 20.29s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [01:41<01:00, 20.27s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [02:05<00:43, 21.57s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [02:28<00:22, 22.07s/it]Loading checkpoint shards: 100%|██████████| 8/8 [02:36<00:00, 17.43s/it]Loading checkpoint shards: 100%|██████████| 8/8 [02:36<00:00, 19.54s/it]
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/work/squesada/python-packages/lib/python3.13/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Modelo cargado. Empezando benchmark...
+10/300 procesadas (50s transcurridos)
+20/300 procesadas (100s transcurridos)
+30/300 procesadas (150s transcurridos)
+40/300 procesadas (188s transcurridos)
+50/300 procesadas (232s transcurridos)
+60/300 procesadas (268s transcurridos)
+70/300 procesadas (316s transcurridos)
+80/300 procesadas (353s transcurridos)
+90/300 procesadas (397s transcurridos)
+100/300 procesadas (440s transcurridos)
+110/300 procesadas (529s transcurridos)
+120/300 procesadas (589s transcurridos)
+130/300 procesadas (619s transcurridos)
+140/300 procesadas (670s transcurridos)
+150/300 procesadas (710s transcurridos)
+160/300 procesadas (747s transcurridos)
+170/300 procesadas (814s transcurridos)
+180/300 procesadas (851s transcurridos)
+190/300 procesadas (933s transcurridos)
+200/300 procesadas (1005s transcurridos)
+210/300 procesadas (1168s transcurridos)
+220/300 procesadas (1328s transcurridos)
+230/300 procesadas (1518s transcurridos)
+240/300 procesadas (1664s transcurridos)
+250/300 procesadas (1776s transcurridos)
+260/300 procesadas (1859s transcurridos)
+270/300 procesadas (1980s transcurridos)
+280/300 procesadas (2072s transcurridos)
+290/300 procesadas (2171s transcurridos)
+300/300 procesadas (2296s transcurridos)
+
+Listo: 300 preguntas, 0 errores, 2296s total. Resultados en /work/squesada/sia-cencinai/experiments/results/raw/deepseek-r1-distill-qwen-32b.json
