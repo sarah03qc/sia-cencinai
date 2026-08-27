@@ -1,3 +1,16 @@
+# ORDEN DE INSTALACIÓN — no instalar con un solo `pip install -r requirements.txt`
+# de corrido sin fijarte en esto:
+#   1. torch (versión exacta de abajo)
+#   2. autoawq
+#   3. transformers, forzando de nuevo la versión exacta (autoawq lo baja de versión
+#      como dependencia transitiva al instalarse, así que hay que reinstalarlo después):
+#        pip install torch==2.6.0
+#        pip install autoawq
+#        pip install transformers==4.51.3 --force-reinstall --no-deps
+#   4. el resto de este archivo, en cualquier orden
+
+torch==2.6.0
+
 # Extracción de texto de PDFs
 pypdf>=4.0
 
@@ -8,11 +21,14 @@ sentence-transformers>=3.0
 faiss-cpu>=1.8
 
 # Carga y ejecución de los LLMs
-transformers>=4.44
+transformers==4.51.3
 bitsandbytes>=0.43
 accelerate>=0.33
-autoawq          # cuantización AWQ, requerida para Llama 3.3 70B
-compressed-tensors  # cuantización w4a16, requerida para DeepSeek-R1-Distill-Llama-70B
+autoawq          # cuantización AWQ, para Llama 3.3 70B. Instalar ANTES de forzar
+                  # la versión de transformers de arriba (ver orden al inicio del
+                  # archivo) — autoawq downgradea transformers como dependencia.
+compressed-tensors  # cuantización w4a16 — ya no la usa ningún loader activo
+                     # (DeepSeek pasó a bitsandbytes/32B); pendiente decidir si se saca
 
 # Manejo del dataset (benchmark_300.xlsx)
 pandas>=2.2
