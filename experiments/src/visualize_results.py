@@ -27,11 +27,14 @@ CSV_PATH = PROJECT_ROOT / "results" / "metrics" / "resumen_comparativo.csv"
 FIGURES_DIR = PROJECT_ROOT / "results" / "metrics" / "figures"
 
 METRICS = ["sino_accuracy", "corta_f1", "abierta_bertscore", "abierta_rouge_l"]
+# En inglés: el paper está en inglés, estas etiquetas van directo a las
+# figuras (comparativo_barras.png y comparativo_radar.png, que comparten
+# este diccionario).
 METRIC_LABELS = {
-    "sino_accuracy": "Sí/No\n(accuracy)",
-    "corta_f1": "Respuesta corta\n(F1 token)",
-    "abierta_bertscore": "Abiertas\n(BERTScore)",
-    "abierta_rouge_l": "Abiertas\n(ROUGE-L)",
+    "sino_accuracy": "Yes/No\n(Accuracy)",
+    "corta_f1": "Short Answer\n(Token F1)",
+    "abierta_bertscore": "Open-Ended\n(BERTScore)",
+    "abierta_rouge_l": "Open-Ended\n(ROUGE-L)",
 }
 
 DPI = 200
@@ -90,8 +93,8 @@ def plot_bars(rows: list[dict], colors: dict[str, str], out_path: Path):
     ax.set_xticklabels([METRIC_LABELS[m] for m in METRICS])
     ax.set_ylabel("Score")
     ax.set_ylim(0, 1.08)
-    ax.set_title("Comparación de modelos por métrica")
-    ax.legend(title="Modelo")
+    ax.set_title("Model Comparison by Metric")
+    ax.legend(title="Model")
     ax.grid(axis="y", linestyle="--", alpha=0.4)
 
     fig.tight_layout()
