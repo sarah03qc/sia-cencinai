@@ -1,0 +1,57 @@
+{
+  "benchmark": {
+    "n_total": 299,
+    "sino": 99,
+    "corta": 100,
+    "abierta": 100,
+    "excluded": [
+      "sino_023"
+    ],
+    "ground_truth_source": "benchmark_final_299.json"
+  },
+  "bertscore": {
+    "lang": "es",
+    "rescale_with_baseline": true
+  },
+  "models": [
+    {
+      "model": "Qwen2.5-32B",
+      "n_total": 299,
+      "n_sino": 99,
+      "sino_accuracy": 0.7878787878787878,
+      "sino_no_clear_label": 5,
+      "n_corta": 100,
+      "corta_token_f1": 0.3384597181180217,
+      "n_abierta": 100,
+      "abierta_bertscore_f1": 0.2224270847439766,
+      "abierta_rouge_l": 0.20822205110242464,
+      "abierta_meteor": 0.25637033282162636
+    },
+    {
+      "model": "Llama3.3-70B",
+      "n_total": 299,
+      "n_sino": 99,
+      "sino_accuracy": 0.8080808080808081,
+      "sino_no_clear_label": 9,
+      "n_corta": 100,
+      "corta_token_f1": 0.34168278274154373,
+      "n_abierta": 100,
+      "abierta_bertscore_f1": 0.19590577542781829,
+      "abierta_rouge_l": 0.20156949260024473,
+      "abierta_meteor": 0.282418307898077
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Qwen-32B",
+      "n_total": 299,
+      "n_sino": 99,
+      "sino_accuracy": 0.696969696969697,
+      "sino_no_clear_label": 9,
+      "n_corta": 100,
+      "corta_token_f1": 0.3381316472342175,
+      "n_abierta": 100,
+      "abierta_bertscore_f1": 0.21485651835799216,
+      "abierta_rouge_l": 0.2078380895144458,
+      "abierta_meteor": 0.2639634475743527
+    }
+  ]
+}

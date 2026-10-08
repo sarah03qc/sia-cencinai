@@ -1,0 +1,1081 @@
+
+================================================================================
+CASOS SOSPECHOSOS: overlap >= 0.70 pero NO clasificados HIT
+================================================================================
+
+Total: 43
+
+================================================================================
+ID: corta_018
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Cuál es el indicador antropométrico más recomendado para identificar casos de deficiencias nutricionales agudas o emaciación?
+
+GOLD DOCUMENT:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf: Página 8 de 48; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Página 8 de 45
+
+MEJOR CHUNK: rank=1 recall=1.000
+Retrieved document:
+SISVENDIS-2023.pdf
+same_gold_document: False
+match_status: NO
+
+Todos los Top-5:
+  rank 1 | recall=1.000 | same_doc=False | SISVENDIS-2023.pdf
+  rank 2 | recall=0.500 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 3 | recall=0.417 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 4 | recall=0.417 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 5 | recall=0.500 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+
+================================================================================
+ID: abierta_034
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Explique cómo se determina la Prioridad 4 (Grupo J) y qué implica el concepto de "año de protección" para niños que reciben DAF.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 31-32, 38 y 45 de 140; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf: Páginas 13 y 20 de 20
+
+MEJOR CHUNK: rank=1 recall=0.793
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.793 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.552 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.310 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.724 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.207 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: corta_089
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué acciones preventivas debe realizar el personal respecto al equipo de medición antes de iniciar una sesión de tamizaje?
+
+GOLD DOCUMENT:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+
+GOLD PAGE:
+Páginas 5 y 6 de 48 (Sección C. Pasos previos: 1. Preparación del equipo y 2. Preparación del lugar)
+
+MEJOR CHUNK: rank=1 recall=0.792
+Retrieved document:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.792 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 2 | recall=0.208 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.250 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.208 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.250 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: sino_096
+Categoría: sino
+Outcome actual: REVIEW
+Pregunta: ¿La herramienta de seguimiento debe ser enviada mensualmente al nivel central?
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Páginas 34-35 de 140 (Tarea 21)
+
+MEJOR CHUNK: rank=4 recall=0.789
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.158 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.263 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.316 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.789 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.210 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: abierta_018
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Compare los requerimientos de tamizaje y los indicadores utilizados para la valoración nutricional integral en niños menores de 5 años frente a los mayores de 5 años.
+
+GOLD DOCUMENT:
+DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf; Manual-operativo-Evaluacion-estado-nutricional-2019.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf; SISVENDIS-2023.pdf
+
+GOLD PAGE:
+DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf: Página 2; Manual-operativo-Evaluacion-estado-nutricional-2019.pdf: Páginas 8 y 11 de 48; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Páginas 10, 15-16 y 22 de 45; SISVENDIS-2023.pdf: Páginas 31-35 de 79
+
+MEJOR CHUNK: rank=2 recall=0.789
+Retrieved document:
+DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.316 | same_doc=True | SISVENDIS-2023.pdf
+  rank 2 | recall=0.789 | same_doc=True | DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+  rank 3 | recall=0.684 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.526 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.316 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: corta_059
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: Mencione dos indicadores de riesgo familiar que se registran en el instrumento de detección.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Páginas 10 de 140 (Definiciones), 40-45 de 140 y 93 de 140
+
+MEJOR CHUNK: rank=3 recall=0.786
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.143 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.286 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.786 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.071 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.143 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: abierta_043
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Compare la frecuencia de las sesiones de análisis interdisciplinario de casos con la periodicidad de los informes regionales.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Páginas 19 (Factor f), 28 (Tarea 15), 34 (Tarea 20) y 98 (Anexo 6)
+
+MEJOR CHUNK: rank=4 recall=0.783
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.435 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.522 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.217 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.783 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.348 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: sino_060
+Categoría: sino
+Outcome actual: REVIEW
+Pregunta: ¿El EDIN II fue validado por la Escuela de Enfermería de la UCR?
+
+GOLD DOCUMENT:
+Manual-EDIN-II-final-2020.pdf; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+Manual-EDIN-II-final-2020.pdf: Página 1 de 331; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Página 16 de 140; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Página 2 de 45
+
+MEJOR CHUNK: rank=5 recall=0.778
+Retrieved document:
+SISVENDIS-2023.pdf
+same_gold_document: False
+match_status: NO
+
+Todos los Top-5:
+  rank 1 | recall=0.722 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 2 | recall=0.722 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 3 | recall=0.722 | same_doc=False | SISVENDIS-2023.pdf
+  rank 4 | recall=0.611 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.778 | same_doc=False | SISVENDIS-2023.pdf
+
+================================================================================
+ID: corta_093
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué miembro del equipo es el encargado de completar el registro de datos en el instrumento de seguimiento interdisciplinario?
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Páginas 77 y 81 de 140 (Instructivo del Instrumento de Seguimiento)
+
+MEJOR CHUNK: rank=1 recall=0.778
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.778 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.222 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.296 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.296 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.333 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: sino_026
+Categoría: sino
+Outcome actual: MISS
+Pregunta: ¿Es el ASSC 2 un ejecutor posible de la Norma de Selección?
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Página 7 de 20 (Norma para Selección SC-N-01)
+
+MEJOR CHUNK: rank=1 recall=0.769
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: False
+match_status: NO
+
+Todos los Top-5:
+  rank 1 | recall=0.769 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.692 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.692 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.615 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.462 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: abierta_033
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Analice el rol del "Equipo de Área Técnica Regional" en la consolidación del informe anual de malnutrición y la toma de decisiones basada en datos.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; SISVENDIS-2023.pdf
+
+GOLD PAGE:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 33-35, 98-99 de 140; SISVENDIS-2023.pdf: Páginas 37 y 51 de 79
+
+MEJOR CHUNK: rank=5 recall=0.769
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.577 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.615 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.192 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.308 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.769 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: abierta_017
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Explique cuáles son las responsabilidades específicas de la persona profesional en Nutrición de la Oficina Local cuando se detecta un niño con necesidades especiales de crecimiento.
+
+GOLD DOCUMENT:
+SISVENDIS-2023.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+SISVENDIS-2023.pdf: Páginas 31 y 50 de 79; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Páginas 13, 22 y 45 de 45; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Página 12 de 140
+
+MEJOR CHUNK: rank=5 recall=0.767
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.567 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.433 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.267 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.467 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.767 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: abierta_049
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Analice la función de la UIVCD como unidad técnica rectora en la actualización de los manuales operativos de vigilancia.
+
+GOLD DOCUMENT:
+SISVENDIS-2023.pdf; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+SISVENDIS-2023.pdf: Páginas 11, 37 y 50 de 79; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf: Páginas 2 y 3; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Página 7
+
+MEJOR CHUNK: rank=2 recall=0.762
+Retrieved document:
+SISVENDIS-2023.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.714 | same_doc=True | SISVENDIS-2023.pdf
+  rank 2 | recall=0.762 | same_doc=True | SISVENDIS-2023.pdf
+  rank 3 | recall=0.476 | same_doc=True | SISVENDIS-2023.pdf
+  rank 4 | recall=0.429 | same_doc=True | SISVENDIS-2023.pdf
+  rank 5 | recall=0.381 | same_doc=True | SISVENDIS-2023.pdf
+
+================================================================================
+ID: corta_072
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Quiénes son los responsables de ejercer la función gerencial de supervisión técnica y del cumplimiento en los establecimientos?
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Página 36 de 140 (Formulario FAES); Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Páginas 8 y 36 de 45
+
+MEJOR CHUNK: rank=5 recall=0.760
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.680 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.360 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.320 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.200 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.760 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: abierta_037
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Analice cómo la norma de "Selección de Usuarios" (SC-N-01) garantiza la equidad en el acceso a los servicios de CEN-CINAI.
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Páginas 10-11 y 24-27 de 20 (Norma SC-N-01)
+
+MEJOR CHUNK: rank=4 recall=0.758
+Retrieved document:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.636 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 2 | recall=0.364 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.667 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 4 | recall=0.758 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 5 | recall=0.273 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+================================================================================
+ID: sino_072
+Categoría: sino
+Outcome actual: MISS
+Pregunta: ¿La supervisión técnica se realiza siempre de personal de menor nivel a mayor nivel?
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf: Páginas 7-19 de 20; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 7 y 21 de 140
+
+MEJOR CHUNK: rank=2 recall=0.750
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: False
+match_status: NO
+
+Todos los Top-5:
+  rank 1 | recall=0.250 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.750 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.583 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.333 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.667 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: sino_034
+Categoría: sino
+Outcome actual: REVIEW
+Pregunta: ¿Es obligatorio que el lugar de aplicación del EDIN II sea silencioso?
+
+GOLD DOCUMENT:
+Manual-EDIN-II-final-2020.pdf
+
+GOLD PAGE:
+Página 2 de 331 (Condiciones para la aplicación de la prueba)
+
+MEJOR CHUNK: rank=1 recall=0.750
+Retrieved document:
+Manual-EDIN-II-final-2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.750 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 2 | recall=0.125 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.438 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 4 | recall=0.312 | same_doc=False | SISVENDIS-2023.pdf
+  rank 5 | recall=0.188 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+
+================================================================================
+ID: sino_032
+Categoría: sino
+Outcome actual: REVIEW
+Pregunta: ¿La modalidad de "Comidas Servidas" está incluida en la norma API-EC-N-01?
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Páginas 3, 13 y 15 de 20
+
+MEJOR CHUNK: rank=1 recall=0.750
+Retrieved document:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.750 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 2 | recall=0.750 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 3 | recall=0.750 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.375 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.375 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: sino_027
+Categoría: sino
+Outcome actual: MISS
+Pregunta: ¿La Jefatura de la Oficina Local es responsable de la supervisión de la norma PCD-VCD-N-01?
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Página 19 de 20 (Norma PCD-VCD-N-01)
+
+MEJOR CHUNK: rank=1 recall=0.750
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: False
+match_status: NO
+
+Todos los Top-5:
+  rank 1 | recall=0.750 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.750 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.750 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.500 | same_doc=False | SISVENDIS-2023.pdf
+  rank 5 | recall=0.000 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+================================================================================
+ID: corta_043
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: Mencione el código de la norma que regula la Atención Integral de niños Extramuros.
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Páginas 3, 10 y 16 de 20
+
+MEJOR CHUNK: rank=2 recall=0.750
+Retrieved document:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.667 | same_doc=False | SISVENDIS-2023.pdf
+  rank 2 | recall=0.750 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 3 | recall=0.750 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 4 | recall=0.667 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.667 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: abierta_100
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Explique técnica y administrativamente el concepto de "Año de Protección" para niños en servicio DAF, detallando los criterios que el equipo interdisciplinario debe verificar para otorgar el egreso satisfactorio.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 25, 31-32, 38, 45, 58-60 y 67-68 de 140; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf: Página 13 de 20
+
+MEJOR CHUNK: rank=2 recall=0.750
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.722 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.750 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.222 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.472 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.361 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: abierta_099
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Analice la relevancia de la validación de la prueba EDIN II por la Escuela de Enfermería de la UCR y cómo esta alianza académica fortalece la validez científica de la vigilancia del desarrollo en el país.
+
+GOLD DOCUMENT:
+Manual-EDIN-II-final-2020.pdf; SISVENDIS-2023.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+Manual-EDIN-II-final-2020.pdf: Páginas 1-3 y 7 de 331; SISVENDIS-2023.pdf: Páginas 11, 31 y 50-52 de 79; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Página 11 de 45
+
+MEJOR CHUNK: rank=1 recall=0.750
+Retrieved document:
+Manual-EDIN-II-final-2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.750 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 2 | recall=0.321 | same_doc=True | SISVENDIS-2023.pdf
+  rank 3 | recall=0.321 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 4 | recall=0.286 | same_doc=True | SISVENDIS-2023.pdf
+  rank 5 | recall=0.250 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: abierta_095
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Describa las responsabilidades específicas de la Jefatura de Área Técnica Regional en la supervisión de la calidad del dato y la elaboración del informe consolidado regional de malnutrición.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; SISVENDIS-2023.pdf
+
+GOLD PAGE:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 33-35, 89-94 (Anexo 5) y 98-99 (Anexo 6); SISVENDIS-2023.pdf: Páginas 37 y 51 de 79
+
+MEJOR CHUNK: rank=1 recall=0.750
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.750 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.429 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.393 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.571 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.286 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: abierta_094
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Explique el concepto de "acciones de doble propósito" en el abordaje de la malnutrición y cómo estas buscan reducir simultáneamente el riesgo de deficiencias nutricionales y el exceso de peso (obesidad).
+
+GOLD DOCUMENT:
+SISVENDIS-2023.pdf
+
+GOLD PAGE:
+Páginas 17-19 y 74 de 79 (Sección Acciones de doble propósito)
+
+MEJOR CHUNK: rank=1 recall=0.750
+Retrieved document:
+SISVENDIS-2023.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.750 | same_doc=True | SISVENDIS-2023.pdf
+  rank 2 | recall=0.750 | same_doc=True | SISVENDIS-2023.pdf
+  rank 3 | recall=0.536 | same_doc=True | SISVENDIS-2023.pdf
+  rank 4 | recall=0.357 | same_doc=True | SISVENDIS-2023.pdf
+  rank 5 | recall=0.250 | same_doc=True | SISVENDIS-2023.pdf
+
+================================================================================
+ID: abierta_042
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Explique cómo se utiliza el nomograma del Anexo 3 para el cálculo del IMC y en qué casos es preferible usar la calculadora del software Anthro.
+
+GOLD DOCUMENT:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf: Páginas 18 y 24; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 62, 66 y 81
+
+MEJOR CHUNK: rank=2 recall=0.750
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.375 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 2 | recall=0.750 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.406 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.312 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 5 | recall=0.375 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+
+================================================================================
+ID: abierta_093
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Analice la relación jerárquica entre el Diagnóstico de Establecimiento (DISSEN) y el Análisis de Situación (ASSISEN), explicando cómo la información local se transforma en insumo para la toma de decisiones nacional.
+
+GOLD DOCUMENT:
+SISVENDIS-2023.pdf
+
+GOLD PAGE:
+Páginas 42-44 y 51-53 de 79 (Sección C: Diagnóstico de establecimiento DISSEN y ASSISEN)
+
+MEJOR CHUNK: rank=3 recall=0.742
+Retrieved document:
+SISVENDIS-2023.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.452 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.387 | same_doc=True | SISVENDIS-2023.pdf
+  rank 3 | recall=0.742 | same_doc=True | SISVENDIS-2023.pdf
+  rank 4 | recall=0.581 | same_doc=True | SISVENDIS-2023.pdf
+  rank 5 | recall=0.419 | same_doc=True | SISVENDIS-2023.pdf
+
+================================================================================
+ID: corta_079
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué dato de ingreso es indispensable registrar en la herramienta digital para controlar el cumplimiento del año de protección?
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Páginas 31-32 de 140 (Tarea 16) y Página 68 de 140
+
+MEJOR CHUNK: rank=2 recall=0.741
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.444 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.741 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.444 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.370 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.518 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: sino_090
+Categoría: sino
+Outcome actual: REVIEW
+Pregunta: ¿La norma API-EX-N-07 incluye la entrega de leche para consumo en el hogar?
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Página 13 de 20 (NUT-AC-N-01) y Página 16 de 20 (API-EX-N-07)
+
+MEJOR CHUNK: rank=2 recall=0.739
+Retrieved document:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.435 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 2 | recall=0.739 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 3 | recall=0.174 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.261 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.435 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: corta_020
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Quién es el responsable de brindar acompañamiento técnico y modelaje para asegurar la calidad de la toma de datos en los establecimientos locales?
+
+GOLD DOCUMENT:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+Páginas 7, 36 y 39 de 45 (Sección 2.3 Factores de éxito, inciso b y Cuadro 1)
+
+MEJOR CHUNK: rank=1 recall=0.739
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.739 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.696 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.478 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.652 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.391 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: corta_037
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué significa un resultado "¡Valor!" o "REFF!" en las columnas de seguimiento de la herramienta de Excel?
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Páginas 94 y 95 de 140 (Anexo 5: Guía de revisión de calidad)
+
+MEJOR CHUNK: rank=5 recall=0.737
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.158 | same_doc=False | Manual-EDIN-II-final-2020.pdf
+  rank 2 | recall=0.210 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.158 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.158 | same_doc=False | SISVENDIS-2023.pdf
+  rank 5 | recall=0.737 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: corta_024
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué software se menciona en el Anexo 5 para verificar el puntaje Z de los indicadores antropométricos?
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Páginas 42, 62, 63 y 67 de 140
+
+MEJOR CHUNK: rank=1 recall=0.733
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.733 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.733 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.733 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.733 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.133 | same_doc=False | SISVENDIS-2023.pdf
+
+================================================================================
+ID: corta_042
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué profesional es el responsable de brindar acompañamiento técnico en la ejecución de tamizajes en la Oficina Local?
+
+GOLD DOCUMENT:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Páginas 7 y 39 de 45; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf: Página 17 de 20
+
+MEJOR CHUNK: rank=1 recall=0.727
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.727 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.727 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 3 | recall=0.455 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.636 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 5 | recall=0.636 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: abierta_058
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Describa los materiales específicos del Kit EDIN II utilizados para evaluar el área motora gruesa en niños de 7 a 8 meses.
+
+GOLD DOCUMENT:
+Manual-EDIN-II-final-2020.pdf
+
+GOLD PAGE:
+Páginas 2, 10 y 33-36 de 331 (Instructivo 7 a 8 meses)
+
+MEJOR CHUNK: rank=5 recall=0.727
+Retrieved document:
+Manual-EDIN-II-final-2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.409 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 2 | recall=0.273 | same_doc=False | SISVENDIS-2023.pdf
+  rank 3 | recall=0.136 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 4 | recall=0.273 | same_doc=False | SISVENDIS-2023.pdf
+  rank 5 | recall=0.727 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+
+================================================================================
+ID: abierta_035
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Describa la relación entre el tamizaje de agudeza visual y auditiva y el desarrollo integral del niño según los fundamentos del SISVENDIS.
+
+GOLD DOCUMENT:
+SISVENDIS-2023.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+SISVENDIS-2023.pdf: Páginas 33, 34 y 75 de 79; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Páginas 16, 24 y 28 de 45
+
+MEJOR CHUNK: rank=2 recall=0.727
+Retrieved document:
+SISVENDIS-2023.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.409 | same_doc=True | SISVENDIS-2023.pdf
+  rank 2 | recall=0.727 | same_doc=True | SISVENDIS-2023.pdf
+  rank 3 | recall=0.409 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.273 | same_doc=True | SISVENDIS-2023.pdf
+  rank 5 | recall=0.318 | same_doc=True | SISVENDIS-2023.pdf
+
+================================================================================
+ID: sino_082
+Categoría: sino
+Outcome actual: REVIEW
+Pregunta: ¿Se debe medir de pie a un niño menor de 2 años que ya camina?
+
+GOLD DOCUMENT:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf; DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+
+GOLD PAGE:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf: Páginas 5 y 13 de 48; DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf: Página 3
+
+MEJOR CHUNK: rank=1 recall=0.722
+Retrieved document:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.722 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 2 | recall=0.444 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 3 | recall=0.667 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 4 | recall=0.222 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 5 | recall=0.611 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+
+================================================================================
+ID: corta_085
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿En qué modalidades de servicio es obligatorio realizar el control trimestral de placa bacteriana a niños mayores de 3 años?
+
+GOLD DOCUMENT:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf; SISVENDIS-2023.pdf
+
+GOLD PAGE:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Páginas 16 y 24 de 45; SISVENDIS-2023.pdf: Páginas 33 y 35 de 79
+
+MEJOR CHUNK: rank=1 recall=0.722
+Retrieved document:
+Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.722 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 2 | recall=0.611 | same_doc=True | SISVENDIS-2023.pdf
+  rank 3 | recall=0.167 | same_doc=False | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 4 | recall=0.444 | same_doc=True | SISVENDIS-2023.pdf
+  rank 5 | recall=0.444 | same_doc=True | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+================================================================================
+ID: corta_082
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Cuál es el criterio de edad para determinar si a un niño se le debe medir la longitud (acostado) o la estatura (de pie)?
+
+GOLD DOCUMENT:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf; DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+
+GOLD PAGE:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf: Páginas 5 y 13 de 48; DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf: Página 3
+
+MEJOR CHUNK: rank=1 recall=0.722
+Retrieved document:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.722 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 2 | recall=0.667 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 3 | recall=0.611 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 4 | recall=0.167 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 5 | recall=0.444 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+
+================================================================================
+ID: corta_098
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué indicadores antropométricos son obligatorios para la valoración nutricional de la población escolar mayor de 5 años?
+
+GOLD DOCUMENT:
+DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf; Manual-operativo-Evaluacion-estado-nutricional-2019.pdf; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf: Página 2; Manual-operativo-Evaluacion-estado-nutricional-2019.pdf: Página 8 de 48; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Página 66 de 140
+
+MEJOR CHUNK: rank=2 recall=0.714
+Retrieved document:
+DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.500 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 2 | recall=0.714 | same_doc=True | DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+  rank 3 | recall=0.643 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 4 | recall=0.714 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.643 | same_doc=True | DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+
+================================================================================
+ID: corta_039
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Cuál es la población objetivo de la norma PCD-GF-N-01?
+
+GOLD DOCUMENT:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Página 18 de 20 (Norma PCD-GF-N-01)
+
+MEJOR CHUNK: rank=2 recall=0.714
+Retrieved document:
+Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.571 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 2 | recall=0.714 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 3 | recall=0.500 | same_doc=True | Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+  rank 4 | recall=0.643 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.143 | same_doc=False | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: corta_038
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué indicador antropométrico se utiliza para clasificar el estado nutricional en niños mayores de 5 años?
+
+GOLD DOCUMENT:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf; DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+GOLD PAGE:
+Manual-operativo-Evaluacion-estado-nutricional-2019.pdf: Página 8 de 48; DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf: Página 2; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Página 66 de 140
+
+MEJOR CHUNK: rank=2 recall=0.714
+Retrieved document:
+DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.500 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 2 | recall=0.714 | same_doc=True | DVS_norma_nacional_uso_graficas_antropometricas_valoracion_nutriciol_0-19_2017.pdf
+  rank 3 | recall=0.643 | same_doc=True | Manual-operativo-Evaluacion-estado-nutricional-2019.pdf
+  rank 4 | recall=0.714 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.714 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: corta_016
+Categoría: corta
+Outcome actual: REVIEW
+Pregunta: ¿Qué significan las siglas EDIN y en qué caso específico de detección se debe completar esta boleta?
+
+GOLD DOCUMENT:
+Manual-EDIN-II-final-2020.pdf; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+
+GOLD PAGE:
+Manual-EDIN-II-final-2020.pdf: Página 1 de 331; Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 16 y 21 de 140; Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf: Página 22 de 45
+
+MEJOR CHUNK: rank=5 recall=0.714
+Retrieved document:
+SISVENDIS-2023.pdf
+same_gold_document: False
+match_status: NO
+
+Todos los Top-5:
+  rank 1 | recall=0.667 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 2 | recall=0.238 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.667 | same_doc=False | SISVENDIS-2023.pdf
+  rank 4 | recall=0.571 | same_doc=True | Manual-EDIN-II-final-2020.pdf
+  rank 5 | recall=0.714 | same_doc=False | SISVENDIS-2023.pdf
+
+================================================================================
+ID: abierta_062
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Analice cómo los determinantes sociales de la salud (agua, vivienda, violencia) afectan la priorización de un caso en la sesión interdisciplinaria.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; SISVENDIS-2023.pdf
+
+GOLD PAGE:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 10-11, 23, 39-45, 93 de 140; SISVENDIS-2023.pdf: Páginas 37 y 50 de 79
+
+MEJOR CHUNK: rank=4 recall=0.700
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.400 | same_doc=True | SISVENDIS-2023.pdf
+  rank 2 | recall=0.233 | same_doc=True | SISVENDIS-2023.pdf
+  rank 3 | recall=0.367 | same_doc=False | Procedimiento_Vigilancia_Crecimientoydesarrollo_intrayextramurosUIVCD.pdf
+  rank 4 | recall=0.700 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.500 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+
+================================================================================
+ID: abierta_045
+Categoría: abierta
+Outcome actual: REVIEW
+Pregunta: Explique cómo se integra la educación al grupo familiar en el plan de atención de un niño con malnutrición severa.
+
+GOLD DOCUMENT:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf
+
+GOLD PAGE:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf: Páginas 23, 39, 54-59 y 74; Normas-sustantivas-CEN-CINAI-30-09-2021.pdf: Páginas 7 y 18 de 20
+
+MEJOR CHUNK: rank=2 recall=0.700
+Retrieved document:
+Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+same_gold_document: True
+match_status: REVIEW
+
+Todos los Top-5:
+  rank 1 | recall=0.100 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 2 | recall=0.700 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 3 | recall=0.250 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 4 | recall=0.150 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
+  rank 5 | recall=0.200 | same_doc=True | Procedimiento_Atencin_Interdisciplinaria_Malnutricin_Versin_02_2020.pdf
