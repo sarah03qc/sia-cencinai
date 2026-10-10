@@ -1,0 +1,13 @@
+{
+  "seed": 20261009,
+  "selection_method": "independent random draw per category from questions outside the original sample",
+  "replaced": {
+    "corta": "corta_040",
+    "abierta": "abierta_073"
+  },
+  "replacements": {
+    "corta": "corta_096",
+    "abierta": "abierta_095"
+  },
+  "reason": "original sampled item did not provide enough evidence for a fair manual adjudication"
+}

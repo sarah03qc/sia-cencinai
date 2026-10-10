@@ -18,7 +18,7 @@ from config import MODEL_CONFIGS
 # <think> como parte del prompt, antes de que el modelo genere nada. Basta
 # con cerrarlo para que el modelo salte el bloque de razonamiento y genere
 # la respuesta final directamente. Es una técnica a nivel de tokens, no un
-# prompt en lenguaje natural pidiéndole que no razone.
+# prompt en lenguaje natural pidiéndole que no razone
 FORCED_THINK_CLOSE = "\n\n</think>\n\n"
 
 
@@ -48,6 +48,7 @@ def _load_qwen2_5_32b(hf_repo: str):
     quant_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_quant_type="fp4",
         bnb_4bit_use_double_quant=True,
     )
     tokenizer = AutoTokenizer.from_pretrained(hf_repo)
@@ -63,7 +64,7 @@ def _load_qwen2_5_32b(hf_repo: str):
 def _load_llama3_3_70b(hf_repo: str):
     # AWQ pre-cuantizado: transformers detecta la cuantización desde los
     # metadatos del checkpoint, no necesita BitsAndBytesConfig. Requiere
-    # `autoawq` instalado.
+    # `autoawq` instalado
     tokenizer = AutoTokenizer.from_pretrained(hf_repo)
     model = AutoModelForCausalLM.from_pretrained(
         hf_repo,
@@ -77,16 +78,17 @@ def _load_deepseek_r1_distill_qwen_32b(hf_repo: str):
     # Mismo mecanismo que Qwen2.5-32B: bitsandbytes, no AWQ ni
     # compressed-tensors. Se bajó de la versión Llama-70B (AWQ/compressed-
     # tensors) a esta de Qwen-32B por problemas de memoria en Kabré — ver
-    # notes en config.py.
+    # notes en config.py
     #
     # max_memory y attn_implementation="sdpa" quedan comentados (no
     # eliminados): se agregaron para el intento fallido con el modelo de
     # 70B, casi al límite de los 46GB de VRAM. Con un modelo de la mitad
     # del tamaño no deberían hacer falta, pero se dejan a mano por si el
-    # smoke test de 32B muestra el mismo problema.
+    # smoke test de 32B muestra el mismo problema
     quant_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_quant_type="fp4",
         bnb_4bit_use_double_quant=True,
     )
     tokenizer = AutoTokenizer.from_pretrained(hf_repo)
@@ -169,8 +171,8 @@ def get_generate_fn(model_key: str):
 
 
 if __name__ == "__main__":
-    # Smoke test manual: carga un modelo y prueba una generación corta.
-    # Requiere GPU + acceso a Hugging Face (correr en Kabré, no acá).
+    # Smoke test manual: carga un modelo y prueba una generación corta
+    # Requiere GPU + acceso a Hugging Face (correr en Kabré, no acá)
     #   python run_model.py deepseek-r1-distill-qwen-32b
     if len(sys.argv) != 2 or sys.argv[1] not in MODEL_CONFIGS:
         print(f"Uso: python run_model.py <model_key>\nOpciones: {list(MODEL_CONFIGS)}")

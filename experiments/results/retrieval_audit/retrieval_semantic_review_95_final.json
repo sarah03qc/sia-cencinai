@@ -1,0 +1,952 @@
+[
+  {
+    "question_id": "sino_002",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 2) menciona actividades de detección y referencia, pero no contiene la norma que faculta explícitamente a todo funcionario/a de CEN-CINAI para realizarlas.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_007",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Niña o niño con resultado global rojo, dos veces al año y referencia al equipo interdisciplinario para su atención.\"",
+    "justification": "En rank 1 se recupera la regla que indica que el resultado rojo requiere referencia al equipo interdisciplinario, no automáticamente a la CCSS.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_010",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) trata sobre la custodia de anotaciones especializadas e intimidad, pero omite la prohibición explícita de divulgar información confidencial a terceros.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_012",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"≥2 En la línea o superior a 2 DE Peso Alto... ≤-3 En la línea o inferior a 3 DE Bajo peso severo\"",
+    "justification": "En rank 1 se recupera la tabla de interpretación que especifica que al caer sobre la línea ('En la línea') se clasifica en la categoría de mayor severidad.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_017",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Niña o niño con estado nutricional normal en todos los indicadores una vez al año [Extramuros].\"",
+    "justification": "En rank 2 se incluye la norma de periodicidad extramuros para niños normales, indicando que se evalúan una vez al año (no dos).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_019",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"...UIVCD Se elaboran tres informes de país y se mantiene los reportes por Oficina Local y por Dirección regional...\"",
+    "justification": "En rank 2 se describe la elaboración de informes consolidados por nivel, evidenciando que la UIVCD trabaja con consolidados procesados y no recolecta boletas de papel directamente.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_022",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"...pretérmino (nacidos antes de las 37 semanas de gestión) y que son menores de 2 años, es importante realizar la corrección de la edad...\"",
+    "justification": "En rank 3 se establece explícitamente que la corrección de edad para prematuros en EDIN II aplica solo en menores de 2 años.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_026",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Primer y tercer trimestre ASSC2 Profesional de establecimiento ASSC3\"",
+    "justification": "En rank 1 se norma la participación del ASSC2 como ejecutor responsable de aplicar instrumentos/tamizajes del procedimiento.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_027",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"La Jefatura de Oficina Local, es la persona responsable de conducir la ejecución de este procedimiento, mediante la divulgación, programación y monitoreo...\"",
+    "justification": "En rank 1 se establece el rol de la Jefatura de Oficina Local en la conducción, programación y monitoreo de la ejecución del procedimiento.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_031",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"...incluye la última versión de la prueba, el instructivo para su implementación y los materiales estandarizados...\"",
+    "justification": "En rank 1 se explicita que la prueba EDIN II incluye materiales estandarizados e instructivo para su aplicación.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_034",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"tranquilo, sin distracciones, silencioso y con buena iluminación.\"",
+    "justification": "En rank 1 se especifica que el lugar de aplicación debe ser un espacio tranquilo, sin distracciones, silencioso y bien iluminado.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_037",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"El instrumento es responsabilidad de los miembros del equipo interdisciplinario...\"",
+    "justification": "En rank 2 se aclara que la herramienta de seguimiento es responsabilidad del equipo interdisciplinario y personal asignado, no del personal de cocina.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_039",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 4) se enfoca en el traslado de expedientes entre sedes y custodia de notas, pero no incluye la indicación específica de registrar alergias alimentarias.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_045",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Importante que no quede espacios en blanco sin asignación de servicio.\"",
+    "justification": "En rank 1 se señala explícitamente la restricción de no dejar espacios en blanco en la columna de servicio asignado.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_049",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "YES",
+    "best_k": "5",
+    "evidence_found": "\"S ello: Estampe el sello del establecimiento.\"",
+    "justification": "En rank 5 se recupera la instrucción explícita de estampar el sello del establecimiento en el documento.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_052",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) se corta antes del título del Anexo 6, omitiendo la confirmación de que la bitácora de sesión interdisciplinaria sea un requerimiento de dicho anexo.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_054",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"*Destete antes de los 12 meses de edad: Si ( ) No ( ) SD ( ) *Este dato no se digita en la herramienta. Puede anotarse en observaciones...\"",
+    "justification": "En rank 2 se incluye la casilla de registro del destete como un dato opcional/observación, demostrando que no constituye una práctica obligatoria.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_056",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Consulta sobre diversidad alimentaria y frecuencia de consumo de alimentos frescos. En el primer y cuarto trimestre del año.\"",
+    "justification": "En rank 2 se señala que la frecuencia de consumo de alimentos se consulta en el primer y cuarto trimestre del año (no sólo al ingreso).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_061",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Considerar como insumo, factores de riesgo tales como: salud individual... datos del grupo familiar... riesgo social, violencia familiar, entre otros determinantes...\"",
+    "justification": "En rank 3 se establece que los datos del grupo familiar y el riesgo social influyen en la determinación conjunta de la prioridad del caso.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_062",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Circunferencia braquial ... Para conocer el estado nutricional ... para Síndrome de Down, acondroplasia y parálisis cerebral Infantil (PCI).\"",
+    "justification": "En rank 1 se especifica el uso de la circunferencia braquial para evaluar el estado nutricional en niños con parálisis cerebral infantil (PCI).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_063",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Se debe de observar el comportamiento de la línea trazada ... en el tiempo ...\"",
+    "justification": "En rank 1 se indica que la tendencia evalúa el comportamiento de la línea trazada entre mediciones consecutivas en el tiempo.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_067",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "YES",
+    "best_k": "4",
+    "evidence_found": "\"Lo anterior basado en lineamientos científicos vigentes como por ejemplo las Guías Alimentarias...\"",
+    "justification": "En rank 4 se señala explícitamente que la norma NUT-EN-N-01 se fundamenta en lineamientos científicos como las Guías Alimentarias.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_068",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"EVADE Kit para la evaluación del desarrollo infantil en escolares...\"",
+    "justification": "En rank 1 se especifica que las pruebas de desarrollo del lenguaje o escolares (EVADE) se aplican a poblaciones específicas y no de forma masiva universal.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_069",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"...impulsan el desarrollo de su potencial como sujeto integral de derechos... visión de la Dirección Nacional de CEN-CINAI...\"",
+    "justification": "En rank 2 se articula expresamente la visión de CEN-CINAI con el enfoque de derechos de la niñez.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_073",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "YES",
+    "best_k": "4",
+    "evidence_found": "\"...tales como: estado nutricional, nivel del desarrollo... agudeza visual, agudeza auditiva, salud oral...\"",
+    "justification": "En rank 4 se menciona explícitamente la salud oral entre los tamizajes y áreas de vigilancia que integra el SISVENDIS.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_078",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) lista únicamente códigos de la herramienta de registro (BPS, DE, DES), pero omitió la norma de realizar seguimiento mínimo 4 veces al año en desnutrición severa.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_082",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"• Si el niño o niña tiene 2 años de edad o más y es capaz de pararse, mida la talla de pie...\"",
+    "justification": "En rank 1 se norma que la medición de pie aplica para niños de 2 años o más capaces de mantenerse erguidos.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_087",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"En la bitácora de reunión de equipo interdisciplinario debe incluir al menos... registro de participantes, resumen de lo discutido, acuerdos, fecha de próxima reunión.\"",
+    "justification": "En rank 1 se norman las secciones y contenidos propios de la bitácora de reunión, diferenciándola del expediente.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "sino_098",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) define Talla para la Edad en términos generales, pero no incluye la regla obligatoria de analizarlo conjuntamente con el IMC en mayores de 5 años.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_001",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"a) Malnutrición por defecto o exceso en uno o más de los indicadores antropométricos: obesidad, sobrepeso, peso alto, desnutrición, desnutrición severa, baja talla o baja talla severa, bajo peso y bajo peso severo...\"",
+    "justification": "En rank 3 se enumeran los criterios antropométricos por defecto o exceso que activan la referencia al equipo interdisciplinario.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_002",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Las Oficinas Locales cuentan con un equipo de profesionales en las especialidades de Nutrición, Psicología, Educación Preescolar y Terapia de Lenguaje...\"",
+    "justification": "En rank 1 se identifican las cuatro especialidades profesionales que integran el equipo interdisciplinario local.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_003",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Al menos una vez al mes, en sesión de trabajo del equipo interdisciplinario, conforme progreso de casos con malnutrición.\"",
+    "justification": "En rank 2 se establece la periodicidad mínima mensual para las sesiones de análisis y revisión de casos por el equipo.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_007",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Marque con una equis para identificar si el caso: Se da de alta (el problema detectado se atendió y se resolvió), Tratamiento subsecuente (el niño requiere seguimiento en su abordaje terapéutico) o si Se refiere a otro nivel de atención.\"",
+    "justification": "En rank 3 se detallan las tres opciones de decisión del seguimiento en la boleta de referencia: alta, tratamiento subsecuente o referencia a otro nivel.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_009",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Área Técnica Regional: Elabora el consolidado de dirección regional y envía el consolidado al nivel nacional...\"",
+    "justification": "En rank 3 se describe el flujo de consolidación y reporte de datos desde la Oficina Local hacia la Dirección Regional y el nivel nacional.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_010",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Egreso de CEN-CINAI: Se refiere cuando el niño o niña se fue del establecimiento o de la comunidad con o sin justificación...\"",
+    "justification": "En rank 1 se definen los criterios y condiciones de egreso del seguimiento interdisciplinario.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_019",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 4) enumera informes de gestión y asesoría técnica, pero no cita las 3 fuentes primarias de datos (Informe de ejecución programática nov, SIDINACC/CAH y Herramienta Excel).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_020",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Acompañamiento técnico y modelaje: Equipo de profesionales de atención interdisciplinaria de la Oficina Local...\"",
+    "justification": "En rank 1 se designa al equipo interdisciplinario de la Oficina Local como responsable del acompañamiento técnico y modelaje al personal local.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_021",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "YES",
+    "best_k": "5",
+    "evidence_found": "\"Dona ... 115 cm, 10 cm, 5 cm 1 de cada uno\"",
+    "justification": "En rank 5 se detallan las especificaciones del material 'Dona' del kit EDIN II, incluyendo sus diámetros de 15 cm, 10 cm y 5 cm.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_024",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Recordar que el Profesional en Nutrición debe verificar el dato, utilizando la calculadora del software Anthro...\"",
+    "justification": "En rank 1 se nombra explícitamente el software Anthro como la herramienta utilizada por el profesional en Nutrición para verificar el puntaje Z.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_026",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 4) explica el cálculo de semanas de edad corregida, pero omite la indicación explícita de registrar las siglas 'EC' en el recuadro.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_027",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"...aplicando tamizajes de salud al menos una vez al año, para determinar las estrategias de intervención...\"",
+    "justification": "En rank 1 se fija la periodicidad mínima anual para la aplicación de tamizajes de salud dentro de la vigilancia.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_030",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Si no se presenta háblele, mueva un sonajero (chilindrín) o preséntele un objeto brillante frente a la cara, muévalo lentamente...\"",
+    "justification": "En rank 1 se norma el uso de objetos estandarizados (sonajero/objeto brillante) para estimular respuestas en infantes.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_033",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Herramienta cada cuatrimestre (abril, agosto, diciembre).\"",
+    "justification": "En rank 1 se norman los meses específicos (abril, agosto, diciembre) para aplicar la herramienta de supervisión cuatrimestral.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_034",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"* Material impreso de apoyo educativo como: rotafolio para la alimentación...\"",
+    "justification": "En rank 1 se citan materiales de apoyo educativo como rotafolios de alimentación y kits de estimulación.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_037",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "Debido al truncamiento del texto al inicio del chunk (rank 5), se perdió la mención del código '#¡VALOR!' o 'REFF!' y su explicación sobre faltante de datos.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_038",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Para igual o mayores de 5 años (≥5 años): Se requiere la información de los indicadores IMC (Índice de Masa Corporal) y T/E (Talla para edad).\"",
+    "justification": "En rank 2 se especifican los indicadores obligatorios (IMC y T/E) para evaluar a la población mayor de 5 años.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_039",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Población Objetivo: Familias de clientes y beneficiarias de los diferentes servicios brindados por la Dirección Nacional de CEN-CINAI.\"",
+    "justification": "En rank 2 se define expresamente la población objetivo de la norma de gestión familiar.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_044",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Pida referencia a la persona encargada sobre la conducta en el hogar...\"",
+    "justification": "En rank 3 se norma la técnica de entrevista o reporte de la persona encargada para acreditar conductas no observadas en sitio.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_051",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"...en cinco áreas del desarrollo: Motora Gruesa, Motora Fina, Lenguaje, Cognitiva y Socioafectiva.\"",
+    "justification": "En rank 1 se enumeran las cinco áreas del desarrollo evaluadas por las herramientas del sistema (motora gruesa, motora fina, lenguaje, cognitiva y socioafectiva).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_054",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Interactúa con los objetos que tiene alrededor.\"",
+    "justification": "En rank 3 se recupera la evaluación de interacción con objetos y materiales estandarizados del kit.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_062",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 4) lista el perímetro braquial como medición antropométrica general, pero omite las condiciones específicas de necesidades especiales (PCI) que regulan su uso alternativo.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_063",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 4) trata sobre curvas en prematuros, omitiendo la indicación general de trazar una línea recta entre puntos ploteados para identificar la tendencia.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_065",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Grupo J Prioridad 4: Niños y niñas que reciben DAF y han recuperado su estado nutricional normal en todos los indicadores, por lo tanto, se inicia el año de protección...\"",
+    "justification": "En rank 2 se define con precisión la composición del Grupo J (Prioridad 4): niños en DAF con estado nutricional recuperado en año de protección.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_068",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Test de Lenguaje a casos referidos con nivel de rezago en el área de lenguaje y problemas de comunicación.\"",
+    "justification": "En rank 2 se establece la condición específica para aplicar el test de lenguaje a niños referidos con rezago o problemas de comunicación.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_069",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"...que aseguren la atención óptima del niño y la niña menor de 13 años y que impulsan el desarrollo de su potencial como sujeto integral de derechos.\"",
+    "justification": "En rank 1 se define el enfoque de derechos de la niñez como el eje transversal ordenador de las intervenciones.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_072",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "YES",
+    "best_k": "5",
+    "evidence_found": "\"d. Jefaturas de Oficina Local con claridad en su rol gerencial... e. Jefaturas de Área Técnica Regional con claridad en su rol técnico gerencial...\"",
+    "justification": "En rank 5 se asigna explícitamente el rol gerencial de supervisión y monitoreo a las Jefaturas de Oficina Local y Área Técnica Regional.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_073",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"...tales como: estado nutricional, nivel del desarrollo menores de seis años, nivel del desarrollo de niñas y niños en edad escolar, detección de dificultades de lenguaje, agudeza visual, agudeza auditiva, salud oral...\"",
+    "justification": "En rank 3 se listan los componentes integrados en el SISVENDIS 2023, incluyendo salud oral y agudezas sensoriales.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_080",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"...la Unidad de Investigación y Vigilancia del Crecimiento y Desarrollo, es la unidad organizativa que conduce, diseña, ajusta, actualiza e implementa...\"",
+    "justification": "En rank 1 se identifica a la UIVCD de la Dirección Técnica como la unidad organizativa rectora del sistema de vigilancia.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_082",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"La longitud es la medición que se aplica a los niños o niñas menores de dos años o menores de 85 cm en posición decúbito dorsal. La talla es la medida de niños o niñas mayores de dos años...\"",
+    "justification": "En rank 1 se indica con exactitud el criterio de edad (menores de 2 años longitud acostado vs. 2 años o más estatura de pie).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_083",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Anexo 6. Guías para elaboración de informe y monitoreo. Para la elaboración de informe y monitoreo del cumplimiento del procedimiento...\"",
+    "justification": "En rank 1 se describe el contenido del Anexo 6, enfocado en las guías para elaboración de informes y monitoreo.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_087",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"3. Todo expediente deberá estar foliado.\"",
+    "justification": "En rank 2 se establece la regla administrativa de foliación obligatoria para los expedientes y registros oficiales.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_094",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"...dar de alta cuando se recupera estado nutricional... los riesgos son manejados por el grupo familiar...\"",
+    "justification": "En rank 2 se especifican las condiciones de alta cuando se recupera el estado nutricional y los riesgos son manejados por la familia.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "corta_098",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Para igual o mayores de 5 años (≥5 años): Se requiere la información de los indicadores IMC (Índice de Masa Corporal) y T/E (Talla para edad).\"",
+    "justification": "En rank 2 se mencionan los dos indicadores obligatorios (IMC y T/E) para la valoración en mayores de 5 años.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_001",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Resultado adecuado (Verde)... Rezago en el desarrollo (Amarillo)... Riesgo de retraso del desarrollo (Rojo)... Niña o niño con resultado global rojo, dos veces al año y referencia al equipo...\"",
+    "justification": "En rank 2 se explican los significados de las clasificaciones por color (verde, amarillo, rojo) y las acciones derivadas de un resultado rojo.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_003",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) describe únicamente la Tarea 16 de alta y cierre del caso, omitiendo las etapas esenciales previas (detección, plazo de 5 días para referencia, análisis/priorización y plan de atención).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_004",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"...el equipo de profesionales define de manera conjunta y colaborativa, el nivel de prioridad de cada caso, considerando aspectos de salud, estado nutricional, nivel del desarrollo, datos del grupo familiar, riesgo social...\"",
+    "justification": "En rank 1 se detalla el análisis conjunto de la malnutrición y factores de riesgo social (violencia, pobreza) para determinar el nivel de prioridad.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_005",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"UIVCD-DT: Elabora el informe nacional y realiza la evaluación de efectos... emite reportes e infografías...\"",
+    "justification": "En rank 1 se expone la relación de flujo entre los niveles locales/regionales y la UIVCD a nivel central para la emisión de informes de efectos e infografías.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_007",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Cualquier miembro del equipo interdisciplinario realiza las referencias a otras instituciones... y da seguimiento a la misma...\"",
+    "justification": "En rank 1 se establecen las responsabilidades en el manejo de referencias interinstitucionales frente a las acciones internas.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_008",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 4) abarca el resguardo de notas privadas y confidencialidad del expediente, pero no incluye los mecanismos de control de calidad de datos (Anexo 5, filtros Excel, Anthro).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_010",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Grupo J Prioridad 4: Niños y niñas que reciben DAF y han recuperado su estado nutricional normal... se inicia el año de protección en DAF...\"",
+    "justification": "En rank 1 se explica el manejo de casos con estado nutricional recuperado y la asignación del año de periodo de protección.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_011",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) muestra las frecuencias para la prueba de desarrollo EDIN II, pero omite la fila de valoración antropométrica nutricional para niños normales (2 veces/año en intramuros vs. 1 en extramuros).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_014",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Establecimiento: Mantiene actualizados los registros de tamizajes en los expedientes... Oficina Local: Recopila y digita en la herramienta Excel... Área Técnica Regional: Elabora el consolidado...\"",
+    "justification": "En rank 1 se detalla el flujo completo de información desde el expediente físico, digitación local en Excel y consolidación regional.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_015",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Enfoque de salud pública en la atención de la malnutrición: Reconoce los determinantes sociales de la salud... debe ser planificada y abordada en respuesta a los múltiples factores...\"",
+    "justification": "En rank 3 se analiza el enfoque de salud pública que obliga a evaluar los determinantes sociales más allá de la antropometría aislada.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_019",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Cuando hay puntos marcados de dos o más visitas, una los puntos con una línea recta para conocer la tendencia.\"",
+    "justification": "En rank 3 se explica la utilidad clínica de la tendencia y el procedimiento visual de unir puntos consecutivos con una línea recta.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_020",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Se actualizan los tamizajes de: Consulta sobre diversidad alimentaria mínima y frecuencia de consumo... odontograma para el control anual de placa bacteriana HOMA...\"",
+    "justification": "En rank 2 se describe cómo el SISVENDIS 2023 incorpora la diversidad alimentaria y la salud oral como complementos de la vigilancia nutricional.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_022",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Evaluación del Estado Nutricional con medidas antropométricas: ASSC 3, Profesional de establecimiento... Prueba de Evaluación del Desarrollo Integral (EDIN II): ASSC 2...\"",
+    "justification": "En rank 2 se comparan las funciones del ASSC 3 (antropometría) frente al ASSC 2 (aplicación de EDIN II y tamizajes auditivos).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_028",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"API-EC-N-01... Atención y Protección Cotidiana... API-EX-N-07... consiste en acciones educativas que promueven habilidades y competencias sociales...\"",
+    "justification": "En rank 2 se comparan los objetivos y dinámicas de la modalidad intramuros (atención cotidiana) frente a extramuros (acciones educativas/promoción).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_036",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Si los niños o niñas no logran superar el rezago [amarillo a los 3 meses], el equipo interdisciplinario actualiza la estrategia de abordaje y el plan de estimulación.\"",
+    "justification": "En rank 1 se especifica la acción obligatoria ante un resultado amarillo persistente tras tres meses: actualizar el plan de estimulación y la estrategia.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_041",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) expone definiciones teóricas de vigilancia epidemiológica, pero omite el flujo operativo de la boleta VE01 hacia el Área Rectora y SINAVISA.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_046",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Filtro Pueden ser datos numéricos, alfanuméricos, indocumentado.\"",
+    "justification": "En rank 1 se fundamenta el registro de la opción 'indocumentado' en el software para garantizar el acceso a los servicios de salud y seguimiento sin exclusión.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_048",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Sobrepeso: Peso mayor al esperado para la talla... Normal: Inferior de +2 y superior a -2 DE... Desnutrición: En la línea o inferior de -2 DE...\"",
+    "justification": "En rank 2 se explican los tres posibles resultados del indicador Peso para Talla y su significado clínico (desnutrición/agudo, normal, sobrepeso).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_051",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"...monitoreo y seguimiento continuo de las niñas y los niños en su crecimiento, desarrollo y salud, empleando técnicas antropométricas, de medición del desarrollo infantil y aplicando tamizajes de salud al menos una vez al año...\"",
+    "justification": "En rank 3 se define la vigilancia según la norma PCD-VCD-N-01 y las técnicas empleadas (antropometría, EDIN II, tamizajes de salud).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_053",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"Para la revisión de la calidad de los datos de la herramienta... se utiliza la Guía de revisión de calidad... Filtro... Revisar datos extremos, no congruentes...\"",
+    "justification": "En rank 1 se describen las tareas de revisión de calidad por la Jefatura de Oficina Local (filtros en Excel, detección de incongruencias y errores de fórmulas).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_054",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "YES",
+    "best_k": "4",
+    "evidence_found": "\"En la fila Puntaje Z, el profesional en nutrición de la Oficina Local deberá obtener el dato utilizando la calculadora del software Anthro... Baja Talla: BT, Baja Talla Severa: BTS\"",
+    "justification": "En rank 4 se indica que el Profesional en Nutrición es el encargado de verificar el puntaje Z con Anthro y se listan las siglas de clasificación de Baja Talla.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_055",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Escucha activa: En la Atención Interdisciplinaria se requiere de una escucha activa hacia las personas atendidas como hacia los demás miembros del Equipo Interdisciplinario.\"",
+    "justification": "En rank 3 se fundamenta la escucha activa y el respeto como ejes transversales de la atención integral.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_059",
+    "hit_at_1": "YES",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "1",
+    "evidence_found": "\"participan profesionales del equipo interdisciplinario, personal del establecimiento y la madre, padre o encargado...\"",
+    "justification": "En rank 1 se define el rol de las sesiones de apoyo como estrategia intensiva de acompañamiento y se enumeran los participantes.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_062",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "YES",
+    "best_k": "4",
+    "evidence_found": "\"Considerar como insumo, factores de riesgo tales como: salud individual... datos del grupo familiar... riesgo social, violencia familiar, entre otros determinantes sociales de la salud...\"",
+    "justification": "En rank 4 se indica que los determinantes sociales (agua, vivienda, violencia) son insumos obligatorios para analizar el caso y definir la prioridad.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_067",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Su objetivo se orienta a maximizar el potencial del desarrollo infantil desde el nacimiento hasta los 13 años; la adecuada nutrición, cuidados de salud y socialización... en espacios sanos, seguros y estimulantes...\"",
+    "justification": "En rank 2 se describen los objetivos integrales del servicio de Atención y Protección Infantil (API).",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_068",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Estrategias de abordaje y materiales de apoyo... según nivel de prioridad... DAF, kits de estimulación infantil, réplicas de alimentos, rotafolios...\"",
+    "justification": "En rank 3 se describe cómo la asignación de materiales de apoyo (kits, réplicas de alimentos) se diferencia según el nivel de prioridad del caso.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_072",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Lista de cotejo patrones de hábitos de salud... Cumple / No cumple... Expediente de la niña y niño... Cada vez que se aplica el EDIN II.\"",
+    "justification": "En rank 2 se explica la clasificación (Cumple / No Cumple) de la lista de cotejo de hábitos de salud y su oportunidad de aplicación.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_073",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "3",
+    "evidence_found": "\"Identificación del caso: ASSC3, ASSC2, Profesional de establecimiento. Clasificación nutricional: Profesional de Oficina Local [Nutrición]...\"",
+    "justification": "En rank 3 se definen las tareas de asesoría y clasificación del Nutricionista de Oficina Local respecto al personal asistente.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_078",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"La Dirección Nacional de CEN-CINAI adopta el tamizaje actualizado EDIN II... lo que requiere modificar los criterios de efectos de mejora...\"",
+    "justification": "En rank 2 se fundamenta la importancia de actualizar la normativa ante cambios en instrumentos como la transición de EDIN a EDIN II.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_090",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 4) lista funciones generales del personal en SISVENDIS, pero omite la explicación de la diversidad alimentaria mínima (5 grupos en 24h) y su rol complementario a la antropometría.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_091",
+    "hit_at_1": "NO",
+    "hit_at_3": "YES",
+    "hit_at_5": "YES",
+    "best_k": "2",
+    "evidence_found": "\"Si la persona no posee ningún tipo de documento, anote la palabra sin documentos en este espacio.\"",
+    "justification": "En rank 2 se norma el procedimiento de registro de menores indocumentados para garantizar su atención y derechos.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  },
+  {
+    "question_id": "abierta_092",
+    "hit_at_1": "NO",
+    "hit_at_3": "NO",
+    "hit_at_5": "NO",
+    "best_k": "",
+    "evidence_found": "Incompleta",
+    "justification": "El chunk recuperado (rank 5) enumera las herramientas Excel y reportes actuales, pero omite la evolución histórica desde el 2002 y el paso del procesamiento manual al digital por niveles.",
+    "adjudication_method": "strict semantic review against authoritative evidence"
+  }
+]

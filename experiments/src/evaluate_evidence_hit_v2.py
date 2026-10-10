@@ -145,8 +145,8 @@ for item in data:
                 best_segment = segment
                 break
 
-        # Criterio de alta confianza.
-        # No depende del nombre del documento.
+        # Criterio de alta confianza
+        # No depende del nombre del documento
         if exact:
             status = "HIGH_CONFIDENCE_HIT"
 

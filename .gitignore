@@ -6,7 +6,9 @@ experiments/data/source_documents/*.pdf
 experiments/data/benchmark_300.xlsx
 
 # Índice RAG cacheado por pipeline.py (regenerable desde los PDFs)
-experiments/data/rag_index/
+experiments/data/rag_index/*
+!experiments/data/rag_index/README.md
+!experiments/data/rag_index/retrieved_chunks_snapshot.json
 
 # Python
 __pycache__/
@@ -23,7 +25,7 @@ experiments/results/metrics/*
 !experiments/results/raw/.gitkeep
 !experiments/results/metrics/.gitkeep
 
-# Figuras del paper (results/metrics/* las ignora arriba; estas sí se versionan)
+# Figuras del paper que sí se versionan
 !experiments/results/metrics/figures/
 !experiments/results/metrics/figures/*.png
 

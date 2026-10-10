@@ -1,0 +1,41 @@
+{
+  "selection_method": "stratified random sample",
+  "seed": 20261008,
+  "categories": {
+    "corta": 10,
+    "abierta": 10
+  },
+  "selected_ids": {
+    "corta": [
+      "corta_038",
+      "corta_006",
+      "corta_057",
+      "corta_031",
+      "corta_020",
+      "corta_036",
+      "corta_012",
+      "corta_092",
+      "corta_028",
+      "corta_040"
+    ],
+    "abierta": [
+      "abierta_087",
+      "abierta_091",
+      "abierta_028",
+      "abierta_053",
+      "abierta_016",
+      "abierta_073",
+      "abierta_096",
+      "abierta_060",
+      "abierta_004",
+      "abierta_052"
+    ]
+  },
+  "n_questions": 20,
+  "n_model_responses": 60,
+  "models": [
+    "Qwen2.5-32B",
+    "Llama3.3-70B",
+    "DeepSeek-R1-Distill-Qwen-32B"
+  ]
+}

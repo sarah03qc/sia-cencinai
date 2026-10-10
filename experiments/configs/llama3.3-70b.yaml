@@ -1,1 +1,9 @@
-# TODO: Llama3.3-70B model config
+model_key: llama3.3-70b
+hf_repo: ibnzterrell/Meta-Llama-3.3-70B-Instruct-AWQ-INT4
+quantization:
+  method: awq
+  bits: 4
+  pre_quantized: true
+generation:
+  max_new_tokens: 512
+  do_sample: false

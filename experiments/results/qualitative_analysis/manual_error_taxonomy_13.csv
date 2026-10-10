@@ -1,0 +1,14 @@
+﻿question_id,model,primary_error_type,rationale
+abierta_087,Qwen2.5-32B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_087,Llama3.3-70B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_087,DeepSeek-R1-Distill-Qwen-32B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_091,Qwen2.5-32B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_091,Llama3.3-70B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_091,DeepSeek-R1-Distill-Qwen-32B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_053,Qwen2.5-32B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_053,DeepSeek-R1-Distill-Qwen-32B,GENERATION_FAILURE_NO_ANSWER,Declines to answer despite relevant evidence in the retrieved context
+abierta_028,Qwen2.5-32B,INCOMPLETE_OR_UNDERDEVELOPED,Captures the main contrast but does not fully develop the requested comparison
+abierta_053,Llama3.3-70B,INCOMPLETE_OR_UNDERDEVELOPED,Provides related responsibilities but misses key quality control elements
+abierta_016,DeepSeek-R1-Distill-Qwen-32B,INCOMPLETE_OR_UNDERDEVELOPED,Gives the main relationship but omits part of the requested explanation
+abierta_096,Qwen2.5-32B,INCOMPLETE_OR_UNDERDEVELOPED,Identifies the risk signal but does not complete the requested comparison
+abierta_004,Qwen2.5-32B,INCOMPLETE_OR_UNDERDEVELOPED,Recognizes both inputs but does not fully explain how they determine priority

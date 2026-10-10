@@ -29,7 +29,7 @@ FIGURES_DIR = PROJECT_ROOT / "results" / "metrics" / "figures"
 METRICS = ["sino_accuracy", "corta_f1", "abierta_bertscore", "abierta_rouge_l"]
 # En inglés: el paper está en inglés, estas etiquetas van directo a las
 # figuras (comparativo_barras.png y comparativo_radar.png, que comparten
-# este diccionario).
+# este diccionario)
 METRIC_LABELS = {
     "sino_accuracy": "Yes/No\n(Accuracy)",
     "corta_f1": "Short Answer\n(Token F1)",
@@ -42,7 +42,7 @@ DPI = 200
 # Padding alrededor del rango real de datos para el eje radial del radar
 # (ver plot_radar): "zoom" para que se note la diferencia entre modelos,
 # en vez de usar siempre 0-1 fijo donde valores parecidos (ej. 0.72 vs
-# 0.75) quedan visualmente indistinguibles.
+# 0.75) quedan visualmente indistinguibles
 RADAR_PADDING = 0.05
 
 # Paleta fija (no depende del orden de filas del CSV): así el color de
@@ -139,7 +139,7 @@ def plot_radar(rows: list[dict], colors: dict[str, str], out_path: Path):
     # El eje radial NO arranca en 0 (queda claro en las etiquetas de arriba,
     # pero se aclara también en texto para que no se lea como engañoso en
     # el paper): es un zoom deliberado al rango real de los datos, para que
-    # se note la diferencia entre modelos.
+    # se note la diferencia entre modelos
     fig.text(
         0.5, 0.02,
         f"Eje radial de {r_min:.2f} a {r_max:.2f} (no arranca en 0) — ajustado al "

@@ -1,3 +1,6 @@
+# Full model-generation environment
+# For revision metrics only use requirements_revision.txt
+
 # ORDEN DE INSTALACIÓN — no instalar con un solo `pip install -r requirements.txt`
 # de corrido sin fijarte en esto:
 #   1. torch (versión exacta de abajo)

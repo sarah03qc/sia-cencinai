@@ -1,0 +1,7 @@
+FIXED MODEL IDENTIFIERS — DO NOT PROVIDE THIS FILE TO THE JUDGE
+
+response_A = Qwen2.5-32B
+response_B = Llama 3.3 70B
+response_C = DeepSeek-R1-Distill-Qwen-32B
+
+The mapping is constant across all 200 questions; it is not randomized per question.

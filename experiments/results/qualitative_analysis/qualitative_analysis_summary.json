@@ -1,0 +1,64 @@
+{
+  "n_questions": 20,
+  "n_responses": 60,
+  "manual_counts": {
+    "Qwen2.5-32B": {
+      "B": 14,
+      "M": 3,
+      "P": 3
+    },
+    "Llama3.3-70B": {
+      "B": 17,
+      "M": 2,
+      "P": 1
+    },
+    "DeepSeek-R1-Distill-Qwen-32B": {
+      "B": 16,
+      "M": 3,
+      "P": 1
+    }
+  },
+  "judge_counts": {
+    "Qwen2.5-32B": {
+      "PASS": 13,
+      "FAIL": 5,
+      "PARTIAL": 2
+    },
+    "Llama3.3-70B": {
+      "PASS": 14,
+      "FAIL": 4,
+      "PARTIAL": 2
+    },
+    "DeepSeek-R1-Distill-Qwen-32B": {
+      "PASS": 15,
+      "FAIL": 5
+    }
+  },
+  "manual_judge_agreement": 0.85,
+  "manual_judge_agreement_n": 51,
+  "cohen_kappa": 0.6385542168674698,
+  "weighted_cohen_kappa": 0.6864951768488747,
+  "taxonomy_counts": {
+    "NONE_MANUAL": 47,
+    "GENERATION_FAILURE_NO_ANSWER": 8,
+    "INCOMPLETE_OR_UNDERDEVELOPED": 5
+  },
+  "all_sampled_questions_hit_at_5": true,
+  "open_metric_means_by_manual_grade": {
+    "B": {
+      "bertscore_f1": 0.23172994483919704,
+      "rouge_l": 0.22483242651665902,
+      "meteor": 0.2968791957377932
+    },
+    "P": {
+      "bertscore_f1": 0.20923236906528472,
+      "rouge_l": 0.19551119820773477,
+      "meteor": 0.26084795946626216
+    },
+    "M": {
+      "bertscore_f1": 0.15213108155876398,
+      "rouge_l": 0.1579635508018781,
+      "meteor": 0.13866010941064502
+    }
+  }
+}

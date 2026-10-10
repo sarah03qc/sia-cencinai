@@ -42,7 +42,7 @@ TOP_K = 5
 
 
 # ---------------------------------------------------------------------
-# 1. Extracción de PDFs + índice RAG (con caché en disco)
+# 1 Extracción de PDFs + índice RAG (con caché en disco)
 # ---------------------------------------------------------------------
 
 def extract_pdf_text(path: Path) -> str:
@@ -111,7 +111,7 @@ def build_or_load_rag_index(source_dir: Path = SOURCE_DOCS_DIR, index_dir: Path 
 
 
 # ---------------------------------------------------------------------
-# 2. Dataset de preguntas
+# 2 Dataset de preguntas
 # ---------------------------------------------------------------------
 
 def load_qa_dataset(path: Path = QA_PATH) -> list[dict]:
@@ -143,7 +143,7 @@ def load_qa_dataset(path: Path = QA_PATH) -> list[dict]:
 
 
 # ---------------------------------------------------------------------
-# 3. Construcción del prompt
+# 3 Construcción del prompt
 # ---------------------------------------------------------------------
 
 def build_prompt(question: str, retrieved_chunks: list[dict]) -> str:
@@ -161,7 +161,7 @@ def build_prompt(question: str, retrieved_chunks: list[dict]) -> str:
 
 
 # ---------------------------------------------------------------------
-# 4. Loop del benchmark
+# 4 Loop del benchmark
 # ---------------------------------------------------------------------
 
 def run_pipeline(model_key: str):
@@ -171,7 +171,7 @@ def run_pipeline(model_key: str):
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     output_path = RESULTS_DIR / f"{model_key}.json"
 
-    # Validar el dataset ANTES de cargar el índice/modelo, para fallar rápido.
+    # Validar el dataset ANTES de cargar el índice/modelo, para fallar rápido
     qa_dataset = load_qa_dataset()
 
     index, chunks, embedding_model = build_or_load_rag_index()
@@ -217,7 +217,7 @@ def run_pipeline(model_key: str):
 
         results.append(result)
 
-        # Guardar incrementalmente: no perder todo si se corta a mitad de camino.
+        # Guardar incrementalmente: no perder todo si se corta a mitad de camino
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 

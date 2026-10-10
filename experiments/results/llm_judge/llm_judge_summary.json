@@ -1,0 +1,77 @@
+{
+  "Qwen2.5-32B": {
+    "verdict_counts": {
+      "FAIL": 76,
+      "PARTIAL": 50,
+      "PASS": 74
+    },
+    "averages": {
+      "factual_correctness": 1.24,
+      "completeness": 1.07,
+      "faithfulness_to_evidence": 1.17,
+      "unsupported_information": 0.1
+    },
+    "by_category": {
+      "corta": {
+        "pass": 47,
+        "n": 100,
+        "pass_rate": 0.47
+      },
+      "abierta": {
+        "pass": 27,
+        "n": 100,
+        "pass_rate": 0.27
+      }
+    }
+  },
+  "Llama3.3-70B": {
+    "verdict_counts": {
+      "FAIL": 52,
+      "PARTIAL": 50,
+      "PASS": 98
+    },
+    "averages": {
+      "factual_correctness": 1.475,
+      "completeness": 1.35,
+      "faithfulness_to_evidence": 1.335,
+      "unsupported_information": 0.18
+    },
+    "by_category": {
+      "corta": {
+        "pass": 60,
+        "n": 100,
+        "pass_rate": 0.6
+      },
+      "abierta": {
+        "pass": 38,
+        "n": 100,
+        "pass_rate": 0.38
+      }
+    }
+  },
+  "DeepSeek-R1-Distill-Qwen-32B": {
+    "verdict_counts": {
+      "FAIL": 68,
+      "PARTIAL": 49,
+      "PASS": 83
+    },
+    "averages": {
+      "factual_correctness": 1.37,
+      "completeness": 1.245,
+      "faithfulness_to_evidence": 1.215,
+      "unsupported_information": 0.27
+    },
+    "by_category": {
+      "corta": {
+        "pass": 47,
+        "n": 100,
+        "pass_rate": 0.47
+      },
+      "abierta": {
+        "pass": 36,
+        "n": 100,
+        "pass_rate": 0.36
+      }
+    }
+  }
+}

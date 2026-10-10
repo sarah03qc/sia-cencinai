@@ -19,7 +19,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]  # experiments/
 XLSX_PATH = PROJECT_ROOT / "data" / "benchmark_300.xlsx"
 JSON_PATH = PROJECT_ROOT / "data" / "benchmark_300.json"
 
-# Nombre de hoja en el Excel -> prefijo de categoría en el JSON de salida.
+# Nombre de hoja en el Excel -> prefijo de categoría en el JSON de salida
 SHEET_TO_CATEGORIA = {
     "Sí o No": "sino",
     "Respuesta Corta": "corta",

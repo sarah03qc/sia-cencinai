@@ -148,7 +148,7 @@ def main():
         # Bootstrap PAREADO
         #
         # Se generan los mismos índices de pregunta
-        # para los 3 modelos.
+        # para los 3 modelos
         # --------------------------------------------------------
 
         boot_means = np.empty(

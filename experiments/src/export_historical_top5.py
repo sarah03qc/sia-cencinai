@@ -8,6 +8,7 @@ RAW_PATH = ROOT / "results" / "raw" / "qwen2.5-32b.json"
 BENCHMARK_PATH = ROOT / "data" / "benchmark_final_299.json"
 EVIDENCE_PATH = ROOT / "data" / "evidence_annotations_final_299.json"
 CHUNKS_PATH = ROOT / "data" / "rag_index" / "chunks.json"
+SNAPSHOT_PATH = ROOT / "data" / "rag_index" / "retrieved_chunks_snapshot.json"
 
 OUT_DIR = ROOT / "results" / "retrieval_audit"
 OUT_JSON = OUT_DIR / "historical_top5_final_299.json"
@@ -29,7 +30,7 @@ def key(obj):
 benchmark = load_json(BENCHMARK_PATH)
 evidence = load_json(EVIDENCE_PATH)
 raw = load_json(RAW_PATH)
-chunks = load_json(CHUNKS_PATH)
+chunks = load_json(CHUNKS_PATH) if CHUNKS_PATH.exists() else load_json(SNAPSHOT_PATH)
 
 benchmark_by_id = {
     x["id"]: x
@@ -63,7 +64,9 @@ for global_idx, chunk in enumerate(chunks):
         )
 
     chunk_copy = dict(chunk)
-    chunk_copy["global_chunk_id"] = global_idx
+    chunk_copy["global_chunk_id"] = int(
+        chunk.get("global_chunk_id", global_idx)
+    )
 
     chunk_by_key[k] = chunk_copy
 

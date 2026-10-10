@@ -143,11 +143,11 @@ def classify_match(
     if same_document and exact:
         return "STRONG", recall, precision, "exact_normalized"
 
-    # Alta cobertura de la evidencia dentro del chunk.
+    # Alta cobertura de la evidencia dentro del chunk
     if same_document and recall >= 0.80:
         return "STRONG", recall, precision, "token_recall>=0.80"
 
-    # Casos que necesitan inspección.
+    # Casos que necesitan inspección
     if same_document and recall >= 0.35:
         return "REVIEW", recall, precision, "same_doc_partial_overlap"
 

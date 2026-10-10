@@ -1,0 +1,28 @@
+{
+  "initial_seed": 20261008,
+  "replacement_seed": 20261009,
+  "final_ids": [
+    "corta_038",
+    "corta_006",
+    "corta_057",
+    "corta_031",
+    "corta_020",
+    "corta_036",
+    "corta_012",
+    "corta_092",
+    "corta_028",
+    "corta_096",
+    "abierta_087",
+    "abierta_091",
+    "abierta_028",
+    "abierta_053",
+    "abierta_016",
+    "abierta_095",
+    "abierta_096",
+    "abierta_060",
+    "abierta_004",
+    "abierta_052"
+  ],
+  "n_questions": 20,
+  "n_model_responses": 60
+}

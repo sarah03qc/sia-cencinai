@@ -1,0 +1,28 @@
+{
+  "benchmark_size": 299,
+  "final_hits_at_5": 282,
+  "final_misses_at_5": 17,
+  "final_hit_rate_at_5": 0.9431438127090301,
+  "by_category": {
+    "sino": {
+      "n": 99,
+      "hits_at_5": 93,
+      "misses_at_5": 6,
+      "hit_rate_at_5": 0.9393939393939394
+    },
+    "corta": {
+      "n": 100,
+      "hits_at_5": 95,
+      "misses_at_5": 5,
+      "hit_rate_at_5": 0.95
+    },
+    "abierta": {
+      "n": 100,
+      "hits_at_5": 94,
+      "misses_at_5": 6,
+      "hit_rate_at_5": 0.94
+    }
+  },
+  "reported_metric": "Hit@5 only",
+  "note": "Hit@1 and Hit@3 are not reported as final metrics because automatic and semantic rank adjudication used different methods"
+}
