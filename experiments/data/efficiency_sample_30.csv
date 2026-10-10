@@ -1,0 +1,31 @@
+﻿id,categoria,pregunta
+sino_006,sino,¿Se asigna prioridad 4 a un niño o niña en servicio DAF que recuperó su estado nutricional normal y está en período de protección?
+sino_031,sino,¿Incluye el EDIN II láminas ilustradas como parte de sus materiales?
+sino_034,sino,¿Es obligatorio que el lugar de aplicación del EDIN II sea silencioso?
+sino_043,sino,¿Es el Anexo 3 un nomograma para el cálculo del Índice de Masa Corporal?
+sino_044,sino,¿La norma de asistencia técnica responde a necesidades identificadas por los funcionarios?
+sino_046,sino,¿El kit de materiales del EDIN II puede ser reemplazado por objetos similares si no están disponibles?
+sino_047,sino,¿La evaluación cualitativa de API se aplica únicamente en el segundo trimestre?
+sino_053,sino,¿Es la Directora Nacional quien da el aval final a las normas sustantivas?
+sino_086,sino,¿El indicador IMC para menores de 5 años es obligatorio en todas las evaluaciones?
+sino_095,sino,"¿El EDIN II evalúa el área ""Socioafectiva""?"
+corta_001,corta,¿Cuáles son los criterios antropométricos que activan la referencia de un niño al proceso de atención interdisciplinaria en CEN-CINAI?
+corta_022,corta,¿Qué tres profesionales supervisaron técnicamente la actualización de las Normas Técnicas Sustantivas en 2021?
+corta_023,corta,Mencione el código de la norma que regula específicamente la Selección de clientes y beneficiarias.
+corta_033,corta,¿En qué meses del año se debe aplicar la herramienta de supervisión del cumplimiento según el Anexo 5?
+corta_051,corta,¿Qué áreas de desarrollo evalúa específicamente la prueba EVADE?
+corta_059,corta,Mencione dos indicadores de riesgo familiar que se registran en el instrumento de detección.
+corta_066,corta,¿Cuál es el objetivo técnico de aplicar la corrección de edad en la evaluación de niños nacidos pretérmino?
+corta_073,corta,"¿Qué componentes de salud, además de nutrición y desarrollo, integra el modelo operativo SISVENDIS 2023?"
+corta_081,corta,¿Qué documento orientador se incluye dentro de los kits de estimulación infantil entregados a las familias?
+corta_098,corta,¿Qué indicadores antropométricos son obligatorios para la valoración nutricional de la población escolar mayor de 5 años?
+abierta_014,abierta,Explique el flujo de información de vigilancia desde que se registra un tamizaje en el expediente clínico hasta que los datos se consolidan a nivel regional.
+abierta_022,abierta,Compare las responsabilidades del ASSC 2 frente al ASSC 3 en la aplicación de la prueba EDIN II y la vigilancia nutricional.
+abierta_025,abierta,"Explique los criterios técnicos para clasificar a un niño en el Grupo G de riesgo, considerando edad, indicadores antropométricos y nivel de desarrollo."
+abierta_038,abierta,Describa los lineamientos de custodia del expediente físico de malnutrición y quiénes tienen acceso a las anotaciones especializadas de cada disciplina.
+abierta_039,abierta,"Explique cómo el personal debe prepararse para la toma de peso y talla, detallando los requisitos del lugar y los ajustes técnicos en el equipo antropométrico."
+abierta_042,abierta,Explique cómo se utiliza el nomograma del Anexo 3 para el cálculo del IMC y en qué casos es preferible usar la calculadora del software Anthro.
+abierta_045,abierta,Explique cómo se integra la educación al grupo familiar en el plan de atención de un niño con malnutrición severa.
+abierta_057,abierta,Explique la relación entre la condición de pobreza o riesgo social y los criterios de selección de beneficiarios en las normas de 2021.
+abierta_078,abierta,Explique la importancia de la actualización constante de la normativa institucional ante cambios en las pruebas de desarrollo (como el paso de EDIN a EDIN II).
+abierta_097,abierta,"Explique el flujo de coordinación técnica necesario para referir a un niño con ""rezago en comunicación y lenguaje"" a especialistas externos, tras agotar las estrategias de estimulación del personal docente."

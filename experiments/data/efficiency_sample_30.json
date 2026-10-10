@@ -1,0 +1,163 @@
+{
+  "seed": 20261010,
+  "sampling": "stratified_random",
+  "n_per_category": 10,
+  "n_total": 30,
+  "categories": [
+    "sino",
+    "corta",
+    "abierta"
+  ],
+  "questions": [
+    {
+      "id": "sino_006",
+      "categoria": "sino",
+      "pregunta": "¿Se asigna prioridad 4 a un niño o niña en servicio DAF que recuperó su estado nutricional normal y está en período de protección?"
+    },
+    {
+      "id": "sino_031",
+      "categoria": "sino",
+      "pregunta": "¿Incluye el EDIN II láminas ilustradas como parte de sus materiales?"
+    },
+    {
+      "id": "sino_034",
+      "categoria": "sino",
+      "pregunta": "¿Es obligatorio que el lugar de aplicación del EDIN II sea silencioso?"
+    },
+    {
+      "id": "sino_043",
+      "categoria": "sino",
+      "pregunta": "¿Es el Anexo 3 un nomograma para el cálculo del Índice de Masa Corporal?"
+    },
+    {
+      "id": "sino_044",
+      "categoria": "sino",
+      "pregunta": "¿La norma de asistencia técnica responde a necesidades identificadas por los funcionarios?"
+    },
+    {
+      "id": "sino_046",
+      "categoria": "sino",
+      "pregunta": "¿El kit de materiales del EDIN II puede ser reemplazado por objetos similares si no están disponibles?"
+    },
+    {
+      "id": "sino_047",
+      "categoria": "sino",
+      "pregunta": "¿La evaluación cualitativa de API se aplica únicamente en el segundo trimestre?"
+    },
+    {
+      "id": "sino_053",
+      "categoria": "sino",
+      "pregunta": "¿Es la Directora Nacional quien da el aval final a las normas sustantivas?"
+    },
+    {
+      "id": "sino_086",
+      "categoria": "sino",
+      "pregunta": "¿El indicador IMC para menores de 5 años es obligatorio en todas las evaluaciones?"
+    },
+    {
+      "id": "sino_095",
+      "categoria": "sino",
+      "pregunta": "¿El EDIN II evalúa el área \"Socioafectiva\"?"
+    },
+    {
+      "id": "corta_001",
+      "categoria": "corta",
+      "pregunta": "¿Cuáles son los criterios antropométricos que activan la referencia de un niño al proceso de atención interdisciplinaria en CEN-CINAI?"
+    },
+    {
+      "id": "corta_022",
+      "categoria": "corta",
+      "pregunta": "¿Qué tres profesionales supervisaron técnicamente la actualización de las Normas Técnicas Sustantivas en 2021?"
+    },
+    {
+      "id": "corta_023",
+      "categoria": "corta",
+      "pregunta": "Mencione el código de la norma que regula específicamente la Selección de clientes y beneficiarias."
+    },
+    {
+      "id": "corta_033",
+      "categoria": "corta",
+      "pregunta": "¿En qué meses del año se debe aplicar la herramienta de supervisión del cumplimiento según el Anexo 5?"
+    },
+    {
+      "id": "corta_051",
+      "categoria": "corta",
+      "pregunta": "¿Qué áreas de desarrollo evalúa específicamente la prueba EVADE?"
+    },
+    {
+      "id": "corta_059",
+      "categoria": "corta",
+      "pregunta": "Mencione dos indicadores de riesgo familiar que se registran en el instrumento de detección."
+    },
+    {
+      "id": "corta_066",
+      "categoria": "corta",
+      "pregunta": "¿Cuál es el objetivo técnico de aplicar la corrección de edad en la evaluación de niños nacidos pretérmino?"
+    },
+    {
+      "id": "corta_073",
+      "categoria": "corta",
+      "pregunta": "¿Qué componentes de salud, además de nutrición y desarrollo, integra el modelo operativo SISVENDIS 2023?"
+    },
+    {
+      "id": "corta_081",
+      "categoria": "corta",
+      "pregunta": "¿Qué documento orientador se incluye dentro de los kits de estimulación infantil entregados a las familias?"
+    },
+    {
+      "id": "corta_098",
+      "categoria": "corta",
+      "pregunta": "¿Qué indicadores antropométricos son obligatorios para la valoración nutricional de la población escolar mayor de 5 años?"
+    },
+    {
+      "id": "abierta_014",
+      "categoria": "abierta",
+      "pregunta": "Explique el flujo de información de vigilancia desde que se registra un tamizaje en el expediente clínico hasta que los datos se consolidan a nivel regional."
+    },
+    {
+      "id": "abierta_022",
+      "categoria": "abierta",
+      "pregunta": "Compare las responsabilidades del ASSC 2 frente al ASSC 3 en la aplicación de la prueba EDIN II y la vigilancia nutricional."
+    },
+    {
+      "id": "abierta_025",
+      "categoria": "abierta",
+      "pregunta": "Explique los criterios técnicos para clasificar a un niño en el Grupo G de riesgo, considerando edad, indicadores antropométricos y nivel de desarrollo."
+    },
+    {
+      "id": "abierta_038",
+      "categoria": "abierta",
+      "pregunta": "Describa los lineamientos de custodia del expediente físico de malnutrición y quiénes tienen acceso a las anotaciones especializadas de cada disciplina."
+    },
+    {
+      "id": "abierta_039",
+      "categoria": "abierta",
+      "pregunta": "Explique cómo el personal debe prepararse para la toma de peso y talla, detallando los requisitos del lugar y los ajustes técnicos en el equipo antropométrico."
+    },
+    {
+      "id": "abierta_042",
+      "categoria": "abierta",
+      "pregunta": "Explique cómo se utiliza el nomograma del Anexo 3 para el cálculo del IMC y en qué casos es preferible usar la calculadora del software Anthro."
+    },
+    {
+      "id": "abierta_045",
+      "categoria": "abierta",
+      "pregunta": "Explique cómo se integra la educación al grupo familiar en el plan de atención de un niño con malnutrición severa."
+    },
+    {
+      "id": "abierta_057",
+      "categoria": "abierta",
+      "pregunta": "Explique la relación entre la condición de pobreza o riesgo social y los criterios de selección de beneficiarios en las normas de 2021."
+    },
+    {
+      "id": "abierta_078",
+      "categoria": "abierta",
+      "pregunta": "Explique la importancia de la actualización constante de la normativa institucional ante cambios en las pruebas de desarrollo (como el paso de EDIN a EDIN II)."
+    },
+    {
+      "id": "abierta_097",
+      "categoria": "abierta",
+      "pregunta": "Explique el flujo de coordinación técnica necesario para referir a un niño con \"rezago en comunicación y lenguaje\" a especialistas externos, tras agotar las estrategias de estimulación del personal docente."
+    }
+  ]
+}

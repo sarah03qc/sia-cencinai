@@ -27,3 +27,13 @@ That path needs the seven source PDFs and a GPU environment
 `evaluate_evidence_hit.py`, `diagnose_evidence_hit.py`, and `inspect_suspicious_matches.py` are retained because they document the earlier retrieval audit stages
 
 The paper should use `retrieval_final_299.csv` rather than the intermediate screening counts
+
+## Efficiency benchmark
+
+14. `prepare_efficiency_sample.py` creates the fixed 30-question stratified sample with seed 20261010
+15. `benchmark_efficiency.py` measures one model at a time using the archived historical Top-5 context
+16. `summarize_efficiency.py` combines the three runs into the final comparison table
+
+The efficiency benchmark measures generation latency, tokens per second, output length, model load time, and PyTorch peak VRAM
+
+Retrieval is intentionally not rerun in this benchmark so every model receives the exact historical context from the original experiment

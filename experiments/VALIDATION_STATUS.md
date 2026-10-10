@@ -42,3 +42,17 @@ The historical raw outputs from all three model runs are archived under `results
 - 600 LLM-as-a-Judge evaluations
 - 60 final qualitative responses
 - 47 B, 5 P, 8 M manual verdicts
+
+## Efficiency benchmark preparation
+
+The efficiency scripts were added after the main revision workflow was frozen
+
+Validated locally without GPU
+
+- fixed 30-question sample generation
+- 10 questions per category
+- historical Top-5 availability for all 30 questions
+- dry-run validation for all three model keys
+- Python syntax for the three efficiency scripts
+
+GPU execution remains pending on Kabré

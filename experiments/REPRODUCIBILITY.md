@@ -163,3 +163,52 @@ A later qualitative spot check identified `corta_012` as an item where the store
 The revision metrics were frozen because of the deadline and were not recomputed after that observation
 
 Do not use that item as a qualitative example when discussing Token F1
+
+## Efficiency benchmark added for the revision
+
+A separate lightweight benchmark is included to report the basic computational efficiency requested by Reviewer 3
+
+The sample is fixed in `data/efficiency_sample_30.json`
+
+It contains 30 questions selected with seed 20261010
+
+- 10 yes/no
+- 10 short-answer
+- 10 open-ended
+
+All three models receive the same archived historical Top-5 chunks used in the original RAG experiment
+
+This means the efficiency comparison measures the deployed generation configurations without introducing a new retrieval result
+
+Run from `experiments`
+
+```bash
+python src/prepare_efficiency_sample.py
+python src/benchmark_efficiency.py qwen2.5-32b
+python src/benchmark_efficiency.py llama3.3-70b
+python src/benchmark_efficiency.py deepseek-r1-distill-qwen-32b
+python src/summarize_efficiency.py
+```
+
+A dry run can be used before requesting GPU time
+
+```bash
+python src/benchmark_efficiency.py qwen2.5-32b --dry-run
+```
+
+The three measured runs should use the same GPU type and expose only one GPU to the process
+
+One warm-up generation is executed before each model run and excluded from the reported measurements
+
+The primary reported values are
+
+- median generation latency
+- median generated tokens per second
+- maximum PyTorch allocated VRAM
+- mean output tokens
+
+Model load time and total measured loop time are archived as supplementary values
+
+Retrieval latency is not included because this revision benchmark reuses the exact historical Top-5 context
+
+This should be described as an efficiency comparison of the evaluated deployable configurations rather than a comparison of intrinsic model architectures
