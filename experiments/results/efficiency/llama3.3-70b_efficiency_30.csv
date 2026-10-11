@@ -1,0 +1,132 @@
+﻿question_id,category,model_key,model_name,quantization,gpu,input_tokens,output_tokens,generation_seconds,inference_seconds,tokens_per_second,baseline_vram_gb,peak_vram_gb,top_k,answer
+sino_006,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2902,63,9.54525,9.549259,6.600141,37.047911,38.860856,5,"Sí, se asigna prioridad 4 a un niño o niña en servicio DAF que recuperó su estado nutricional normal y está en período de protección, según el procedimiento para la atención interdisciplinaria del niño o niña con malnutrición."
+sino_031,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2802,77,10.964078,10.980375,7.022934,37.047909,38.816377,5,"Sí, el EDIN II incluye láminas ilustradas como parte de sus materiales, según se menciona en la sección ""INSTRUCTIVO PARA LA APLICACIÓN E INTERPRETACIÓN"" del Manual-EDIN-II-final-2020.pdf, donde se lista ""LÁMINAS ILUSTRADAS"" como parte del contenido."
+sino_034,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2799,81,11.514907,11.529439,7.03436,37.047909,38.8151,5,"Sí, es obligatorio que el lugar de aplicación del EDIN II sea silencioso, según el contexto proporcionado. En el Manual-EDIN-II-final-2020.pdf, se menciona que el lugar debe ser ""tranquilo, sin distracciones, silencioso y con buena iluminación"" para evaluar las conductas en las niñas y los niños."
+sino_043,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2936,36,6.667912,6.683758,5.398992,37.047911,38.876787,5,"Sí, según el contexto proporcionado, el Anexo 3 es un nomograma para el cálculo del Índice de Masa Corporal."
+sino_044,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2927,45,7.70885,7.724614,5.837446,37.047911,38.872449,5,"Sí, la norma de asistencia técnica responde a las necesidades identificadas por los funcionarios, según la Norma de Asistencia Técnica de la DNCC (2021)."
+sino_046,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2690,48,7.813685,7.82853,6.143069,37.047908,38.761512,5,"No tengo suficiente información para responder a esa pregunta. El texto proporcionado describe el EDIN II y su aplicación, pero no menciona específicamente si el kit de materiales puede ser reemplazado por objetos similares."
+sino_047,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2799,40,7.062607,7.077788,5.663631,37.047909,38.8151,5,"No, según el contexto proporcionado, la evaluación cualitativa de API se aplica en el primer y tercer trimestre del año, no únicamente en el segundo trimestre."
+sino_053,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3508,60,10.513645,10.531656,5.706869,37.04792,39.14852,5,"No, según el texto, es la Subdirectora Nacional, Ivannia Bonilla Garita, quien da el aval a las normas sustantivas, y son autorizadas por Lidia María Conejo Morales, Directora, Dirección Nacional de CEN-CINAI."
+sino_086,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2685,93,12.994798,13.009931,7.15671,37.047907,38.759429,5,"No, según el contexto proporcionado, el indicador IMC es obligatorio para igual o mayores de 5 años (≥5 años), pero no se menciona que sea obligatorio para menores de 5 años. En su lugar, para menores de 5 años, se utilizan indicadores como Peso para Edad (P/E), Peso para Talla (P/T) y Talla para Edad (T/E)."
+sino_095,sino,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2740,41,7.191458,7.205092,5.701208,37.047908,38.783234,5,"Sí, el EDIN II evalúa el área ""Socioafectiva"", además de las áreas motora gruesa, motora fina, cognitiva y lenguaje."
+corta_001,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2874,92,13.078646,13.093511,7.034367,37.04791,38.852055,5,"No tengo suficiente información para responder a la pregunta sobre los criterios antropométricos específicos que activan la referencia de un niño al proceso de atención interdisciplinaria en CEN-CINAI. El texto proporcionado menciona la detección de malnutrición y necesidades especiales en el crecimiento y desarrollo, pero no especifica los criterios antropométricos detallados."
+corta_022,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3576,121,17.797371,17.814151,6.798757,37.047921,39.1803,5,"Según el contexto proporcionado, los siguientes profesionales supervisaron técnicamente la actualización de las Normas Técnicas Sustantivas en 2021:
+
+1. Marcela Amador Calvo, Jefatura de UNAT
+2. Eugenia Villalobos Hernández, Jefatura de UIVCD
+3. Xiomara Molina Retana, Directora Técnica 
+
+Además, contaron con la asesoría de Merceditas Lizano Vega, de la Unidad de Planificación Estratégica Institucional."
+corta_023,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3126,26,5.880892,5.896253,4.421098,37.047914,38.965645,5,El código de la norma que regula específicamente la Selección de clientes y beneficiarias es SC-N-01.
+corta_033,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2851,52,8.495248,8.510485,6.121069,37.04791,38.841479,5,"No tengo suficiente información para responder a la pregunta. El texto proporcionado no menciona el Anexo 5 ni la herramienta de supervisión del cumplimiento, por lo que no puedo determinar en qué meses del año se debe aplicar."
+corta_051,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2869,39,7.109521,7.124029,5.485602,37.04791,38.849213,5,"La prueba EVADE evalúa específicamente las siguientes áreas de desarrollo: motora gruesa, motora fina, cognitiva, lenguaje y socioafectiva."
+corta_059,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3059,14,4.482376,4.498677,3.123343,37.047913,38.934538,5,"Abuso de drogas y/o alcohol, abuso sexual."
+corta_066,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2929,71,10.854526,10.869054,6.54105,37.047911,38.874234,5,"El objetivo técnico de aplicar la corrección de edad en la evaluación de niños nacidos pretérmino es compensar de forma parcial el período de vida intrauterina que le faltó al menor para culminar su formación y crecimiento óptimo, permitiendo una evaluación más precisa de su desarrollo."
+corta_073,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3274,31,6.716932,6.735308,4.615202,37.047917,39.036344,5,"El modelo operativo SISVENDIS 2023 integra, además de nutrición y desarrollo, el componente de salud infantil."
+corta_081,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3295,78,12.281743,12.29893,6.35089,37.047917,39.045674,5,"El documento orientador que se incluye dentro de los kits de estimulación infantil entregados a las familias es la ""GUÍA PARA EL USO DE LOS MATERIALES QUE CONTIENE EL BOLSO DE ESTIMULACIÓN DEL DESARROLLO INFANTIL"". Cada bolso de estimulación contiene la guía impresa."
+corta_098,corta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2673,81,11.516918,11.530567,7.033132,37.047907,38.754433,5,"Según el contexto proporcionado, para la valoración nutricional de niños, niñas y adolescentes de 5 a menores de 19 años de edad, se deben analizar de manera conjunta los indicadores de ""talla para edad"" y ""IMC"" (Índice de Masa Corporal) para una adecuada e integral valoración nutricional."
+abierta_014,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3022,512,63.193047,63.208612,8.102157,37.047913,38.917974,5,"Según el contexto proporcionado, el flujo de información de vigilancia desde que se registra un tamizaje en el expediente clínico hasta que los datos se consolidan a nivel regional es el siguiente:
+
+1. **Registro en el expediente clínico**: Los resultados de los tamizajes se registran en el expediente de la niña o niño, utilizando instrumentos como gráficas de crecimiento, hojas de respuestas EDIN II, EVADE, Visual, Auditivo, salud oral, entre otros.
+
+2. **Actualización del expediente**: Los profesionales de la salud actualizan el expediente con los resultados de la vigilancia del crecimiento y desarrollo, según la periodicidad establecida y utilizando los instrumentos y registros establecidos para cada tipo de tamizaje o evaluación.
+
+3. **Entrega de informes a padres o cuidadores**: Los resultados de la vigilancia del crecimiento y desarrollo se entregan a los padres, madres o personas cuidadoras, junto con recomendaciones para el seguimiento en el hogar.
+
+4. **Consolidación de datos**: Aunque el contexto no proporciona detalles específicos sobre cómo se consolidan los datos a nivel regional, se menciona que los resultados de los tamizajes son comunicados a los padres, madres o personas responsables, y que se realizan acciones conjuntas hogar-CEN-CINAI para potenciar el adecuado crecimiento y desarrollo de la niñez.
+
+5. **Sistema de vigilancia**: El contexto menciona el Sistema de Vigilancia del Estado Nutricional, del Desarrollo Infantil y Salud en CEN-CINAI (SISVENDIS), que es un modelo operativo para la vigilancia del crecimiento y desarrollo infantil. Es probable que los datos se consoliden a nivel regional a través de este sistema, aunque no se proporcionan detalles específicos sobre el proceso.
+
+En resumen, el flujo de información de vigilancia implica el registro de los resultados de los tamizajes en el expediente clínico, la actualización del expediente, la entrega de informes a los padres o cuidadores, y la posible consolidación de datos a través del Sistema de Vigilancia del Estado Nutricional, del Desarrollo Infantil y Salud en CEN-CINAI (SISVENDIS). Sin embargo, se"
+abierta_022,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2734,204,25.474674,25.489115,8.007953,37.047908,38.780152,5,"Según el contexto proporcionado, tanto el ASSC2 como el ASSC3 pueden aplicar la prueba EDIN II y realizar la vigilancia nutricional, siempre bajo la conducción del equipo interdisciplinario. No se especifican diferencias claras en las responsabilidades entre ASSC2 y ASSC3 en este contexto. Ambos pueden realizar tareas como la toma de peso, talla y clasificación del estado nutricional, así como aplicar el test de desarrollo (EDIN), junto con otros profesionales de CEN CINAI y promotores. Sin embargo, no hay detalles específicos sobre cómo se distribuyen estas responsabilidades entre ASSC2 y ASSC3, o si hay algún tipo de especialización o enfoque diferente en sus roles. Por lo tanto, no tengo suficiente información para comparar detalladamente sus responsabilidades en la aplicación de la prueba EDIN II y la vigilancia nutricional."
+abierta_025,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,3044,456,56.189295,56.20416,8.115425,37.047913,38.928151,5,"Para clasificar a un niño en el Grupo G de riesgo, se consideran los siguientes criterios técnicos:
+
+1. **Edad**: El Grupo G se aplica a niños mayores de 5 años.
+2. **Indicadores antropométricos**: Se evalúan los siguientes indicadores antropométricos:
+   - **Talla para Edad**: Se considera baja talla severa si el puntaje Z es ≤ -3, y baja talla si el puntaje Z está entre -2 y >-3.
+   - **Índice de Masa Corporal (IMC)**: Se considera desnutrición severa si el puntaje Z es ≤ -3, desnutrición si el puntaje Z está entre -2 y >-3, sobrepeso si el puntaje Z está entre <2 y ≥ 1, y obesidad si el puntaje Z es ≥ 2.
+3. **Nivel de desarrollo**: Se considera la presencia significativa de indicadores de riesgo en uno o más de los siguientes ámbitos que afecten el adecuado crecimiento y desarrollo:
+   - **Individual**: Bajo peso al nacer, edad gestacional, presencia de enfermedad, ausencia de lactancia materna o destete antes de los 12 meses de edad.
+   - **Familiar**: Riesgo social, como violencia intrafamiliar, drogas, alcoholismo, abuso sexual, explotación sexual comercial, nivel educativo y enfermedad de la madre o persona encargada, entre otros.
+   - **Comunitario**: Demográficas (poblaciones vulnerables como migrantes, indígenas o discapacidad), ambiente (manejo de desechos sólidos, excretas y acceso a agua potable), territorial (acceso al establecimiento, riesgo de desastre).
+
+El Grupo G tiene prioridad 1, lo que indica que los niños clasificados en este grupo requieren atención interdisciplinaria de alta prioridad debido a su situación de riesgo para el crecimiento y desarrollo adecuados."
+abierta_038,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2824,383,46.742619,46.758326,8.193807,37.04791,38.828025,5,"Según el contexto proporcionado, los lineamientos de custodia del expediente físico de malnutrición son los siguientes:
+
+1. Después de cada sesión de equipo interdisciplinario, el expediente se archiva en un lugar definido por el equipo, ubicado en la sede de la Oficina Local correspondiente.
+2. Cualquier miembro del equipo interdisciplinario y la jefatura de Oficina Local tienen acceso al archivo de los expedientes, pero deben respetar el orden administrativo de custodia de los expedientes.
+3. Los profesionales que tienen acceso a los expedientes deben cumplir con las reglas de ética profesional y de confidencialidad, y acatar lo establecido en la Ley 8968 de Protección de la persona frente al tratamiento de sus datos personales.
+
+En cuanto a las anotaciones especializadas de cada disciplina, se establece que:
+
+1. Cada profesional debe realizar anotaciones específicas y especializadas en su propia documentación, de manera que se respeta la intimidad de cada caso y se protege los derechos del niño o niña.
+2. Estas anotaciones estarán bajo la custodia del profesional respectivo y no se archivan como parte del expediente.
+3. En sesión de equipo interdisciplinario, el profesional respectivo informa al resto del equipo que ha procedido a realizar anotaciones específicas y especializadas bajo su custodia.
+
+En resumen, los profesionales que tienen acceso a las anotaciones especializadas de cada disciplina son los miembros del equipo interdisciplinario y la jefatura de Oficina Local, pero solo el profesional respectivo tiene acceso a sus propias anotaciones especializadas, que están bajo su custodia."
+abierta_039,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2657,512,60.505826,60.520794,8.461995,37.047907,38.748616,5,"Para prepararse para la toma de peso y talla, el personal debe seguir una serie de pasos y consideraciones importantes. En primer lugar, se debe **preparar el equipo**:
+
+1.  **Balanza**: Verificar que esté calibrada y limpia. Si es electrónica, asegurarse de que tenga baterías. Si es mecánica, verificar que las pesas estén en cero.
+2.  **Tallímetro, estadiómetro portátil y/o infantómetro**: Verificar su estado higiénico y la legibilidad de los números. Para el estadiómetro portátil por ondas ultrasónicas, colocarle las baterías.
+
+En segundo lugar, se debe **preparar el lugar**:
+
+*   Buscar un lugar con suficiente luz y ventilación.
+*   Asegurarse de que el piso sea liso y esté a nivel, lo que permita calibrar la balanza adecuadamente.
+
+En tercer lugar, se debe **preparar los documentos de control y registro de los datos**:
+
+*   Preparar el expediente donde se registrará la información, con las respectivas gráficas de crecimiento somático según corresponda (P/E, P/T, T/E, IMC).
+*   En los casos de niños y niñas que se miden por primera vez, alistar las gráficas que necesite.
+*   En los casos de niño o niñas con expediente activo, ubicar las gráficas donde ha sido evaluado en el tiempo el niño y la niña.
+
+Finalmente, se deben considerar **cuidados relacionados al momento de tomar las mediciones**:
+
+*   La evaluación debe hacerse en presencia de la madre, padre o encargado, para que el niño o niña se sienta menos temeroso y para que el adulto pueda colaborar si es necesario.
+*   Explicar de forma amigable y con un lenguaje simple lo que se va a hacer, solicitando la colaboración del niño o niña y de su acompañante.
+*   Realizar las mediciones preferiblemente cuando el niño o niña estén en buen estado de salud, evitando mediciones si presentan síntomas de enfermedad que puedan afectar su peso o estado general"
+abierta_042,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2779,480,57.570434,57.585019,8.337613,37.047909,38.804671,5,"Según el contexto proporcionado, el nomograma del Anexo 3 se utiliza para calcular el índice de masa corporal (IMC) de los niños y niñas. A continuación, se presentan los pasos para utilizar el nomograma:
+
+1.  Encuentre la talla del niño o niña en la primera columna de la tabla.
+2.  En caso de que no se muestre la medición exacta, seleccione la más cercana. Si la medición del niño o niña está justo en medio de los valores que se muestran, seleccione la próxima medición mayor.
+3.  Observe a lo largo de la fila para encontrar el peso del niño o niña según la talla seleccionada, posteriormente seleccione el peso más cercano.
+4.  Una vez designado el peso del niño o niña, desplace su dedo hacia arriba o hacia abajo para encontrar el IMC que se encuentran anotados en la primera o última fila.
+5.  Registre el dato obtenido del IMC en la gráfica respectiva y proceda a plotear el dato en la gráfica para obtener el estado nutricional del niño o niña.
+
+En cuanto a cuándo es preferible usar la calculadora del software Anthro, según el contexto, se recomienda utilizarla para verificar el dato del IMC y completar la casilla de puntaje Z, especialmente cuando se requiere una mayor precisión o cuando se están evaluando indicadores como P/E (Peso para la edad), P/T (Peso para la talla) y T/E (Talla para la edad) en menores de 5 años. Además, la calculadora del software Anthro puede ser útil para automatizar el cálculo del IMC y reducir errores humanos. Sin embargo, no hay una indicación explícita de que sea preferible usar la calculadora del software Anthro en lugar del nomograma en todos los casos. La elección entre el nomograma y la calculadora del software Anthro puede depender de las preferencias personales del profesional de la salud o de las políticas de la institución en la que se está trabajando."
+abierta_045,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2941,239,30.399879,30.41576,7.861873,37.047911,38.878611,5,"La educación al grupo familiar se integra en el plan de atención de un niño con malnutrición severa a través de sesiones educativas grupales, donde se busca fortalecer competencias parentales y desarrollo de conductas de autocuidado y promoción del desarrollo integral del niño. Estas sesiones utilizan metodologías participativas, con dinámicas grupales, y se centran en temas de interés que fortalezcan los conocimientos, actitudes y prácticas intrafamiliares que fomenten alimentación saludable, crianza segura, estimulación del crecimiento y desarrollo, y promoción de la salud integral. Además, se comparten experiencias de crianza y se identifican problemas detectados por la familia en el desarrollo de sus niños, para lo cual se entregan recomendaciones y se utilizan materiales educativos pertinentes. Esto permite a las familias formular preguntas, resolver dudas y temores, y compartir conocimientos y formas de resolver problemas, contribuyendo al aprendizaje colectivo y creando vínculos de ayuda entre ellas."
+abierta_057,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2901,441,53.874877,53.890721,8.185634,37.047911,38.867236,5,"La relación entre la condición de pobreza o riesgo social y los criterios de selección de beneficiarios en las normas de 2021 se establece en función de la población objetivo que busca atender la Dirección Nacional de CEN-CINAI. Según las normas, la población a seleccionar incluye a niñas, niños, adolescentes madres y mujeres en período de gestación o lactancia que se encuentran en condición de pobreza básica o extrema y/o riesgo social.
+
+La pobreza básica se define como aquellos hogares con un ingreso per cápita igual o inferior a la línea de pobreza, pero superior al costo per cápita de la Canasta Básica Alimentaria (CBA) o línea de extrema pobreza. La pobreza extrema, por otro lado, se refiere a hogares con un ingreso per cápita igual o inferior al costo per cápita de la Canasta Básica Alimentaria (CBA).
+
+El riesgo social se considera como el estado en que se encuentran los niños, niñas y sus familias con factores adversos que influyen en el entorno y ponen en peligro la integridad física, emocional y psicosocial de sí mismos y de la sociedad.
+
+En este contexto, los criterios de selección de beneficiarios se basan en la equidad y la solidaridad, priorizando a la población más vulnerable, es decir, a aquellos que se encuentran en condición de pobreza extrema o riesgo social. El objetivo es brindar servicios de manera continua y garantizar la inclusión de los grupos más desfavorecidos.
+
+En resumen, la condición de pobreza o riesgo social es un factor determinante en la selección de beneficiarios en las normas de 2021, ya que se busca priorizar a la población más vulnerable y brindar servicios que promuevan la equidad y la solidaridad."
+abierta_078,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2909,506,61.820726,61.835675,8.184957,37.047911,38.86504,5,"La actualización constante de la normativa institucional ante cambios en las pruebas de desarrollo, como el paso de EDIN a EDIN II, es crucial para garantizar que las evaluaciones del desarrollo infantil sean precisas y efectivas. 
+
+La implementación de una nueva versión de una prueba, como el EDIN II, puede reflejar cambios en la comprensión del desarrollo infantil, mejoras en la metodología de evaluación o ajustes para abordar nuevas necesidades identificadas en la población infantil. 
+
+Al actualizar la normativa institucional para reflejar estos cambios, se asegura que los profesionales que trabajan con niños y niñas estén utilizando las herramientas y criterios más actualizados y validados para evaluar su desarrollo. Esto, a su vez, permite una detección temprana de posibles desviaciones o retrasos en el desarrollo, lo que facilita la implementación de intervenciones adecuadas y oportunas para apoyar el crecimiento saludable de los niños.
+
+Además, la actualización de la normativa institucional ayuda a mantener la coherencia y la estandarización en la evaluación del desarrollo infantil, lo que es esencial para comparar resultados a lo largo del tiempo, evaluar la efectividad de los programas de intervención y realizar seguimientos adecuados.
+
+En el contexto específico del paso de EDIN a EDIN II, la actualización de la normativa institucional permitiría a los profesionales de la salud y la educación ajustar sus prácticas de evaluación y seguimiento para incorporar las mejoras y cambios introducidos en la nueva versión de la prueba. Esto podría incluir la capacitación del personal para el uso adecuado del EDIN II, la revisión de los protocolos de evaluación y seguimiento, y la adaptación de los sistemas de registro y análisis de datos para reflejar los nuevos criterios y resultados de la prueba.
+
+En resumen, la actualización constante de la normativa institucional ante cambios en las pruebas de desarrollo es fundamental para garantizar que las evaluaciones del desarrollo infantil sean precisas, efectivas y basadas en la evidencia más reciente, lo que a su vez contribuye a promover el desarrollo saludable y el bienestar de los niños y niñas."
+abierta_097,abierta,llama3.3-70b,Llama 3.3 70B Instruct,AWQ INT4 pre-quantized checkpoint,NVIDIA L40S,2946,512,62.376632,62.392588,8.208202,37.047912,38.880857,5,"Según el contexto proporcionado, el flujo de coordinación técnica para referir a un niño con ""rezago en comunicación y lenguaje"" a especialistas externos, tras agotar las estrategias de estimulación del personal docente, es el siguiente:
+
+1. **Identificación del rezago**: El personal docente o el equipo interdisciplinario identifica que el niño presenta un rezago en comunicación y lenguaje, lo que se confirma mediante la aplicación de la lista de patrones de Hábitos de salud y el tamizaje en el nivel de desarrollo.
+
+2. **Definición de la estrategia de abordaje**: El equipo interdisciplinario define la estrategia de abordaje y el plan de estimulación para el niño, con el objetivo de superar el rezago en las áreas respectivas.
+
+3. **Aplicación de estrategias de estimulación**: El personal docente aplica las estrategias de estimulación durante un período de tres meses, con el fin de promover el desarrollo del niño y superar el rezago.
+
+4. **Evaluación del progreso**: Después de tres meses, se evalúa el progreso del niño para determinar si ha superado el rezago en las áreas respectivas. Si no ha logrado superar el rezago, se procede a actualizar la estrategia de abordaje y el plan de estimulación.
+
+5. **Referencia a especialistas externos**: Si el niño no logra superar el rezago a pesar de las estrategias de estimulación, el equipo interdisciplinario procede a referirlo a especialistas externos, como logopedas o psicólogos, para una evaluación y tratamiento más especializado.
+
+6. **Uso del instrumento de referencia y contra referencia**: Para referir al niño a especialistas externos, se utiliza el instrumento de referencia y contra referencia, que debe ser llenado con la información necesaria, incluyendo los datos del niño, la institución que envía la referencia, el servicio o especialidad que recibe la referencia, y el detalle de la referencia.
+
+7. **Seguimiento y coordinación**: El equipo interdisciplinario y el personal docente deben mantener un seguimiento del progreso del niño y"

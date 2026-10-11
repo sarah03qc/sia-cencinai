@@ -1,0 +1,149 @@
+﻿question_id,category,model_key,model_name,quantization,gpu,input_tokens,output_tokens,generation_seconds,inference_seconds,tokens_per_second,baseline_vram_gb,peak_vram_gb,top_k,answer
+sino_006,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2893,37,2.916921,2.921092,12.684608,17.910043,19.289791,5,"Sí, se asigna prioridad 4 a un niño o niña en servicio DAF que recuperó su estado nutricional normal y está en período de protección."
+sino_031,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2864,23,2.262095,2.279666,10.167564,17.910042,19.278601,5,"Sí, el EDIN II incluye láminas ilustradas como parte de sus materiales."
+sino_034,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2861,24,2.314324,2.329191,10.370198,17.910042,19.277444,5,"Sí, el lugar de aplicación del EDIN II debe ser silencioso, según el contexto proporcionado."
+sino_043,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3149,33,2.863842,2.881444,11.52298,17.910047,19.389333,5,"Sí, el Anexo 3 es un nomograma para el cálculo del Índice de Masa Corporal (IMC)."
+sino_044,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2959,145,8.073346,8.091726,17.960335,17.910044,19.315253,5,"Sí, la norma de asistencia técnica responde a necesidades identificadas por los funcionarios. Según el contexto proporcionado, la asistencia técnica se define como un proceso de desarrollo de capacidades a través de la compartición de conocimientos actualizados, métodos, procedimientos y herramientas probadas y vigentes, con el fin de mejorar la gestión y la calidad de los servicios. Además, se menciona que la asistencia técnica se realiza en todos los procesos y servicios de la institución y que se basa en la identificación de necesidades, lo que implica que las necesidades de los funcionarios son un factor clave en la implementación de esta norma."
+sino_046,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2689,85,5.105527,5.120223,16.648625,17.91004,19.212734,5,"No, el kit de materiales del EDIN II no puede ser reemplazado por objetos similares si no están disponibles. El instructivo menciona que los materiales necesarios para la prueba deben ser estandarizados y utilizados de acuerdo con su tamaño, diseño y características. Por lo tanto, cualquier cambio en los materiales podría afectar la validez y confiabilidad de la prueba."
+sino_047,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2764,30,2.567252,2.583302,11.685647,17.910041,19.240098,5,"No, la evaluación cualitativa de API se aplica en el primer y tercer trimestre del año, según el contexto proporcionado."
+sino_053,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3682,28,2.938266,2.957412,9.52943,17.910055,19.59608,5,"Sí, la Directora Nacional, Lidia María Conejo Morales, da el aval final a las normas sustantivas."
+sino_086,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2672,124,6.86549,6.882652,18.061348,17.910039,19.205382,5,"No, el indicador IMC (Índice de Masa Corporal) no es obligatorio para menores de 5 años en todas las evaluaciones. Según el contexto proporcionado, el IMC se utiliza a partir de los 5 años de edad, incluyendo adultos, para evaluar sobrepeso u obesidad. Para menores de 5 años, se utilizan otros indicadores como P/E (Peso para Edad), P/T (Peso para Talla) y T/E (Talla para Edad) para clasificar su estado nutricional."
+sino_095,sino,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2733,19,2.064977,2.080722,9.201071,17.91004,19.228062,5,"Sí, el EDIN II evalúa el área ""Socioafectiva""."
+corta_001,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2863,59,3.995026,4.010991,14.768364,17.910042,19.278215,5,"La información proporcionada en el contexto no menciona específicamente los criterios antropométricos que activan la referencia de un niño al proceso de atención interdisciplinaria en CEN-CINAI. Por lo tanto, no tengo suficiente información para responder la pregunta."
+corta_022,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3754,49,4.008367,4.027586,12.224428,17.910056,19.621962,5,"Marcela Amador Calvo, Jefatura de UNAT; Eugenia Villalobos Hernández, Jefatura de UIVCD; y Xiomara Molina Retana, Directora Técnica."
+corta_023,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3179,29,2.72912,2.746838,10.626135,17.910047,19.400448,5,El código de la norma que regula específicamente la Selección de clientes y beneficiarias es **SC-N-01**.
+corta_033,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2853,49,3.544278,3.559764,13.825102,17.910042,19.274358,5,"La información proporcionada no menciona el ""Anexo 5"" ni hace referencia a la herramienta de supervisión del cumplimiento en meses específicos del año. Por lo tanto, no tengo suficiente información para responder la pregunta."
+corta_051,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2882,39,3.08502,3.100998,12.641732,17.910043,19.285547,5,"La prueba EVADE evalúa específicamente las siguientes áreas del desarrollo: motora gruesa, motora fina, cognitiva, lenguaje y socioafectiva."
+corta_059,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3003,50,3.666372,3.682904,13.637461,17.910044,19.332421,5,"Abuso de drogas y/o alcohol, abuso sexual, abandono infantil, trabajo infantil, aspectos relacionados con el vínculo que afecten la seguridad, entre otros que el equipo considere pertinente."
+corta_066,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2953,73,4.760172,4.775597,15.33558,17.910044,19.312939,5,"El objetivo técnico de aplicar la corrección de edad en la evaluación de niños nacidos pretérmino es compensar parcialmente el periodo de vida intrauterina que les faltó para culminar la formación y crecimiento óptimo, permitiendo valorar el desarrollo de las conductas alcanzadas hasta dicho momento."
+corta_073,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3384,119,7.218675,7.237488,16.485019,17.91005,19.479719,5,"El modelo operativo SISVENDIS 2023 integra componentes de salud adicionales a la nutrición y el desarrollo infantil, como la atención temprana y oportuna de condiciones de riesgo que podrían limitar el potencial de desarrollo de las niñas y los niños. Además, se menciona la importancia de la vigilancia del estado nutricional, el desarrollo infantil y la salud, lo que implica un enfoque integral que incluye aspectos socioeconómicos de la población atendida."
+corta_081,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3340,52,3.960564,3.978036,13.129444,17.91005,19.462242,5,El documento orientador que se incluye dentro de los kits de estimulación infantil entregados a las familias es la **Guía para el uso de los materiales que contiene el bolso de estimulación del desarrollo infantil**.
+corta_098,corta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2662,142,7.763485,7.779352,18.290755,17.910039,19.201448,5,"Para la valoración nutricional de la población escolar mayor de 5 años, los indicadores antropométricos obligatorios son:
+
+1. **Talla para edad (T/E)**: Se utiliza para evaluar el crecimiento y desarrollo del niño o adolescente en relación a su edad.
+2. **Índice de Masa Corporal (IMC)**: Se calcula como el peso dividido por la talla al cuadrado (kg/m²) y se utiliza para evaluar la adiposidad y el estado nutricional.
+
+Estos indicadores se analizan de manera conjunta para una adecuada e integral valoración nutricional."
+abierta_014,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3021,522,26.184262,26.20071,19.935639,17.910045,19.340426,5,"El flujo de información de vigilancia desde que se registra un tamizaje en el expediente clínico hasta que los datos se consolidan a nivel regional se describe de la siguiente manera:
+
+1. **Registro del Tamizaje**: Cuando se realiza un tamizaje o evaluación del crecimiento y desarrollo de una niña o niño, los resultados se anotan en su expediente clínico. Esto incluye datos como peso, talla, edad, sexo, y cualquier otro dato relevante para evaluar el estado nutricional y desarrollo.
+
+2. **Actualización del Expediente**: Los profesionales de salud actualizan el expediente de la niña o niño con los resultados del tamizaje, utilizando los instrumentos y registros establecidos, como gráficas de crecimiento, hojas de respuestas (EDIN II, EVADE, etc.), y otros documentos específicos.
+
+3. **Generación de Reportes**: Se completa una hoja de reporte al hogar, que incluye los resultados del tamizaje, una explicación de la situación del infante y recomendaciones para el seguimiento en el hogar. Este reporte se entrega a los padres, madres o personas cuidadoras.
+
+4. **Seguimiento y Refuerzo**: Los profesionales de salud aseguran que los resultados y recomendaciones sean entendidos y aplicados en el entorno familiar, promoviendo acciones conjuntas entre el hogar y CEN-CINAI para potenciar el adecuado crecimiento y desarrollo.
+
+5. **Consolidación de Datos a Nivel Regional**: Los datos de los tamizajes y evaluaciones se consolidan en los sistemas de vigilancia, como el SISVENDIS, que permite monitorear y analizar las tendencias a nivel regional. Esto facilita la toma de decisiones informadas y la implementación de acciones preventivas y correctivas.
+
+6. **Supervisión y Autoevaluación**: Se realizan actividades de autoevaluación y supervisión para asegurar que el procedimiento de vigilancia se cumpla con la periodicidad y calidad establecidas, lo que contribuye a la consolidación de datos precisos y actualizados a nivel regional.
+
+Este flujo de información asegura que los datos de vigilancia sean registrados, actualizados, reportados y consolidados de manera efectiva, permitiendo una atención interdisciplinaria y una gestión integral del crecimiento y desarrollo infantil."
+abierta_022,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2719,279,14.220937,14.236839,19.618961,17.91004,19.222661,5,"Según el contexto proporcionado, las responsabilidades del ASSC2 y el ASSC3 en la aplicación de la prueba EDIN II y la vigilancia nutricional se pueden resumir de la siguiente manera:
+
+- **ASSC2**:
+  - Realiza la toma de tamizajes con calidad y oportunidad.
+  - Registra la información en los instrumentos correspondientes.
+  - Actualiza los expedientes o información individual de las niñas y niños.
+  - Comunica los resultados de los tamizajes a los grupos familiares.
+  - Realiza la clasificación del estado nutricional y puede aplicar el test de desarrollo (EDIN) bajo la conducción del equipo interdisciplinario.
+
+- **ASSC3**:
+  - Realiza las mismas actividades que el ASSC2, pero con un enfoque en la supervisión capacitante, asesoría técnica y acompañamiento técnico continuo.
+  - Participa en la identificación de acciones prioritarias y pertinentes para la mejora de la atención de las niñas y niños.
+
+En resumen, el ASSC2 se enfoca en las actividades operativas directas, mientras que el ASSC3 se centra en la supervisión y asesoría técnica para garantizar la calidad y eficacia de las acciones."
+abierta_025,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,3034,290,15.064839,15.079887,19.250123,17.910045,19.344912,5,"Para clasificar a un niño en el Grupo G de riesgo, se deben considerar los siguientes criterios técnicos:
+
+1. **Edad**: El niño debe ser mayor de 5 años.
+
+2. **Indicadores antropométricos**:
+   - **Talla para Edad**:
+     - Baja talla severa por puntaje Z ≤ -3.
+     - Baja talla por puntaje Z ≤ -2 a > -3.
+   - **Índice de Masa Corporal (IMC)**:
+     - Desnutrición severa por puntaje Z ≤ -3.
+     - Desnutrición por puntaje Z ≤ -2 a > -3.
+     - Sobrepeso por puntaje Z < 2 a ≥ 1.
+     - Obesidad por puntaje Z ≥ 2.
+
+3. **Nivel de desarrollo**:
+   - **EDIN**: Resultado adecuado con su edad.
+   - **EDIN II**: Verde.
+   - **EVADE**: Todas las áreas de desarrollo con resultado adecuado (con 2 o 3 puntos).
+
+Además, no se deben identificar factores de riesgo significativos a nivel individual, familiar o comunitario que afecten el adecuado crecimiento y desarrollo del niño.
+
+**Prioridad**: Grupo G tiene una prioridad 3."
+abierta_038,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2784,268,13.800995,13.81795,19.418889,17.910041,19.250423,5,"Los lineamientos de custodia del expediente físico de malnutrición establecen que, después de cada sesión del equipo interdisciplinario, el instrumento de seguimiento se incluye en el expediente del niño o niña con malnutrición. Este expediente se archiva en un ampo, folder o archivo designado por el equipo interdisciplinario, ubicado en la sede de la Oficina Local correspondiente. Todo miembro del equipo interdisciplinario y la jefatura de la Oficina Local tienen acceso al archivo, respetando el orden administrativo de custodia.
+
+En cuanto a las anotaciones especializadas de cada disciplina, estas se realizan en la documentación personal de cada profesional, especialmente cuando se trata de casos de alta sensibilidad. Estas anotaciones no forman parte del expediente archivado, sino que son custodiadas por el profesional respectivo. Sin embargo, el profesional debe informar al equipo interdisciplinario sobre las anotaciones realizadas y, en caso de traslado del expediente, transmitir toda la información necesaria al profesional homólogo de la Oficina receptora, respetando siempre la Ley 8968 de Protección de Datos Personales."
+abierta_039,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2610,500,24.524894,24.540948,20.387448,17.910038,19.18118,5,"Para prepararse para la toma de peso y talla, el personal debe seguir los siguientes pasos:
+
+1. **Preparación del equipo:**
+   - **Balanza:** Si es electrónica, colocar las baterías y verificar que las pesas estén en cero. Si es mecánica, asegurarse de que las pesas estén en cero.
+   - **Tallímetro, estadiómetro portátil o infantómetro:** Verificar su estado higiénico y legibilidad de los números.
+   - **Estadiómetro portátil por ondas ultrasónicas:** Colocar las baterías.
+
+2. **Preparación del lugar:**
+   - Buscar un lugar con suficiente luz y ventilación.
+   - Asegurarse de que el piso sea liso, nivelado y permita calibrar la balanza adecuadamente.
+
+3. **Preparación de los documentos:**
+   - Preparar el expediente del niño o niña con las gráficas de crecimiento correspondientes (peso para la edad, peso para talla, talla para la edad, índice de masa corporal).
+   - Asegurarse de que las gráficas estén en condiciones para registrar los datos.
+
+4. **Cuidados relacionados al momento de tomar las mediciones:**
+   - Realizar las mediciones en presencia de la madre, padre o encargado para que el niño o niña se sienta más seguro.
+   - Explicar amablemente al niño o niña y a los responsables el procedimiento.
+   - Realizar las mediciones preferiblemente cuando el niño o niña estén en buen estado de salud, sin síntomas de enfermedad que puedan afectar el peso o la talla.
+
+5. **Ajustes técnicos en el equipo antropométrico:**
+   - Verificar que el infantómetro esté en buenas condiciones de higiene y que los números sean legibles.
+   - Asegurarse de que el estadiómetro portátil por ondas ultrasónicas esté correctamente calibrado y funcional.
+
+Estos pasos aseguran que las mediciones sean precisas y que el niño o niña se sienta cómodo durante el proceso."
+abierta_042,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2744,485,24.00119,24.017507,20.207331,17.91004,19.232305,5,"Para calcular el IMC utilizando el nomograma del Anexo 3, se deben seguir estos pasos:
+
+1. **Encontrar la talla del niño o niña**: Buscar la talla del niño o niña en la primera columna del nomograma. Si la medición no coincide exactamente con un valor, seleccionar el valor más cercano. Si la medición está justo en medio de dos valores, seleccionar el valor mayor. Por ejemplo, si la talla es 88.8 cm, se selecciona 89 cm, y si es 88.4 cm, se selecciona 88 cm.
+
+2. **Seleccionar el peso más cercano**: A lo largo de la fila correspondiente a la talla seleccionada, buscar el peso más cercano al peso del niño o niña. Si el peso está justo en medio de dos valores, seleccionar el peso más alto si el decimal es igual o mayor a 0.5, o el más bajo si es menor a 0.5.
+
+3. **Determinar el IMC**: Desplazar el dedo hacia arriba o hacia abajo desde el peso seleccionado para encontrar el IMC correspondiente, que se encuentra en la primera o última fila del nomograma.
+
+4. **Registrar el IMC**: Registrar el valor del IMC obtenido en la gráfica correspondiente, teniendo en cuenta el sexo del niño o niña.
+
+Por otro lado, se recomienda usar la calculadora del software Anthro en los siguientes casos:
+
+- Cuando se trabaja con menores de 5 años, ya que el software Anthro realiza automáticamente ajustes según la posición en la que se midió el niño (acostado o de pie), sumando o restando 0.7 cm si es necesario.
+- Cuando se requiere una mayor precisión en los cálculos, especialmente en casos de resultados marginales o cuando se necesitan valores exactos para la clasificación del estado nutricional.
+
+En resumen, el nomograma del Anexo 3 es útil para calcular el IMC de manera rápida y sencilla, pero en casos específicos, como los menores de 5 años o cuando se necesita mayor precisión, es preferible utilizar la calculadora del software Anthro."
+abierta_045,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2934,172,9.387504,9.403897,18.322229,17.910043,19.305767,5,"La integración de la educación al grupo familiar en el plan de atención de un niño con malnutrición severa se lleva a cabo a través de sesiones educativas grupales. Estas sesiones están orientadas a fortalecer las competencias parentales y promover conductas de autocuidado, así como el desarrollo integral del niño. Se utilizan metodologías participativas, dinámicas grupales y recursos educativos como talleres, videos, imágenes, cuentos y materiales específicos (如kit de EDIN, EVADE, bolso de estimulación). Además, se identifican temas de interés con los participantes para fortalecer conocimientos, actitudes y prácticas que fomenten una alimentación saludable, crianza segura y estimulación del desarrollo."
+abierta_057,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2921,332,16.949933,16.966905,19.587098,17.910043,19.300592,5,"La relación entre la condición de pobreza o riesgo social y los criterios de selección de beneficiarios en las normas de 2021 se basa en la necesidad de priorizar la atención a las poblaciones más vulnerables. Según las normas, se consideran beneficiarios a niñas, niños menores de 13 años, adolescentes madres y mujeres en periodo de gestación o lactancia que se encuentren en condición de pobreza básica o extrema y/o riesgo social. 
+
+La pobreza básica se define como aquellos hogares con un ingreso per cápita igual o inferior a la línea de pobreza, pero superior al costo per cápita de la Canasta Básica Alimentaria (CBA). Por su parte, la pobreza extrema se refiere a hogares con un ingreso per cápita igual o inferior al costo per cápita de la CBA. 
+
+El riesgo social se entiende como el estado en que se encuentran los niños, niñas y sus familias, con factores adversos que influyen en su entorno y ponen en peligro su integridad física, emocional, psicosocial y la de la sociedad. 
+
+Estos criterios de selección buscan garantizar que los servicios se brinden de manera equitativa y focalizada, priorizando a las poblaciones más vulnerables y asegurando que las intervenciones sean integrales y se alineen con los determinantes sociales de la salud."
+abierta_078,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2976,146,8.204316,8.220059,17.795511,17.910044,19.321811,5,"La importancia de la actualización constante de la normativa institucional ante cambios en las pruebas de desarrollo, como el paso de EDIN a EDIN II, radica en garantizar que los profesionales que aplican las pruebas estén capacitados y entrenados para usar la versión más reciente. Esto asegura que las evaluaciones sean realizadas de manera correcta y estandarizada, lo que a su vez garantiza la confiabilidad y validez de los resultados. Además, la actualización de la normativa permite incorporar mejoras metodológicas y asegurar que las pruebas reflejen adecuadamente el desarrollo infantil en las diferentes áreas evaluadas."
+abierta_097,abierta,deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,"bitsandbytes 4-bit FP4, float16 compute, double quant",NVIDIA L40S,2926,639,31.741612,31.758113,20.131303,17.910043,19.303199,5,"Para referir a un niño con ""rezago en comunicación y lenguaje"" a especialistas externos, tras agotar las estrategias de estimulación del personal docente, se debe seguir el siguiente flujo de coordinación técnica:
+
+1. **Identificación del Rezago**: Se identifica que el niño presenta un rezago significativo en las áreas de comunicación y lenguaje, lo que se refleja en los resultados de los tamizajes y evaluaciones realizados.
+
+2. **Actualización de Estrategias**: El equipo interdisciplinario revisa y actualiza las estrategias de abordaje y el plan de estimulación, considerando que las estrategias iniciales no han logrado superar el rezago.
+
+3. **Recomendaciones a los Padres**: Se brindan recomendaciones a los padres o personas encargadas para que realicen actividades de estimulación en el hogar, complementando las acciones del equipo interdisciplinario.
+
+4. **Referencia a Especialistas Externos**: Cuando las estrategias internas no son suficientes, se procede a realizar una referencia a la institución y especialidad correspondiente. Esto se hace mediante el instrumento de contrareferencia intersectorial, detallando los resultados del tamizaje, las intervenciones realizadas y los criterios que justifican la referencia.
+
+5. **Registro y Seguimiento**: Se registra el seguimiento en la herramienta correspondiente y en la hoja de detección y seguimiento, anotando los niveles de rezago (B1, B2, B3) y las acciones realizadas.
+
+6. **Contrareferencia Intersectorial**: El profesional que realiza la referencia envía el formulario de contrareferencia al Equipo Coordinador de la Red Integrada de Servicios de Atención (RISA), detallando los resultados, intervenciones y recomendaciones. El formulario incluye datos generales del niño, dirección, nombre del encargado, teléfono, institución receptora, servicio o especialidad, y detalles de la contrareferencia.
+
+7. **Análisis y Trámite**: El Equipo Coordinador de la RISA analiza la contrareferencia y procede con los trámites necesarios para garantizar el abordaje oportuno del problema identificado, determinando si se da de alta, se requiere tratamiento subsecuente o se refiere a otro nivel de atención.
+
+8. **Seguimiento Posterior**: Se mantiene un seguimiento del caso, registrando las acciones realizadas y los resultados obtenidos, para asegurar que las intervenciones sean efectivas y se logre el desarrollo adecuado del niño.
+
+Este flujo asegura una coordinación interdisciplinaria e intersectorial efectiva, garantizando que el niño reciba la atención especializada necesaria para superar el rezago en comunicación y lenguaje."
